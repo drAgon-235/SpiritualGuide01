@@ -8,13 +8,13 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.spiritualguide01.ui.cards.CardsHomeFragment"
-        android:label="@string/title_home"
+        android:label="TAROT"
         tools:layout="@layout/fragment_cards_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.spiritualguide01.ui.quotes.QuotesHomeFragment"
-        android:label="@string/title_dashboard"
+        android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
 
 </navigation>
