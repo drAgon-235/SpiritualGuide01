@@ -5,17 +5,51 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_home">
 
+    <!-- Cards -->
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.spiritualguide01.home.cards.CardsHomeFragment"
         android:label="TAROT"
-        tools:layout="@layout/fragment_cards_home" />
+        tools:layout="@layout/fragment_cards_home">
+        <action
+            android:id="@+id/action_navigation_home_to_oneCardFragment"
+            app:destination="@id/oneCardFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_allCardsRVFragment"
+            app:destination="@id/allCardsRVFragment" />
+    </fragment>
 
+
+
+    <fragment
+        android:id="@+id/oneCardFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.oneCardFrag.OneCardFragment"
+        android:label="Card Interpretation"
+        tools:layout="@layout/fragment_one_card">
+        <argument
+            android:name="cardID"
+            app:argType="integer" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/allCardsRVFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.allCardsRVFrag.AllCardsRVFragment"
+        android:label="fragment_all_cards_rv"
+        tools:layout="@layout/fragment_all_cards_rv" >
+        <action
+            android:id="@+id/action_allCardsRVFragment_to_oneCardFragment"
+            app:destination="@id/oneCardFragment" />
+    </fragment>
+
+
+    <!-- Quotes -->
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
         android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
+
 
 
 </navigation>

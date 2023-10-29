@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.cards.cardsUI.allCardsRVFrag.AllCardsRVFragment">
+
+    <!-- The Linear Layout is an easier way to simulate a RecyclerView within a Recyclerview:
+     You can Scroll vertically to see all the RVs and each RV ist scrollable horizontally - simultanously -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context=".cards.cardsUI.allCardsRVFrag.AllCardsRVFragment">
+
+
+                <TextView
+                    android:id="@+id/titleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#EFB3AE"
+                    android:text="Major Arcana (Trumps)"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cardsListRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#EFB3AE"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleTV"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:listitem="@layout/card_item_in_rv" />
+
+                <TextView
+                    android:id="@+id/titleCupsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#9FD895"
+                    android:text="Cups (Minor Arcana)"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.208"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardsListRV" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cupsListRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9FD895"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleCupsTV"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:listitem="@layout/card_item_in_rv" />
+
+                <TextView
+                    android:id="@+id/titleSWORDSTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#A6D9EF"
+                    android:text="Swords (Minor Arcana)"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cupsListRV" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/swordsListRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#A6D9EF"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleSWORDSTV"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:listitem="@layout/card_item_in_rv" />
+
+
+                <TextView
+                    android:id="@+id/titleWANDSTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#C8A98D"
+                    android:text="Wands (Minor Arcana)"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.801"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/swordsListRV" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/wandsListRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C8A98D"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleWANDSTV"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:listitem="@layout/card_item_in_rv" />
+
+                <TextView
+                    android:id="@+id/titleCOINSTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="#BBA3C5"
+                    android:text="Coins (Minor Arcana)"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/wandsListRV" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/coinsListRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BBA3C5"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleCOINSTV"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:listitem="@layout/card_item_in_rv" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+    <!--
+        tools:context=".home.cards.cardsUI.allCardsRVFrag.AllCardsRVFragment">
+
+    -->
