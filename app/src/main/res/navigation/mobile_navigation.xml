@@ -57,6 +57,9 @@
         <action
             android:id="@+id/action_readingsHomeFragment_to_loveOracleFragment"
             app:destination="@id/loveOracleFragment" />
+        <action
+            android:id="@+id/action_readingsHomeFragment_to_simplePathFragment"
+            app:destination="@id/simplePathFragment" />
     </fragment>
 
 
@@ -127,6 +130,36 @@
     </fragment>
 
 
+    <fragment
+        android:id="@+id/simplePathFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathFragment"
+        android:label="fragment_simple_path"
+        tools:layout="@layout/fragment_simple_path" >
+        <action
+            android:id="@+id/action_simplePathFragment_to_simplePathMeaningFragment"
+            app:destination="@id/simplePathMeaningFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/simplePathMeaningFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathMeaningFragment"
+        android:label="fragment_simple_path_meaning"
+        tools:layout="@layout/fragment_simple_path_meaning" >
+        <argument
+            android:name="card01ID"
+            app:argType="integer" />
+        <argument
+            android:name="card02ID"
+            app:argType="integer" />
+        <argument
+            android:name="card03ID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_simplePathMeaningFragment_to_oneCardFragment"
+            app:destination="@id/oneCardFragment" />
+    </fragment>
+
+
 
     <!-- Quotes -->
     <fragment
@@ -134,7 +167,6 @@
         android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
         android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
-
 
 
 

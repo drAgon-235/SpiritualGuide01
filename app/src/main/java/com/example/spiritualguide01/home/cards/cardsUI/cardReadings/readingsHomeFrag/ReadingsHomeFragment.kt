@@ -34,6 +34,10 @@ class ReadingsHomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.simplePathIV.setOnClickListener {
+            findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToSimplePathFragment())
+        }
+
         binding.littleCrossIV.setOnClickListener {
             findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToLittleCrossFragment())
         }
@@ -41,6 +45,7 @@ class ReadingsHomeFragment : Fragment() {
         binding.loveOracleIV.setOnClickListener {
             findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToLoveOracleFragment())
         }
+
 
 
 
