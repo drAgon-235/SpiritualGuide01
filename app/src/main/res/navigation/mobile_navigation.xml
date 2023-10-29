@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_navigation_home_to_allCardsRVFragment"
             app:destination="@id/allCardsRVFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_readingsHomeFragment"
+            app:destination="@id/readingsHomeFragment" />
     </fragment>
 
 
@@ -43,13 +46,20 @@
     </fragment>
 
 
+    <fragment
+        android:id="@+id/readingsHomeFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.readingsHomeFrag.ReadingsHomeFragment"
+        android:label="fragment_readings_home"
+        tools:layout="@layout/fragment_readings_home" />
+
+
+
     <!-- Quotes -->
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
         android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
-
 
 
 </navigation>

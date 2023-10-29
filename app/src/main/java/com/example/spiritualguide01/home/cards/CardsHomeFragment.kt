@@ -32,13 +32,21 @@ class CardsHomeFragment : Fragment() {
             // Generates a random card-ID, which is trasmitted by argument in the nav_graph to the OneCardFragment:
             val randomCardID = (0 until 79).random()
             findNavController().navigate(CardsHomeFragmentDirections.actionNavigationHomeToOneCardFragment(randomCardID))
-
         }
+
+
+        // Brings you to diverse Card Reading Options:
+        binding.cardReadingBTN.setOnClickListener {
+        findNavController().navigate(CardsHomeFragmentDirections.actionNavigationHomeToReadingsHomeFragment())
+        }
+
 
         // Overview of all Tarot Cards sorted by Arcanas:
         binding.allCardsListBTN.setOnClickListener {
             findNavController().navigate(CardsHomeFragmentDirections.actionNavigationHomeToAllCardsRVFragment())
         }
+
+
 
 
 
