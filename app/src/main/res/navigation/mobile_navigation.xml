@@ -17,4 +17,5 @@
         android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
 
+
 </navigation>
