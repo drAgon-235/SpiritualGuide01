@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import com.daimajia.androidanimations.library.Techniques
 import com.daimajia.androidanimations.library.YoYo
 import com.example.spiritualguide01.R
@@ -170,6 +171,14 @@ class LittleCrossFragment : Fragment() {
             }
         }
 
+        // Interpretation Button:
+        binding.interpeteBTN.setOnClickListener {
+            val id1  = shuffledCardList[0].id
+            val id2  = shuffledCardList[1].id
+            val id3  = shuffledCardList[2].id
+            val id4  = shuffledCardList[3].id
+            findNavController().navigate(LittleCrossFragmentDirections.actionLittleCrossFragmentToLittleCrossMeaningFragment(id1, id2, id3, id4))
+        }
 
 
 

@@ -38,7 +38,7 @@
     <fragment
         android:id="@+id/allCardsRVFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.allCardsRVFrag.AllCardsRVFragment"
-        android:label="fragment_all_cards_rv"
+        android:label="All Cards by Arcanas"
         tools:layout="@layout/fragment_all_cards_rv" >
         <action
             android:id="@+id/action_allCardsRVFragment_to_oneCardFragment"
@@ -49,8 +49,47 @@
     <fragment
         android:id="@+id/readingsHomeFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.readingsHomeFrag.ReadingsHomeFragment"
-        android:label="fragment_readings_home"
-        tools:layout="@layout/fragment_readings_home" />
+        android:label="Readings"
+        tools:layout="@layout/fragment_readings_home" >
+        <action
+            android:id="@+id/action_readingsHomeFragment_to_littleCrossFragment"
+            app:destination="@id/littleCrossFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/littleCrossFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossFragment"
+        android:label="Little Cross"
+        tools:layout="@layout/fragment_little_cross" >
+        <action
+            android:id="@+id/action_littleCrossFragment_to_littleCrossMeaningFragment"
+            app:destination="@id/littleCrossMeaningFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/littleCrossMeaningFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossMeaningFragment"
+        android:label="Meaning - Little Cross"
+        tools:layout="@layout/fragment_little_cross_meaning" >
+        <argument
+            android:name="card01ID"
+            app:argType="integer" />
+        <argument
+            android:name="card02ID"
+            app:argType="integer" />
+        <argument
+            android:name="card03ID"
+            app:argType="integer" />
+        <argument
+            android:name="card04ID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_littleCrossMeaningFragment_to_oneCardFragment"
+            app:destination="@id/oneCardFragment" />
+
+    </fragment>
+
 
 
 
@@ -60,6 +99,8 @@
         android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
         android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
+
+
 
 
 </navigation>
