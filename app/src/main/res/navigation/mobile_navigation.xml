@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.spiritualguide01.ui.cards.CardsHomeFragment"
+        android:name="com.example.spiritualguide01.home.cards.CardsHomeFragment"
         android:label="TAROT"
         tools:layout="@layout/fragment_cards_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.spiritualguide01.ui.quotes.QuotesHomeFragment"
+        android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
         android:label="QUOTES"
         tools:layout="@layout/fragment_quotes_home" />
 

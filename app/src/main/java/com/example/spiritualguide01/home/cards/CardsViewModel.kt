@@ -1,4 +1,4 @@
-package com.example.spiritualguide01.ui.cards
+package com.example.spiritualguide01.home.cards
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

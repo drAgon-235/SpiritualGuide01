@@ -1,4 +1,4 @@
-package com.example.spiritualguide01.ui.quotes
+package com.example.spiritualguide01.home.quotes
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
