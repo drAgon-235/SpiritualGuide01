@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.cards.cardsUI.cardReadings.loveOracle.LoveOracleMeaningFragment">
+
+    <TextView
+        android:id="@+id/meaningsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Love Oracle"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="42dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card01CV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:paddingTop="10dp"
+                    app:cardBackgroundColor="#E8C7F6"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title2TV"
+                    app:layout_constraintVertical_bias="0.15">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/edit_nameTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Card Name"
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/nr1TV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/nr1TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="1."
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/cardPictureIV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/cardPictureIV"
+                            android:layout_width="88dp"
+                            android:layout_height="125dp"
+                            android:src="@drawable/c03"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/cardMeaning01TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="The Significator:\nThis card represents the \nrelationship, topic or question."
+                            android:textColor="#552AA3"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toTopOf="@+id/cfaTV"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.502"
+                            app:layout_constraintStart_toEndOf="@+id/cardPictureIV"
+                            app:layout_constraintTop_toBottomOf="@+id/edit_nameTV"
+                            app:layout_constraintVertical_bias="0.255" />
+
+                        <TextView
+                            android:id="@+id/cfaTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Click for details"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.533"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card02CV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:paddingTop="5dp"
+                    app:cardBackgroundColor="#E8C7F6"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title2TV"
+                    app:layout_constraintVertical_bias="0.15">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/edit2_nameTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Card Name"
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/nr2TV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/nr2TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="2."
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/card02PictureIV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/card02PictureIV"
+                            android:layout_width="88dp"
+                            android:layout_height="125dp"
+                            android:src="@drawable/c01"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/card02Meaning01TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="This card represents your inner world.\nHopes, anxieties, wishes, Motivations!"
+                            android:textColor="#552AA3"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toTopOf="@+id/cfa02TV"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.502"
+                            app:layout_constraintStart_toEndOf="@+id/card02PictureIV"
+                            app:layout_constraintTop_toBottomOf="@+id/edit2_nameTV"
+                            app:layout_constraintVertical_bias="0.255" />
+
+                        <TextView
+                            android:id="@+id/cfa02TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Click for details"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.533"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card03CV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:paddingTop="10dp"
+                    app:cardBackgroundColor="#E8C7F6"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title2TV"
+                    app:layout_constraintVertical_bias="0.15">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/edit3_nameTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Card Name"
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/nr3TV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/nr3TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="3."
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/card03PictureIV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/card03PictureIV"
+                            android:layout_width="88dp"
+                            android:layout_height="125dp"
+                            android:src="@drawable/p01"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/card03MeaningTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="This card shows the other person.\nHer/his attitude, expectations, \nHis/her perspective on you."
+                            android:textColor="#552AA3"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toTopOf="@+id/cfa03TV"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.502"
+                            app:layout_constraintStart_toEndOf="@+id/card03PictureIV"
+                            app:layout_constraintTop_toBottomOf="@+id/edit3_nameTV"
+                            app:layout_constraintVertical_bias="0.255" />
+
+                        <TextView
+                            android:id="@+id/cfa03TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Click for details"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.533"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card04CV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:paddingTop="10dp"
+                    app:cardBackgroundColor="#E8C7F6"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title2TV"
+                    app:layout_constraintVertical_bias="0.15">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/edit4_nameTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Card Name"
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/nr4TV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/nr4TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="4."
+                            android:textAlignment="center"
+                            android:textColor="#AA0000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/card04PictureIV"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/card04PictureIV"
+                            android:layout_width="88dp"
+                            android:layout_height="125dp"
+                            android:src="@drawable/p01"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/card04MeaningTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="This card is your Oracle! \n It can be a proposal for an action  \nor attitude."
+                            android:textColor="#552AA3"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toTopOf="@+id/cfa04TV"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.502"
+                            app:layout_constraintStart_toEndOf="@+id/card04PictureIV"
+                            app:layout_constraintTop_toBottomOf="@+id/edit4_nameTV"
+                            app:layout_constraintVertical_bias="0.255" />
+
+                        <TextView
+                            android:id="@+id/cfa04TV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Click for details"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.533"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <!--
+        tools:context=".home.cards.cardsUI.cardReadings.loveOracle.LoveOracleMeaningFragment">
+
+    -->

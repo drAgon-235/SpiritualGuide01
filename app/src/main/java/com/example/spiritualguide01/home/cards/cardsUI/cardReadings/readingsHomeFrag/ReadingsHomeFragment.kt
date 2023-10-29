@@ -20,6 +20,7 @@ class ReadingsHomeFragment : Fragment() {
         }
     }
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -29,12 +30,18 @@ class ReadingsHomeFragment : Fragment() {
         return binding.root       }
 
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         binding.littleCrossIV.setOnClickListener {
             findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToLittleCrossFragment())
         }
+
+        binding.loveOracleIV.setOnClickListener {
+            findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToLoveOracleFragment())
+        }
+
 
 
     }

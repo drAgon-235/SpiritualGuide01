@@ -54,6 +54,9 @@
         <action
             android:id="@+id/action_readingsHomeFragment_to_littleCrossFragment"
             app:destination="@id/littleCrossFragment" />
+        <action
+            android:id="@+id/action_readingsHomeFragment_to_loveOracleFragment"
+            app:destination="@id/loveOracleFragment" />
     </fragment>
 
 
@@ -87,9 +90,41 @@
         <action
             android:id="@+id/action_littleCrossMeaningFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment" />
-
     </fragment>
 
+
+    <fragment
+        android:id="@+id/loveOracleFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.loveOracle.LoveOracleFragment"
+        android:label="Love Oracle"
+        tools:layout="@layout/fragment_love_oracle" >
+        <action
+            android:id="@+id/action_loveOracleFragment_to_loveOracleMeaningFragment"
+            app:destination="@id/loveOracleMeaningFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/loveOracleMeaningFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.loveOracle.LoveOracleMeaningFragment"
+        android:label="Love Oracle Meaning"
+        tools:layout="@layout/fragment_love_oracle_meaning" >
+        <argument
+            android:name="card01ID"
+            app:argType="integer" />
+        <argument
+            android:name="card02ID"
+            app:argType="integer" />
+        <argument
+            android:name="card03ID"
+            app:argType="integer" />
+        <argument
+            android:name="card04ID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_loveOracleMeaningFragment_to_oneCardFragment"
+            app:destination="@id/oneCardFragment" />
+    </fragment>
 
 
 
