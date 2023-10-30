@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/laying_are_cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cardNr01TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card01CV"
+            app:layout_constraintEnd_toEndOf="@+id/card01CV"
+            app:layout_constraintStart_toStartOf="@+id/card01CV" />
+
+        <TextView
+            android:id="@+id/description01TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chances"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card01CV"
+            app:layout_constraintStart_toStartOf="@+id/card01CV"
+            app:layout_constraintTop_toBottomOf="@+id/card01CV" />
+
+        <TextView
+            android:id="@+id/cardNr02TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card02CV"
+            app:layout_constraintEnd_toEndOf="@+id/card02CV"
+            app:layout_constraintStart_toStartOf="@+id/card02CV" />
+
+        <TextView
+            android:id="@+id/description02TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="objective \nAwareness"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card02CV"
+            app:layout_constraintStart_toStartOf="@+id/card02CV"
+            app:layout_constraintTop_toBottomOf="@+id/card02CV" />
+
+        <TextView
+            android:id="@+id/cardNr03TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card03CV"
+            app:layout_constraintEnd_toEndOf="@+id/card03CV"
+            app:layout_constraintStart_toStartOf="@+id/card03CV" />
+
+        <TextView
+            android:id="@+id/description03TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="subjective \nEmotions"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card03CV"
+            app:layout_constraintStart_toStartOf="@+id/card03CV"
+            app:layout_constraintTop_toBottomOf="@+id/card03CV" />
+
+        <TextView
+            android:id="@+id/cardNr04TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card04CV"
+            app:layout_constraintEnd_toEndOf="@+id/card04CV"
+            app:layout_constraintStart_toStartOf="@+id/card04CV" />
+
+        <TextView
+            android:id="@+id/description04TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reality"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card04CV"
+            app:layout_constraintStart_toStartOf="@+id/card04CV"
+            app:layout_constraintTop_toBottomOf="@+id/card04CV" />
+
+        <TextView
+            android:id="@+id/cardNr05TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card05CV"
+            app:layout_constraintEnd_toEndOf="@+id/card05CV"
+            app:layout_constraintStart_toStartOf="@+id/card05CV" />
+
+        <TextView
+            android:id="@+id/description05TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reality"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card05CV"
+            app:layout_constraintStart_toStartOf="@+id/card05CV"
+            app:layout_constraintTop_toBottomOf="@+id/card05CV" />
+
+        <TextView
+            android:id="@+id/cardNr06TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card06CV"
+            app:layout_constraintEnd_toEndOf="@+id/card06CV"
+            app:layout_constraintStart_toStartOf="@+id/card06CV" />
+
+        <TextView
+            android:id="@+id/description06TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="subjective \nEmotions"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card06CV"
+            app:layout_constraintStart_toStartOf="@+id/card06CV"
+            app:layout_constraintTop_toBottomOf="@+id/card06CV" />
+
+        <TextView
+            android:id="@+id/cardNr07TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card07CV"
+            app:layout_constraintEnd_toEndOf="@+id/card07CV"
+            app:layout_constraintStart_toStartOf="@+id/card07CV" />
+
+        <TextView
+            android:id="@+id/description07TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="objective \nAwareness"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/card07CV"
+            app:layout_constraintStart_toStartOf="@+id/card07CV"
+            app:layout_constraintTop_toBottomOf="@+id/card07CV" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card01CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#E8C7F6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.22">
+
+            <ImageView
+                android:id="@+id/card1IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/back01IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card02CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#A2C0F6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/card01CV"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.277">
+
+            <ImageView
+                android:id="@+id/card2IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/back02IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card03CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#A2C0F6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/card01CV"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description02TV"
+            app:layout_constraintVertical_bias="0.096">
+
+            <ImageView
+                android:id="@+id/back03IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/card03IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card04CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#A2C0F6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/card01CV"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description03TV"
+            app:layout_constraintVertical_bias="0.26">
+
+            <ImageView
+                android:id="@+id/back04IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/card04IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card07CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#B2D56F"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toEndOf="@+id/card01CV"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.279">
+
+            <ImageView
+                android:id="@+id/back07IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/card07IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card06CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#B2D56F"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toEndOf="@+id/card01CV"
+            app:layout_constraintTop_toBottomOf="@+id/description07TV"
+            app:layout_constraintVertical_bias="0.094">
+
+            <ImageView
+                android:id="@+id/card06IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/back06IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card05CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:outlineAmbientShadowColor="#AC6EF3"
+            app:cardBackgroundColor="#B2D56F"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintVertical_bias="0.46"
+            app:layout_constraintStart_toEndOf="@+id/card01CV"
+            app:layout_constraintTop_toTopOf="@+id/description06TV">
+
+            <ImageView
+                android:id="@+id/back05IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/back_02"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/card05IV"
+                android:layout_width="74dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:src="@drawable/p05"
+                android:visibility="invisible" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/presentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="132dp"
+            android:text="present"
+            android:textStyle="bold"
+            android:textColor="#5381D5"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/futureTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
+            android:text="future"
+            android:textStyle="bold"
+            android:textColor="#71A116"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.77"
+            app:layout_constraintStart_toEndOf="@+id/presentTV"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/interpretataionBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:text="INTERPRETE"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/card01CV"
+            app:layout_constraintStart_toStartOf="@+id/card01CV"
+            app:layout_constraintTop_toBottomOf="@+id/description01TV" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/laycards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/layCardsBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="44dp"
+            android:text=" LAY"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shuffle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/shuffleCardsBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="28dp"
+            android:text="SHUFFLE"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/rotatingCardIV"
+            android:layout_width="71dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/back_02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.154"
+            app:layout_constraintStart_toEndOf="@+id/shuffleCardsBTN"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+
+
+<!--
+    tools:context=".home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomFragment">
+
+-->

@@ -1,13 +1,33 @@
 package com.example.spiritualguide01.home.quotes
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import android.util.Log
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
 
-class QuotesViewModel : ViewModel() {
+import com.example.spiritualguide01.home.quotes.api.QuotesApi
+import com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag.QuotesRepository
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+class QuotesViewModel(application: Application) : AndroidViewModel(application){
+
+    // Just the Quote from the API:
+    private val repository = QuotesRepository(QuotesApi)
+
+    val dayQuote= repository.quoteList
+
+
+    init {
+        loadQuoteFromRepoToVM()
     }
-    val text: LiveData<String> = _text
+
+    // Just the fresh Daily Quote from the API:
+    fun loadQuoteFromRepoToVM(){
+        viewModelScope.launch(Dispatchers.IO){
+            Log.d("ViewModel_TAG", "LOAD Quote FROM Repo TO ViewModel")
+            repository.loadQuoteListFromApiToRepo()
+        }
+    }
+
 }

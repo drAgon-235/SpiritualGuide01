@@ -23,7 +23,6 @@
     </fragment>
 
 
-
     <fragment
         android:id="@+id/oneCardFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.oneCardFrag.OneCardFragment"
@@ -39,7 +38,7 @@
         android:id="@+id/allCardsRVFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.allCardsRVFrag.AllCardsRVFragment"
         android:label="All Cards by Arcanas"
-        tools:layout="@layout/fragment_all_cards_rv" >
+        tools:layout="@layout/fragment_all_cards_rv">
         <action
             android:id="@+id/action_allCardsRVFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment" />
@@ -50,7 +49,7 @@
         android:id="@+id/readingsHomeFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.readingsHomeFrag.ReadingsHomeFragment"
         android:label="Readings"
-        tools:layout="@layout/fragment_readings_home" >
+        tools:layout="@layout/fragment_readings_home">
         <action
             android:id="@+id/action_readingsHomeFragment_to_littleCrossFragment"
             app:destination="@id/littleCrossFragment" />
@@ -60,6 +59,9 @@
         <action
             android:id="@+id/action_readingsHomeFragment_to_simplePathFragment"
             app:destination="@id/simplePathFragment" />
+        <action
+            android:id="@+id/action_readingsHomeFragment_to_pathOfWisdomFragment"
+            app:destination="@id/pathOfWisdomFragment" />
     </fragment>
 
 
@@ -67,7 +69,7 @@
         android:id="@+id/littleCrossFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossFragment"
         android:label="Little Cross"
-        tools:layout="@layout/fragment_little_cross" >
+        tools:layout="@layout/fragment_little_cross">
         <action
             android:id="@+id/action_littleCrossFragment_to_littleCrossMeaningFragment"
             app:destination="@id/littleCrossMeaningFragment" />
@@ -77,7 +79,7 @@
         android:id="@+id/littleCrossMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossMeaningFragment"
         android:label="Meaning - Little Cross"
-        tools:layout="@layout/fragment_little_cross_meaning" >
+        tools:layout="@layout/fragment_little_cross_meaning">
         <argument
             android:name="card01ID"
             app:argType="integer" />
@@ -100,7 +102,7 @@
         android:id="@+id/loveOracleFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.loveOracle.LoveOracleFragment"
         android:label="Love Oracle"
-        tools:layout="@layout/fragment_love_oracle" >
+        tools:layout="@layout/fragment_love_oracle">
         <action
             android:id="@+id/action_loveOracleFragment_to_loveOracleMeaningFragment"
             app:destination="@id/loveOracleMeaningFragment" />
@@ -111,7 +113,7 @@
         android:id="@+id/loveOracleMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.loveOracle.LoveOracleMeaningFragment"
         android:label="Love Oracle Meaning"
-        tools:layout="@layout/fragment_love_oracle_meaning" >
+        tools:layout="@layout/fragment_love_oracle_meaning">
         <argument
             android:name="card01ID"
             app:argType="integer" />
@@ -133,8 +135,8 @@
     <fragment
         android:id="@+id/simplePathFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathFragment"
-        android:label="fragment_simple_path"
-        tools:layout="@layout/fragment_simple_path" >
+        android:label="The Simple Path"
+        tools:layout="@layout/fragment_simple_path">
         <action
             android:id="@+id/action_simplePathFragment_to_simplePathMeaningFragment"
             app:destination="@id/simplePathMeaningFragment" />
@@ -143,8 +145,8 @@
     <fragment
         android:id="@+id/simplePathMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathMeaningFragment"
-        android:label="fragment_simple_path_meaning"
-        tools:layout="@layout/fragment_simple_path_meaning" >
+        android:label="Simple Path Meaning"
+        tools:layout="@layout/fragment_simple_path_meaning">
         <argument
             android:name="card01ID"
             app:argType="integer" />
@@ -160,14 +162,64 @@
     </fragment>
 
 
+    <fragment
+        android:id="@+id/pathOfWisdomFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomFragment"
+        android:label="The Path of Wisdom"
+        tools:layout="@layout/fragment_path_of_wisdom">
+        <action
+            android:id="@+id/action_pathOfWisdomFragment_to_pathOfWisdomMeaningFragment"
+            app:destination="@id/pathOfWisdomMeaningFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pathOfWisdomMeaningFragment"
+        android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomMeaningFragment"
+        android:label="Path of Wisdom Meaning"
+        tools:layout="@layout/fragment_path_of_wisdom_meaning">
+        <argument
+            android:name="card01ID"
+            app:argType="integer" />
+        <argument
+            android:name="card02ID"
+            app:argType="integer" />
+        <argument
+            android:name="card03ID"
+            app:argType="integer" />
+        <argument
+            android:name="card04ID"
+            app:argType="integer" />
+        <argument
+            android:name="card05ID"
+            app:argType="integer" />
+        <argument
+            android:name="card06ID"
+            app:argType="integer" />
+        <argument
+            android:name="card07ID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_pathOfWisdomMeaningFragment_to_oneCardFragment"
+            app:destination="@id/oneCardFragment" />
+    </fragment>
+
 
     <!-- Quotes -->
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
         android:label="QUOTES"
-        tools:layout="@layout/fragment_quotes_home" />
+        tools:layout="@layout/fragment_quotes_home" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_quoteFragment"
+            app:destination="@id/quoteFragment" />
+    </fragment>
 
+    <fragment
+        android:id="@+id/quoteFragment"
+        android:name="com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag.QuoteFragment"
+        android:label="Quote of the Day"
+        tools:layout="@layout/fragment_quote" />
 
 
 </navigation>
