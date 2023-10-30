@@ -213,13 +213,44 @@
         <action
             android:id="@+id/action_navigation_dashboard_to_quoteFragment"
             app:destination="@id/quoteFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_favoriteQrvFragment"
+            app:destination="@id/favoriteQrvFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/quoteFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag.QuoteFragment"
         android:label="Quote of the Day"
-        tools:layout="@layout/fragment_quote" />
+        tools:layout="@layout/fragment_quote" >
+        <action
+            android:id="@+id/action_quoteFragment_to_favoriteQrvFragment"
+            app:destination="@id/favoriteQrvFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteQrvFragment"
+        android:name="com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavoriteQrvFragment"
+        android:label="My Favorite Quotes"
+        tools:layout="@layout/fragment_favorite_qrv" >
+        <action
+            android:id="@+id/action_favoriteQrvFragment_to_favQuoteOptionsFragment"
+            app:destination="@id/favQuoteOptionsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/favQuoteOptionsFragment"
+        android:name="com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavQuoteOptionsFragment"
+        android:label="fragment_fav_quote_options"
+        tools:layout="@layout/fragment_fav_quote_options" >
+        <argument
+            android:name="favQuoteIDText"
+            android:defaultValue="..."
+            app:argType="string" />
+        <action
+            android:id="@+id/action_favQuoteOptionsFragment_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
 
 
 </navigation>

@@ -1,14 +1,18 @@
 package com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.spiritualguide01.R
 import com.example.spiritualguide01.databinding.FragmentQuoteBinding
 import com.example.spiritualguide01.home.quotes.QuotesViewModel
+import com.example.spiritualguide01.home.quotes.datamodel.FavoriteQuote
+import com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavQuotesViewModel
 
 private val TAG1 = "QuoteFragment_TAG"
 
@@ -17,6 +21,7 @@ class QuoteFragment : Fragment() {
 
     private lateinit var binding: FragmentQuoteBinding
     private val viewmodel: QuotesViewModel by viewModels()
+    private val viewModelFavQuotes: FavQuotesViewModel by viewModels()
 
 
 
@@ -48,6 +53,37 @@ class QuoteFragment : Fragment() {
         viewmodel.dayQuote.observe(viewLifecycleOwner) {
             binding.quoteOfTheDayTV.setText(finalDayQuote.value!!.q)
             binding.sourceTV.setText(finalDayQuote.value!!.a)
+        }
+
+
+        // Go to My Favorite Quotes List RV-Fragment:
+        binding.goToFavListCV.setOnClickListener {
+            findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
+        }
+
+
+        // Saving the Quote of the Day into Favorites-DB:
+        binding.likingCV.setOnClickListener {
+            binding.favoriteFullIV.visibility = View.VISIBLE
+
+            try {
+                Log.d(TAG, "Start: INSERTING Quote of the Day into FavoriteQuotesDB!")
+                viewModelFavQuotes.insertFavQuoteVM(
+                    //Creating new FavoriteQuote Object for the DB to insert into:
+                    FavoriteQuote(
+                        binding.quoteOfTheDayTV.text.toString(),
+                        binding.sourceTV.text.toString(),
+                        isLiked = true
+                    )
+                )
+                Log.d(TAG, "Finish: INSERTING Quote of the Day into FavoriteQuotesDB Successful!")
+            } catch (e: Exception) {
+                Log.e(TAG, "ERROR: INSERTING Quote of the Day into FavoriteQuotesDB!")
+            }
+
+
+            //         findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
+
         }
 
 
