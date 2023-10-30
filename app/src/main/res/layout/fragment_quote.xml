@@ -120,6 +120,7 @@
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:visibility="invisible"
 
         android:padding="10dp"
         app:cardBackgroundColor="#A765BF"

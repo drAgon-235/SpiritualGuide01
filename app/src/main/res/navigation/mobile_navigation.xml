@@ -75,6 +75,7 @@
             app:destination="@id/littleCrossMeaningFragment" />
     </fragment>
 
+
     <fragment
         android:id="@+id/littleCrossMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossMeaningFragment"
@@ -142,6 +143,7 @@
             app:destination="@id/simplePathMeaningFragment" />
     </fragment>
 
+
     <fragment
         android:id="@+id/simplePathMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathMeaningFragment"
@@ -171,6 +173,7 @@
             android:id="@+id/action_pathOfWisdomFragment_to_pathOfWisdomMeaningFragment"
             app:destination="@id/pathOfWisdomMeaningFragment" />
     </fragment>
+
 
     <fragment
         android:id="@+id/pathOfWisdomMeaningFragment"
@@ -218,6 +221,7 @@
             app:destination="@id/favoriteQrvFragment" />
     </fragment>
 
+
     <fragment
         android:id="@+id/quoteFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag.QuoteFragment"
@@ -227,6 +231,8 @@
             android:id="@+id/action_quoteFragment_to_favoriteQrvFragment"
             app:destination="@id/favoriteQrvFragment" />
     </fragment>
+
+
     <fragment
         android:id="@+id/favoriteQrvFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavoriteQrvFragment"
@@ -241,7 +247,7 @@
     <fragment
         android:id="@+id/favQuoteOptionsFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavQuoteOptionsFragment"
-        android:label="fragment_fav_quote_options"
+        android:label="Favorites Options"
         tools:layout="@layout/fragment_fav_quote_options" >
         <argument
             android:name="favQuoteIDText"

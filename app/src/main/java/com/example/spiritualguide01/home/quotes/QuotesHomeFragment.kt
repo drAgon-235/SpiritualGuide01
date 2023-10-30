@@ -26,12 +26,16 @@ class QuotesHomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.dayQuoteBTN.setOnClickListener{
+        binding.dayQuoteBTN.setOnClickListener {
             findNavController().navigate(QuotesHomeFragmentDirections.actionNavigationDashboardToQuoteFragment())
         }
+
+        binding.favQuotesBTN.setOnClickListener {
+            findNavController().navigate(QuotesHomeFragmentDirections.actionNavigationDashboardToFavoriteQrvFragment())
+        }
+
+
     }
-
-
 
 
     override fun onDestroyView() {

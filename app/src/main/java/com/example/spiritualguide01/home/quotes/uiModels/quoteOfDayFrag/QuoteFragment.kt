@@ -43,10 +43,9 @@ class QuoteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val likedLogo =
-            binding.favoriteBorderIV.setImageResource(R.drawable.baseline_favorite_border_24)
+        val likedLogo = binding.favoriteBorderIV.setImageResource(R.drawable.baseline_favorite_border_24)
         val notLikedLogo = binding.favoriteFullIV.setImageResource(R.drawable.baseline_favorite_24)
-        val favListLogo = binding.favoriteListIV.setImageResource(R.drawable.baseline_view_list_24)
+        //val favListLogo = binding.favoriteListIV.setImageResource(R.drawable.baseline_view_list_24)
 
         // The Day Quote live from API:
         val finalDayQuote = viewmodel.dayQuote
@@ -55,11 +54,13 @@ class QuoteFragment : Fragment() {
             binding.sourceTV.setText(finalDayQuote.value!!.a)
         }
 
-
+/*
         // Go to My Favorite Quotes List RV-Fragment:
         binding.goToFavListCV.setOnClickListener {
             findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
         }
+
+ */
 
 
         // Saving the Quote of the Day into Favorites-DB:
@@ -80,7 +81,6 @@ class QuoteFragment : Fragment() {
             } catch (e: Exception) {
                 Log.e(TAG, "ERROR: INSERTING Quote of the Day into FavoriteQuotesDB!")
             }
-
 
             //         findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
 
