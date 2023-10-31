@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="164dp"
         android:text="Card of the day"
+        android:backgroundTint="#F8BE64"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
+        android:backgroundTint="#21ACC5"
         android:text="All cards and meanings"
         app:layout_constraintEnd_toEndOf="@+id/cardReadingBTN"
         app:layout_constraintHorizontal_bias="0.473"

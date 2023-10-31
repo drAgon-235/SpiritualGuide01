@@ -60,7 +60,7 @@
         android:layout_marginBottom="24dp"
 
         android:padding="10dp"
-        app:cardBackgroundColor="#21ACC5"
+        app:cardBackgroundColor="#6BCF13"
         app:layout_constraintBottom_toTopOf="@+id/quoteCV"
         app:layout_constraintStart_toStartOf="parent">
 

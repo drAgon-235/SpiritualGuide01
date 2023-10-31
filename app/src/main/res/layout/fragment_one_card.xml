@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:padding="10dp"
-                app:cardBackgroundColor="#7CD8E8"
+                app:cardBackgroundColor="#F8BE64"
                 app:cardCornerRadius="15dp"
                 app:contentPadding="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
