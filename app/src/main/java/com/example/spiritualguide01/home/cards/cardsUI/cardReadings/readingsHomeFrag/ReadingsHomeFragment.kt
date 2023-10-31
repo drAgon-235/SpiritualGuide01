@@ -51,8 +51,6 @@ class ReadingsHomeFragment : Fragment() {
         }
 
 
-
-
     }
 
 
