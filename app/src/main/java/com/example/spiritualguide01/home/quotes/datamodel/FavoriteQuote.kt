@@ -9,5 +9,4 @@ data class FavoriteQuote (
     @PrimaryKey
     val q: String,
     val a: String,
-    var isLiked: Boolean = false
 )

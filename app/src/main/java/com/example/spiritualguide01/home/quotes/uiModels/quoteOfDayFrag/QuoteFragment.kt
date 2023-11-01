@@ -74,7 +74,6 @@ class QuoteFragment : Fragment() {
                     FavoriteQuote(
                         binding.quoteOfTheDayTV.text.toString(),
                         binding.sourceTV.text.toString(),
-                        isLiked = true
                     )
                 )
                 Log.d(TAG, "Finish: INSERTING Quote of the Day into FavoriteQuotesDB Successful!")
