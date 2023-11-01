@@ -36,6 +36,7 @@ class FavoriteQrvAdapter(
         // Setting the Numeration of the Quotes (there is no ID!!):
         holder.binding.quoteIDTV.text = (position+1).toString()
 
+        // getting FavQuote by ID:
         val id = favoriteQuote.q
 
         // navigate to "FavoriteQuote (Detail) Fragment" with further options:

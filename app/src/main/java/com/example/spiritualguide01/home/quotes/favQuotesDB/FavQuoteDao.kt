@@ -24,11 +24,13 @@ interface FavQuoteDao {
     @Query("SELECT COUNT(*) FROM favorites_table")
     fun count(): Int
 
-    /*
+/*
     // getting the inverted list:
-    @Query("SELECT * FROM favorites_table SORT BY ")
+    @Query("SELECT * FROM favorites_table ORDER BY autogenerator ")
     fun getInvertedList(): LiveData<List<FavoriteQuote>>
 
-     */
+
+ */
+
 
 }
