@@ -18,6 +18,8 @@ class FavQuotesViewModel(application: Application) : AndroidViewModel(applicatio
 
     var favQuotesListLD: LiveData<List<FavoriteQuote>> = repository.favQuotesList
 
+    //var favQuotesListLDInverted
+
 
     init {
         // repository.dummyData()

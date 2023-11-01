@@ -137,7 +137,7 @@
             android:id="@+id/card03CV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="212dp"
+            android:layout_marginTop="178dp"
             app:cardBackgroundColor="#B2D56F"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

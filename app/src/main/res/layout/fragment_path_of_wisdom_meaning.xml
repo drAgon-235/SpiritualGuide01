@@ -7,21 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomMeaningFragment">
 
-    <TextView
-        android:id="@+id/meaningsTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The Big Path"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="42dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,9 +31,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
                     android:padding="10dp"
+                    app:cardBackgroundColor="#E8C7F6"
                     app:cardCornerRadius="15dp"
                     app:contentPadding="10dp"
-                    app:cardBackgroundColor="#E8C7F6"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -124,8 +112,6 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
-
-
 
 
                 <com.google.android.material.card.MaterialCardView
@@ -215,9 +201,6 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
-
-
-
 
 
                 <com.google.android.material.card.MaterialCardView
@@ -398,7 +381,6 @@
                 </com.google.android.material.card.MaterialCardView>
 
 
-
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card06CV"
                     android:layout_width="match_parent"
@@ -577,8 +559,6 @@
                 </com.google.android.material.card.MaterialCardView>
 
 
-
-
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card05CV"
                     android:layout_width="match_parent"
@@ -666,9 +646,6 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
-
-
-
 
 
             </LinearLayout>

@@ -38,7 +38,9 @@ class FavoriteQrvAdapter(
 
         val id = favoriteQuote.q
 
+        // navigate to "FavoriteQuote (Detail) Fragment" with further options:
         holder.binding.favItemCardView.setOnClickListener {
+            // using the generated id
             holder.itemView.findNavController().navigate(FavoriteQrvFragmentDirections.actionFavoriteQrvFragmentToFavQuoteOptionsFragment(id))
         }
 
