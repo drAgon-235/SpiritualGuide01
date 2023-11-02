@@ -39,9 +39,20 @@ class MainActivity : AppCompatActivity() {
         // get the MainViewModel:
         viewModel = ViewModelProvider(this)[CardsViewModel::class.java]
 
+        // Setting up the NavBar with navController
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+
+        // gives a "Home-function" to the ButtonNavBar-Icons:
+        // (source: Andreas Ruppel in Slack-Thread: "009_modul3_kotlin" (02.11.23) - thank you very much :-D
+        binding.navView.setOnItemSelectedListener { menuItem ->
+            navController.currentBackStack.value.find { it.destination.id == menuItem.itemId }
+                ?.let {
+                    navController.popBackStack(menuItem.itemId, false)
+                } ?: navController.navigate(menuItem.itemId)
+            true
+        }
 
 
     }

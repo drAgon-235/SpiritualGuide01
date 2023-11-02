@@ -41,12 +41,12 @@ class FavoriteQrvAdapter(
         // Setting the Numeration of the Quotes (there is no ID!!):
         holder.binding.quoteIDTV.text = (position+1).toString()
 
-        // getting FavQuote by ID text q:
+        // getting FavQuote by ID Long:
         val idTextQ = favoriteQuote.id
 
         // navigate to "FavoriteQuote (Detail) Fragment" with further options:
         holder.binding.favItemCardView.setOnClickListener {
-            // using the generated id
+            // using the generated ID "idTextQ":
             holder.itemView.findNavController().navigate(FavoriteQrvFragmentDirections.actionFavoriteQrvFragmentToFavQuoteOptionsFragment(idTextQ))
         }
 
