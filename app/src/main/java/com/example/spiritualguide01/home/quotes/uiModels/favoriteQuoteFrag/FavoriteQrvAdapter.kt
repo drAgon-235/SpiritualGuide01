@@ -44,11 +44,12 @@ class FavoriteQrvAdapter(
         // getting FavQuote by ID Long:
         val idTextQ = favoriteQuote.id
 
-        // navigate to "FavoriteQuote (Detail) Fragment" with further options:
-        holder.binding.favItemCardView.setOnClickListener {
+        // navigate to "FavoriteQuote (Detail) Fragment" with further options by clicking on "optionsMenuIV":
+        holder.binding.optionsMenuIV.setOnClickListener {
             // using the generated ID "idTextQ":
             holder.itemView.findNavController().navigate(FavoriteQrvFragmentDirections.actionFavoriteQrvFragmentToFavQuoteOptionsFragment(idTextQ))
         }
+
 
     }
 }
