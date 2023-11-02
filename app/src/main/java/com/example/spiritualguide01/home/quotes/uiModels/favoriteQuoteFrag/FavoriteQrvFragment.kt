@@ -38,15 +38,9 @@ class FavoriteQrvFragment : Fragment() {
 
         binding.quoteRV.hasFixedSize()
 
-        viewModel.loadQuotesVM()
-
-
-
+        viewModel.loadInvertedListVM()
 
         viewModel.favQuotesListLD.observe(viewLifecycleOwner){
-
-
-
             binding.quoteRV.adapter = FavoriteQrvAdapter(it)
             //binding.quoteRV.setOnDragListener(viewModel.deleteFavQuoteVM(it.value.toString()))
 

@@ -18,16 +18,23 @@ class FavQuotesViewModel(application: Application) : AndroidViewModel(applicatio
 
     var favQuotesListLD: LiveData<List<FavoriteQuote>> = repository.favQuotesList
 
-    //var favQuotesListLDInverted
-
 
     init {
         // repository.dummyData()
     }
 
+
+    // Banned. It shows the last added Quote at the bottom :-(
     fun loadQuotesVM(){
         //Loading all Data from DB into the variable
         favQuotesListLD = repository.loadFavQuotes()
+    }
+
+
+    // This fun shows all FavQuotes saved in DB in INVERTED order.
+    // So you can see your last added Quote first on top !!! :-)
+    fun loadInvertedListVM(){
+        favQuotesListLD = repository.loadInvertedList()
     }
 
 

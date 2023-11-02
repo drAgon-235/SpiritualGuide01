@@ -25,11 +25,17 @@ class FavQuoteRepository(private val database: FavQuoteDatabase)  {
         }
     }
 
-
+    // Banned. It shows the last added Quote at the bottom :-(
     fun loadFavQuotes(): LiveData<List<FavoriteQuote>>{
         return database.favQuoteDao.getAll()
     }
 
+
+    // This fun shows all FavQuotes saved in DB in inverted order.
+    //So you can see your last added Quote first on top !!! :-)
+    fun loadInvertedList(): LiveData<List<FavoriteQuote>>{
+        return database.favQuoteDao.getInvertedList()
+    }
 
     fun getCount(): Int {
         return database.favQuoteDao.count()
