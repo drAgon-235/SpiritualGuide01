@@ -46,12 +46,14 @@ class FavQuoteRepository(private val database: FavQuoteDatabase)  {
         }
     }
 
-
+/*
     // For testing purposes only:
     fun dummyData() {
         database.favQuoteDao.insertFavDao(DummyQuotes.quote1)
         database.favQuoteDao.insertFavDao(DummyQuotes.quote2)
     }
+
+ */
 
 
 }

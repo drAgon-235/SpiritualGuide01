@@ -17,7 +17,7 @@ interface FavQuoteDao {
     @Query("SELECT * FROM favorites_table")
     fun getAll(): LiveData<List<FavoriteQuote>>
 
-    // delete FavoriteQuote by ID:
+    // delete FavoriteQuote by Text-ID:
     @Query("DELETE FROM favorites_table WHERE q = :text")
     fun delete(text: String)
 

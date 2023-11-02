@@ -30,6 +30,7 @@ class FavQuotesViewModel(application: Application) : AndroidViewModel(applicatio
         favQuotesListLD = repository.loadFavQuotes()
     }
 
+
     fun getCountFavsTable(): Int{
         return repository.getCount()
     }

@@ -33,6 +33,8 @@ class FavoriteQrvAdapter(
         // Setting the according Data the denominated fields:
         holder.binding.quoteOfTheDayTV.text = favoriteQuote.q
         holder.binding.sourceTV.text = favoriteQuote.a
+        // The "original" ID in the DB (for testing & learning purposes)
+        holder.binding.dbIDTV.text = favoriteQuote.id.toString()
         // Setting the Numeration of the Quotes (there is no ID!!):
         holder.binding.quoteIDTV.text = (position+1).toString()
 

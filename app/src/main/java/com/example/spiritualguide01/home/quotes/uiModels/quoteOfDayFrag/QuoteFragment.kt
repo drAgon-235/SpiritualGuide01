@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import com.example.spiritualguide01.R
 import com.example.spiritualguide01.databinding.FragmentQuoteBinding
 import com.example.spiritualguide01.home.quotes.QuotesViewModel
@@ -54,6 +53,8 @@ class QuoteFragment : Fragment() {
             binding.sourceTV.setText(finalDayQuote.value!!.a)
         }
 
+
+
 /*
         // Go to My Favorite Quotes List RV-Fragment:
         binding.goToFavListCV.setOnClickListener {
@@ -62,6 +63,7 @@ class QuoteFragment : Fragment() {
 
  */
 
+        //var newIndex = viewModelFavQuotes.favQuotesListLD.value!!.lastIndex + 1
 
         // Saving the Quote of the Day into Favorites-DB:
         binding.likingCV.setOnClickListener {
@@ -74,6 +76,8 @@ class QuoteFragment : Fragment() {
                     FavoriteQuote(
                         binding.quoteOfTheDayTV.text.toString(),
                         binding.sourceTV.text.toString(),
+                         // by omitting the variable "id" I enable the FavoriteQuote-RoomDB to generate it automatically - that was my "FAVORITE" BUG ;-)
+                            // this only works, when we set id = 0 in the "FavoriteQuote" class
                     )
                 )
                 Log.d(TAG, "Finish: INSERTING Quote of the Day into FavoriteQuotesDB Successful!")
