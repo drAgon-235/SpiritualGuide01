@@ -7,52 +7,6 @@
     tools:context=".home.quotes.uiModels.favoriteQuoteFrag.FavQuoteOptionsFragment">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/homeCV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-
-        android:layout_marginBottom="24dp"
-        android:padding="10dp"
-        app:cardBackgroundColor="#FF6200EE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/quoteCV"
-        app:layout_constraintStart_toStartOf="@+id/quoteCV">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/homeTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="Home"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/homeIV"
-                android:layout_width="38dp"
-                android:layout_height="38dp"
-                android:visibility="visible"
-                android:padding="2dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/homeTV"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/baseline_home_24" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
         android:id="@+id/shareCV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

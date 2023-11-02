@@ -253,9 +253,6 @@
             android:name="favQuoteIDText"
             android:defaultValue="0L"
             app:argType="long" />
-        <action
-            android:id="@+id/action_favQuoteOptionsFragment_to_navigation_dashboard"
-            app:destination="@id/navigation_dashboard" />
     </fragment>
 
 

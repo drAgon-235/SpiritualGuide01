@@ -38,7 +38,6 @@ class FavQuoteOptionsFragment : Fragment() {
 
         val shareLogo = binding.shareIV.setImageResource(R.drawable.baseline_share_24)
         val deleteLogo = binding.deleteIV.setImageResource(R.drawable.baseline_delete_forever_24)
-        val homeLogo = binding.homeIV.setImageResource(R.drawable.baseline_home_24)
 
 
         // Gettiing the Argument-ID:
@@ -70,10 +69,6 @@ class FavQuoteOptionsFragment : Fragment() {
 
         }
 
-        // Home Button:
-        binding.homeCV.setOnClickListener {
-            findNavController().navigate(FavQuoteOptionsFragmentDirections.actionFavQuoteOptionsFragmentToNavigationDashboard())
-        }
 
         // Share Button:
         // TODO :
