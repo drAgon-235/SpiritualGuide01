@@ -56,4 +56,11 @@ class FavQuotesViewModel(application: Application) : AndroidViewModel(applicatio
     }
 
 
+    fun deleteByIdNrVM(id: Long) : Job {
+        return viewModelScope.launch {
+            repository.deletebyIdNr(id)
+        }
+    }
+
+
 }

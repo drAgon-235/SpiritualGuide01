@@ -15,7 +15,7 @@ class FavQuoteOptionsFragment : Fragment() {
 
     private lateinit var binding: FragmentFavQuoteOptionsBinding
     private val viewModel: FavQuotesViewModel by activityViewModels()
-    private var favQuoteID: String = ""
+    private var favQuoteID: Long = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,10 +42,10 @@ class FavQuoteOptionsFragment : Fragment() {
 
 
         // Gettiing the Argument-ID:
-        favQuoteID = requireArguments().getString("favQuoteIDText")!!
+        favQuoteID = requireArguments().getLong("favQuoteIDText")
 
         //Finding the Quote using the Key (from the argument in the nav_graph):
-        val favQuote = viewModel.favQuotesListLD.value?.find { it.q == favQuoteID } ?: return
+        val favQuote = viewModel.favQuotesListLD.value?.find { it.id == favQuoteID } ?: return
 
         // Now set the Data into fields again:
         binding.quoteOfTheDayTV.setText(favQuote.q)
@@ -54,7 +54,7 @@ class FavQuoteOptionsFragment : Fragment() {
         // Delete Button:
         binding.dislikingCV.setOnClickListener {
             // Delete the selected Favorite Quote from the List:
-            viewModel.deleteFavQuoteVM(favQuote.q)
+            viewModel.deleteByIdNrVM(favQuote.id)
 
             // Changing the UI:
             // 1. Confirmation text in the quoteCV:

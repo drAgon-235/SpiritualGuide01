@@ -8,5 +8,5 @@ data class FavoriteQuote(
     val q: String,
     val a: String,
     @PrimaryKey(autoGenerate = true)
-    val id: Int = 0
+    val id: Long = 0L
 )

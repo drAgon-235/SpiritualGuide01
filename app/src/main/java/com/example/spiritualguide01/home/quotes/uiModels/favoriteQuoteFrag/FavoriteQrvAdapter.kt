@@ -22,15 +22,17 @@ class FavoriteQrvAdapter(
         return FavoriteQuoteViewHolder(binding)
     }
 
+
     override fun getItemCount(): Int {
         return favoriteQList.size
     }
 
+
     override fun onBindViewHolder(holder: FavoriteQuoteViewHolder, position: Int) {
-        // Getting the FavoriteQuote from our DB-List
+        // Getting the FavoriteQuote from our DB-List:
         val favoriteQuote = favoriteQList[position]
 
-        // Setting the according Data the denominated fields:
+        // Setting the according Data into the denominated fields:
         holder.binding.quoteOfTheDayTV.text = favoriteQuote.q
         holder.binding.sourceTV.text = favoriteQuote.a
         // The "original" ID in the DB (for testing & learning purposes)
@@ -40,14 +42,13 @@ class FavoriteQrvAdapter(
         holder.binding.quoteIDTV.text = (position+1).toString()
 
         // getting FavQuote by ID text q:
-        val idTextQ = favoriteQuote.q
+        val idTextQ = favoriteQuote.id
 
         // navigate to "FavoriteQuote (Detail) Fragment" with further options:
         holder.binding.favItemCardView.setOnClickListener {
             // using the generated id
             holder.itemView.findNavController().navigate(FavoriteQrvFragmentDirections.actionFavoriteQrvFragmentToFavQuoteOptionsFragment(idTextQ))
         }
-
 
     }
 }

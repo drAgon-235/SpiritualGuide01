@@ -251,8 +251,8 @@
         tools:layout="@layout/fragment_fav_quote_options" >
         <argument
             android:name="favQuoteIDText"
-            android:defaultValue="..."
-            app:argType="string" />
+            android:defaultValue="0L"
+            app:argType="long" />
         <action
             android:id="@+id/action_favQuoteOptionsFragment_to_navigation_dashboard"
             app:destination="@id/navigation_dashboard" />

@@ -10,6 +10,7 @@ import com.example.spiritualguide01.home.quotes.datamodel.FavoriteQuote
 @Dao
 interface FavQuoteDao {
 
+    // this happens, when you press the Like Button:
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertFavDao(itemData: FavoriteQuote)
 
@@ -28,6 +29,14 @@ interface FavQuoteDao {
     // delete FavoriteQuote by Text-ID:
     @Query("DELETE FROM favorites_table WHERE q = :text")
     fun delete(text: String)
+
+
+    // delete FavoriteQuote by Long-ID:
+    @Query("DELETE FROM favorites_table WHERE id = :nr")
+    fun deleteByID(nr: Long)
+
+
+
 
     // get number of all FavoriteQuotes in DB:
     @Query("SELECT COUNT(*) FROM favorites_table")
