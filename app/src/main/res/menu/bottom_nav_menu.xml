@@ -10,7 +10,8 @@
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/baseline_chat_24"
         android:title="Quotes"
-        android:iconTint="#F8BE64"/>
+
+        />
 
 
 </menu>

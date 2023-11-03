@@ -10,16 +10,23 @@
         android:id="@+id/navigation_home"
         android:name="com.example.spiritualguide01.home.cards.CardsHomeFragment"
         android:label="TAROT"
-        tools:layout="@layout/fragment_cards_home">
+        tools:layout="@layout/fragment_cards_home"
+        >
         <action
             android:id="@+id/action_navigation_home_to_oneCardFragment"
-            app:destination="@id/oneCardFragment" />
+            app:destination="@id/oneCardFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
         <action
             android:id="@+id/action_navigation_home_to_allCardsRVFragment"
-            app:destination="@id/allCardsRVFragment" />
+            app:destination="@id/allCardsRVFragment"
+            app:enterAnim="@anim/from_top"
+            app:exitAnim="@anim/to_bottom" />
         <action
             android:id="@+id/action_navigation_home_to_readingsHomeFragment"
-            app:destination="@id/readingsHomeFragment" />
+            app:destination="@id/readingsHomeFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
@@ -41,7 +48,9 @@
         tools:layout="@layout/fragment_all_cards_rv">
         <action
             android:id="@+id/action_allCardsRVFragment_to_oneCardFragment"
-            app:destination="@id/oneCardFragment" />
+            app:destination="@id/oneCardFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -52,16 +61,24 @@
         tools:layout="@layout/fragment_readings_home">
         <action
             android:id="@+id/action_readingsHomeFragment_to_littleCrossFragment"
-            app:destination="@id/littleCrossFragment" />
+            app:destination="@id/littleCrossFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
         <action
             android:id="@+id/action_readingsHomeFragment_to_loveOracleFragment"
-            app:destination="@id/loveOracleFragment" />
+            app:destination="@id/loveOracleFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
         <action
             android:id="@+id/action_readingsHomeFragment_to_simplePathFragment"
-            app:destination="@id/simplePathFragment" />
+            app:destination="@id/simplePathFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
         <action
             android:id="@+id/action_readingsHomeFragment_to_pathOfWisdomFragment"
-            app:destination="@id/pathOfWisdomFragment" />
+            app:destination="@id/pathOfWisdomFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
@@ -72,7 +89,9 @@
         tools:layout="@layout/fragment_little_cross">
         <action
             android:id="@+id/action_littleCrossFragment_to_littleCrossMeaningFragment"
-            app:destination="@id/littleCrossMeaningFragment" />
+            app:destination="@id/littleCrossMeaningFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
@@ -95,7 +114,9 @@
             app:argType="integer" />
         <action
             android:id="@+id/action_littleCrossMeaningFragment_to_oneCardFragment"
-            app:destination="@id/oneCardFragment" />
+            app:destination="@id/oneCardFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -106,7 +127,9 @@
         tools:layout="@layout/fragment_love_oracle">
         <action
             android:id="@+id/action_loveOracleFragment_to_loveOracleMeaningFragment"
-            app:destination="@id/loveOracleMeaningFragment" />
+            app:destination="@id/loveOracleMeaningFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
@@ -129,7 +152,9 @@
             app:argType="integer" />
         <action
             android:id="@+id/action_loveOracleMeaningFragment_to_oneCardFragment"
-            app:destination="@id/oneCardFragment" />
+            app:destination="@id/oneCardFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -140,7 +165,9 @@
         tools:layout="@layout/fragment_simple_path">
         <action
             android:id="@+id/action_simplePathFragment_to_simplePathMeaningFragment"
-            app:destination="@id/simplePathMeaningFragment" />
+            app:destination="@id/simplePathMeaningFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
@@ -160,7 +187,9 @@
             app:argType="integer" />
         <action
             android:id="@+id/action_simplePathMeaningFragment_to_oneCardFragment"
-            app:destination="@id/oneCardFragment" />
+            app:destination="@id/oneCardFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -171,7 +200,9 @@
         tools:layout="@layout/fragment_path_of_wisdom">
         <action
             android:id="@+id/action_pathOfWisdomFragment_to_pathOfWisdomMeaningFragment"
-            app:destination="@id/pathOfWisdomMeaningFragment" />
+            app:destination="@id/pathOfWisdomMeaningFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
@@ -203,7 +234,9 @@
             app:argType="integer" />
         <action
             android:id="@+id/action_pathOfWisdomMeaningFragment_to_oneCardFragment"
-            app:destination="@id/oneCardFragment" />
+            app:destination="@id/oneCardFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -215,10 +248,14 @@
         tools:layout="@layout/fragment_quotes_home" >
         <action
             android:id="@+id/action_navigation_dashboard_to_quoteFragment"
-            app:destination="@id/quoteFragment" />
+            app:destination="@id/quoteFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
         <action
             android:id="@+id/action_navigation_dashboard_to_favoriteQrvFragment"
-            app:destination="@id/favoriteQrvFragment" />
+            app:destination="@id/favoriteQrvFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -229,7 +266,9 @@
         tools:layout="@layout/fragment_quote" >
         <action
             android:id="@+id/action_quoteFragment_to_favoriteQrvFragment"
-            app:destination="@id/favoriteQrvFragment" />
+            app:destination="@id/favoriteQrvFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top" />
     </fragment>
 
 
@@ -240,7 +279,9 @@
         tools:layout="@layout/fragment_favorite_qrv" >
         <action
             android:id="@+id/action_favoriteQrvFragment_to_favQuoteOptionsFragment"
-            app:destination="@id/favQuoteOptionsFragment" />
+            app:destination="@id/favQuoteOptionsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
     </fragment>
 
 
