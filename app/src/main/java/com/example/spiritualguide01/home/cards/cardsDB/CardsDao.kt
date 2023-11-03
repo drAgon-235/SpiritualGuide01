@@ -10,6 +10,7 @@ import com.example.spiritualguide01.home.cards.cardsModel.Card
 @Dao
 interface CardsDao {
 
+    // for innitial DB-populating (only once at he beginning)
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertCardDao(cards: Card)
 
@@ -33,29 +34,18 @@ interface CardsDao {
     @Query("SELECT * FROM cards_table WHERE suit = 'COINS'")
     fun getAllCOINSCardsDao(): LiveData<List<Card>>
 
-    // Yet getting all AS LiveData :
+    // getting all AS LiveData :
     @Query("SELECT * FROM cards_table")
     fun getAllCardsListLDDAO(): LiveData<List<Card>>
-
-
-
-
-
-
 
     // For "Card of the day" (we don't need LiveData here):
     @Query("SELECT * FROM cards_table")
     fun getCardsList(): List<Card>
 
-
     @Query("SELECT COUNT(*) FROM cards_table")
     fun countDAO(): Int
 
-
-
-
     @Query("SELECT * FROM cards_table WHERE id = :id")
     fun getOneCardByID(id: Int): Card
-
 
 }

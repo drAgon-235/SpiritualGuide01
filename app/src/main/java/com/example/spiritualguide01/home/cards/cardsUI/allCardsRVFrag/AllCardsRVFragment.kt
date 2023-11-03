@@ -38,8 +38,8 @@ class AllCardsRVFragment : Fragment() {
 
         // !! All Recyclerviews are using the same Adapter simultanously !!
 
-        //Major Arcana Recyclerview:
-        // Load Databaseto VM used here:
+        //Major Arcana Recyclerview observing LiveData:
+        // Load Database to VM used here:
         viewmodel.loadCardsFromDBinVMasLD()
         //bind recyclerview to this Fragment:
         val recyclerView = binding.cardsListRV
@@ -50,7 +50,7 @@ class AllCardsRVFragment : Fragment() {
             recyclerView.adapter = AllCardsRVAdapter(it)
         }
 
-        //CUPS Recyclerview:
+        //CUPS Recyclerview observing LiveData:
         viewmodel.loadCUPSFromDBinVWasLD()
         val recyclerViewCups = binding.cupsListRV
         recyclerViewCups.hasFixedSize()
@@ -58,7 +58,7 @@ class AllCardsRVFragment : Fragment() {
             recyclerViewCups.adapter = AllCardsRVAdapter(it)
         }
 
-        //SWORDS Recyclerview:
+        //SWORDS Recyclerview observing LiveData:
         viewmodel.loadSWORDSFromDBinVMasLD()
         val recyclerViewSWORDS = binding.swordsListRV
         recyclerViewSWORDS.hasFixedSize()
@@ -66,7 +66,7 @@ class AllCardsRVFragment : Fragment() {
             recyclerViewSWORDS.adapter = AllCardsRVAdapter(it)
         }
 
-        //Wands Recyclerview:
+        //Wands Recyclerview observing LiveData:
         viewmodel.loadWANDSFromDBinVMasLD()
         val recyclerViewWANDS = binding.wandsListRV
         recyclerViewWANDS.hasFixedSize()
@@ -74,7 +74,7 @@ class AllCardsRVFragment : Fragment() {
             recyclerViewWANDS.adapter = AllCardsRVAdapter(it)
         }
 
-        //Coins Recyclerview:
+        //Coins Recyclerview observing LiveData:
         viewmodel.loadCOINSFromDBinVMasLD()
         val recyclerViewCOINS = binding.coinsListRV
         recyclerViewCOINS.hasFixedSize()
