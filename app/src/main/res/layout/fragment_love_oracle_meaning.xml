@@ -7,26 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".home.cards.cardsUI.cardReadings.loveOracle.LoveOracleMeaningFragment">
 
-    <TextView
-        android:id="@+id/meaningsTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The Love Oracle"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="42dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
+        <!--The Explenation of the Reading -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="127dp"
+                    android:layout_height="141dp"
+                    android:padding="8dp"
+                    android:src="@drawable/w_love"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- The distinct cards with meaning & explanation -->
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -126,8 +141,6 @@
                 </com.google.android.material.card.MaterialCardView>
 
 
-
-
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card02CV"
                     android:layout_width="match_parent"
@@ -215,9 +228,6 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
-
-
-
 
 
                 <com.google.android.material.card.MaterialCardView
@@ -309,8 +319,6 @@
                 </com.google.android.material.card.MaterialCardView>
 
 
-
-
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card04CV"
                     android:layout_width="match_parent"
@@ -398,8 +406,6 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
-
-
 
 
             </LinearLayout>
