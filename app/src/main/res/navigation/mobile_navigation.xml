@@ -16,17 +16,23 @@
             android:id="@+id/action_navigation_home_to_oneCardFragment"
             app:destination="@id/oneCardFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
         <action
             android:id="@+id/action_navigation_home_to_allCardsRVFragment"
             app:destination="@id/allCardsRVFragment"
-            app:enterAnim="@anim/from_top"
-            app:exitAnim="@anim/to_bottom" />
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
         <action
             android:id="@+id/action_navigation_home_to_readingsHomeFragment"
             app:destination="@id/readingsHomeFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 
@@ -50,7 +56,9 @@
             android:id="@+id/action_allCardsRVFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
 
 
@@ -63,22 +71,30 @@
             android:id="@+id/action_readingsHomeFragment_to_littleCrossFragment"
             app:destination="@id/littleCrossFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
         <action
             android:id="@+id/action_readingsHomeFragment_to_loveOracleFragment"
             app:destination="@id/loveOracleFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
         <action
             android:id="@+id/action_readingsHomeFragment_to_simplePathFragment"
             app:destination="@id/simplePathFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
         <action
             android:id="@+id/action_readingsHomeFragment_to_pathOfWisdomFragment"
             app:destination="@id/pathOfWisdomFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 
@@ -91,7 +107,9 @@
             android:id="@+id/action_littleCrossFragment_to_littleCrossMeaningFragment"
             app:destination="@id/littleCrossMeaningFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 
@@ -116,7 +134,9 @@
             android:id="@+id/action_littleCrossMeaningFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
 
 
@@ -129,7 +149,9 @@
             android:id="@+id/action_loveOracleFragment_to_loveOracleMeaningFragment"
             app:destination="@id/loveOracleMeaningFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 
@@ -154,7 +176,9 @@
             android:id="@+id/action_loveOracleMeaningFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
 
 
@@ -167,7 +191,9 @@
             android:id="@+id/action_simplePathFragment_to_simplePathMeaningFragment"
             app:destination="@id/simplePathMeaningFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 
@@ -189,7 +215,9 @@
             android:id="@+id/action_simplePathMeaningFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
 
 
@@ -202,7 +230,9 @@
             android:id="@+id/action_pathOfWisdomFragment_to_pathOfWisdomMeaningFragment"
             app:destination="@id/pathOfWisdomMeaningFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 
@@ -236,8 +266,11 @@
             android:id="@+id/action_pathOfWisdomMeaningFragment_to_oneCardFragment"
             app:destination="@id/oneCardFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
+
 
 
     <!-- Quotes -->
@@ -250,12 +283,16 @@
             android:id="@+id/action_navigation_dashboard_to_quoteFragment"
             app:destination="@id/quoteFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
         <action
             android:id="@+id/action_navigation_dashboard_to_favoriteQrvFragment"
             app:destination="@id/favoriteQrvFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
 
 
@@ -281,7 +318,9 @@
             android:id="@+id/action_favoriteQrvFragment_to_favQuoteOptionsFragment"
             app:destination="@id/favQuoteOptionsFragment"
             app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left" />
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
     </fragment>
 
 

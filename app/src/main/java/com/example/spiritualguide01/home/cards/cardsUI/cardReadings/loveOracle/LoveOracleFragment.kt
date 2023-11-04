@@ -81,10 +81,11 @@ class LoveOracleFragment : Fragment() {
             // Connecting the pictures to the View (not visible yet), taking the shuffled cards from top (left) to bottom (right):
             var pic1 = shuffledCardList[0].picture
             val id1 = shuffledCardList[0].id
-            var pic2 = shuffledCardList[1].picture
-            val id2 = shuffledCardList[1].id
-            var pic3 = shuffledCardList[2].picture
-            val id3 = shuffledCardList[2].id
+            // Here the proper laying order is metioned ( 2 <-> 3 ):
+            var pic3 = shuffledCardList[1].picture
+            val id3 = shuffledCardList[1].id
+            var pic2 = shuffledCardList[2].picture
+            val id2 = shuffledCardList[2].id
             var pic4 = shuffledCardList[3].picture
             val id4 = shuffledCardList[3].id
             binding.card1IV.setImageResource(pic1)
@@ -174,10 +175,8 @@ class LoveOracleFragment : Fragment() {
 
         binding.interpeteBTN.setOnClickListener {
             val id1 = shuffledCardList[0].id
-            // Here the cards are exchanged in opposite to "little cross" due to the different order ( 2 <-> 3 )
-            // That's the only difference to "little cross" Fragment
-            val id2 = shuffledCardList[2].id
-            val id3 = shuffledCardList[1].id
+            val id2 = shuffledCardList[1].id
+            val id3 = shuffledCardList[2].id
             val id4 = shuffledCardList[3].id
             findNavController().navigate(
                 LoveOracleFragmentDirections.actionLoveOracleFragmentToLoveOracleMeaningFragment(
