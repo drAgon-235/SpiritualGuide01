@@ -80,9 +80,9 @@ class LittleCrossFragment : Fragment() {
             // Connecting the pictures to the View (not visible yet), taking the shuffled cards from top (left) to bottom (right):
             var pic1 = shuffledCardList[0].picture
             val id1 = shuffledCardList[0].id
-            var pic2 = shuffledCardList[2].picture
+            var pic2 = shuffledCardList[1].picture
             val id2 = shuffledCardList[1].id
-            var pic3 = shuffledCardList[1].picture
+            var pic3 = shuffledCardList[2].picture
             val id3 = shuffledCardList[2].id
             var pic4 = shuffledCardList[3].picture
             val id4 = shuffledCardList[3].id

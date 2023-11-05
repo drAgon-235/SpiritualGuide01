@@ -81,7 +81,7 @@ class LoveOracleFragment : Fragment() {
             // Connecting the pictures to the View (not visible yet), taking the shuffled cards from top (left) to bottom (right):
             var pic1 = shuffledCardList[0].picture
             val id1 = shuffledCardList[0].id
-            // Here the proper laying order is metioned ( 2 <-> 3 ):
+            // Here we comply with the proper laying order ( pic2 <-> pic3 ) that's the ONLY (minimal) difference to the LittleCrossFragment:
             var pic3 = shuffledCardList[1].picture
             val id3 = shuffledCardList[1].id
             var pic2 = shuffledCardList[2].picture

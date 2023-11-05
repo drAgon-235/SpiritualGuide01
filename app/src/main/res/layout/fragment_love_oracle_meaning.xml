@@ -28,7 +28,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/laying_explanationIV"
                     android:layout_width="127dp"
                     android:layout_height="141dp"
                     android:padding="8dp"

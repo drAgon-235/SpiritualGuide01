@@ -28,7 +28,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/laying_explanationIV"
                     android:layout_width="127dp"
                     android:layout_height="141dp"
                     android:padding="8dp"
@@ -47,7 +47,7 @@
                     android:textSize="10sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView2" />
+                    app:layout_constraintEnd_toStartOf="@+id/laying_explanationIV" />
 
                 <TextView
                     android:id="@+id/futureRealityTV"
@@ -59,7 +59,7 @@
                     android:textSize="10sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView2" />
+                    app:layout_constraintStart_toEndOf="@+id/laying_explanationIV" />
 
                 <TextView
                     android:id="@+id/unsconscusPastTV"
@@ -70,7 +70,7 @@
                     android:textSize="10sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/pastRealityTV"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                    app:layout_constraintEnd_toStartOf="@+id/laying_explanationIV"
                     app:layout_constraintTop_toBottomOf="@+id/consciusPastTV" />
 
                 <TextView
@@ -82,7 +82,7 @@
                     android:textColor="#A2C0F6"
                     android:textSize="10sp"
                     android:textStyle="bold"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                    app:layout_constraintEnd_toStartOf="@+id/laying_explanationIV"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -93,7 +93,7 @@
                     android:text="CONSCIOUS"
                     android:textColor="#B2D56F"
                     android:textSize="10sp"
-                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintStart_toEndOf="@+id/laying_explanationIV"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -104,7 +104,7 @@
                     android:textColor="#B2D56F"
                     android:textSize="10sp"
                     app:layout_constraintBottom_toTopOf="@+id/futureRealityTV"
-                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintStart_toEndOf="@+id/laying_explanationIV"
                     app:layout_constraintTop_toBottomOf="@+id/consciusFutureTV" />
 
                 <TextView
