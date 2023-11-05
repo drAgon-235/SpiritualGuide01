@@ -53,8 +53,6 @@ class MainActivity : AppCompatActivity() {
                 } ?: navController.navigate(menuItem.itemId)
             true
         }
-
-
     }
 
     // making the Back-Arrow work properly:

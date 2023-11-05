@@ -19,11 +19,10 @@ class CardsViewModel(application: Application) : AndroidViewModel(application) {
     //Creating instance of the DB:
     private val database = getDatabase(application)
 
-    //Creating a Repository (as an object) and giving it the (empty) DB:
+    //Creating a Repository (as an object) and putting the (empty) DB into it:
     private var repository = Repository(database)
 
     // val sharedPreferences = application.applicationContext.getSharedPreferences("counter", Context.MODE_PRIVATE)
-
 
 
     // Creating a LiveData! where the abstract LDList of the Repository ist saved,
@@ -32,8 +31,6 @@ class CardsViewModel(application: Application) : AndroidViewModel(application) {
 
     // Creating a simple List<Card> for "Card of the Day" Fragment (NO LiveData!):
     var cardListSimple = repository.cardsListNoLD
-
-    var oneCard: Card = repository.getCardByIDRepo(id = 0)
 
     var id: Int = 0
 

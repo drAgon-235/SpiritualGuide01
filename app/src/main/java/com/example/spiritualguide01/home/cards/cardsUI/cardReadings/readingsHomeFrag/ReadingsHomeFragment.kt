@@ -34,6 +34,8 @@ class ReadingsHomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // The distinct reading/oracle options:
+
         binding.simplePathIV.setOnClickListener {
             findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToSimplePathFragment())
         }

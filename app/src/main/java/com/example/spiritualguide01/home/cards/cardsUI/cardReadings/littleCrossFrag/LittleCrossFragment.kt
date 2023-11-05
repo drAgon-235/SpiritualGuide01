@@ -43,8 +43,9 @@ class LittleCrossFragment : Fragment() {
 
         val rotatingCard = binding.rotatingCardIV
 
-
+        // loading cards-DB by viewmodel:
         viewmodel.loadCardListFromDBinViewModel()
+
         // Loading the simple, UNSHUFFLED List<Cards> into viewmodel's 'cardListSimple' (NO LiveData):
         var shuffledCardList: List<Card> =
             viewmodel.cardListSimple  // is not shuffled yet for educational purposes & control/testing
@@ -65,6 +66,7 @@ class LittleCrossFragment : Fragment() {
                     rotationXBy(360f)
                 }
             }
+
             // NOW we are really shuffeling and using shuffled Card List:
             shuffledCardList = shuffledCardList.shuffled()
             // NOW we make "LAY"-Button visible:

@@ -25,7 +25,6 @@ class PathOfWisdomFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-
         }
     }
 
@@ -224,9 +223,9 @@ class PathOfWisdomFragment : Fragment() {
                 binding.card07IV.animate().apply {
                     duration = 1000
                     this.rotationYBy(270f)
-
                 }
             }
+
 
             // extra information popping up: present vs. future
             // coming from left:
