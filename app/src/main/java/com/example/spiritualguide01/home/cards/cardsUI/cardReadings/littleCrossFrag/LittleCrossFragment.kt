@@ -172,6 +172,7 @@ class LittleCrossFragment : Fragment() {
         }
 
         // Interpretation Button:
+        // Navigating to MeaningFragment and transmitting our 4 cards by id
         binding.interpeteBTN.setOnClickListener {
             val id1  = shuffledCardList[0].id
             val id2  = shuffledCardList[1].id

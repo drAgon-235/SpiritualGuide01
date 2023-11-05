@@ -149,6 +149,8 @@ class SimplePathFragment : Fragment() {
             }
         }
 
+
+        // Interpretation Button:
         // Navigating to MeaningFragment and transmitting our 3 cards by id
         binding.interpretationBTN.setOnClickListener {
             val id1  = shuffledCardList[0].id
