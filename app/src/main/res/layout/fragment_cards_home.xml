@@ -12,8 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="164dp"
-        android:text="Card of the day"
+        android:text="@string/cards_home_card_of_day_btn"
+        android:textSize="22sp"
         android:backgroundTint="#F8BE64"
+        android:gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,9 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:text="Your personal \ncard readings"
+        android:gravity="center_horizontal"
+        android:text="@string/cards_home_all_readings_btn"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/dayCardBTN"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/dayCardBTN"
         app:layout_constraintTop_toBottomOf="@+id/dayCardBTN" />
 
@@ -35,9 +38,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:backgroundTint="#21ACC5"
-        android:text="All cards and meanings"
+        android:gravity="center_horizontal"
+        android:text="@string/cards_home_all_arcanas_btn"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/cardReadingBTN"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="@+id/cardReadingBTN"
         app:layout_constraintTop_toBottomOf="@+id/cardReadingBTN" />
 

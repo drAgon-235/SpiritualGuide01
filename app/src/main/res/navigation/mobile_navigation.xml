@@ -9,7 +9,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.spiritualguide01.home.cards.CardsHomeFragment"
-        android:label="TAROT"
+        android:label="@string/title_toolbar_tarot"
         tools:layout="@layout/fragment_cards_home"
         >
         <action
@@ -39,7 +39,7 @@
     <fragment
         android:id="@+id/oneCardFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.oneCardFrag.OneCardFragment"
-        android:label="Card Interpretation"
+        android:label="@string/title_toolbar_card_meaning"
         tools:layout="@layout/fragment_one_card">
         <argument
             android:name="cardID"
@@ -50,7 +50,7 @@
     <fragment
         android:id="@+id/allCardsRVFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.allCardsRVFrag.AllCardsRVFragment"
-        android:label="All Cards by Arcanas"
+        android:label="@string/title_toolbar_all_cards"
         tools:layout="@layout/fragment_all_cards_rv">
         <action
             android:id="@+id/action_allCardsRVFragment_to_oneCardFragment"
@@ -65,7 +65,7 @@
     <fragment
         android:id="@+id/readingsHomeFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.readingsHomeFrag.ReadingsHomeFragment"
-        android:label="Readings"
+        android:label="@string/title_toolbar_all_readings"
         tools:layout="@layout/fragment_readings_home">
         <action
             android:id="@+id/action_readingsHomeFragment_to_littleCrossFragment"
@@ -101,7 +101,7 @@
     <fragment
         android:id="@+id/littleCrossFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossFragment"
-        android:label="Little Cross"
+        android:label="@string/title_toolbar_little_cross"
         tools:layout="@layout/fragment_little_cross">
         <action
             android:id="@+id/action_littleCrossFragment_to_littleCrossMeaningFragment"
@@ -116,7 +116,7 @@
     <fragment
         android:id="@+id/littleCrossMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.littleCrossFrag.LittleCrossMeaningFragment"
-        android:label="Meaning - Little Cross"
+        android:label="@string/title_toolbar_little_cross_meaning"
         tools:layout="@layout/fragment_little_cross_meaning">
         <argument
             android:name="card01ID"
@@ -143,7 +143,7 @@
     <fragment
         android:id="@+id/loveOracleFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.loveOracle.LoveOracleFragment"
-        android:label="Love Oracle"
+        android:label="@string/title_toolbar_love_oracle"
         tools:layout="@layout/fragment_love_oracle">
         <action
             android:id="@+id/action_loveOracleFragment_to_loveOracleMeaningFragment"
@@ -158,7 +158,7 @@
     <fragment
         android:id="@+id/loveOracleMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.loveOracle.LoveOracleMeaningFragment"
-        android:label="Love Oracle Meaning"
+        android:label="@string/title_toolbar_love_oracle_meaning"
         tools:layout="@layout/fragment_love_oracle_meaning">
         <argument
             android:name="card01ID"
@@ -185,7 +185,7 @@
     <fragment
         android:id="@+id/simplePathFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathFragment"
-        android:label="The Simple Path"
+        android:label="@string/title_toolbar_simple_path"
         tools:layout="@layout/fragment_simple_path">
         <action
             android:id="@+id/action_simplePathFragment_to_simplePathMeaningFragment"
@@ -200,7 +200,7 @@
     <fragment
         android:id="@+id/simplePathMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.simplePathFrag.SimplePathMeaningFragment"
-        android:label="Simple Path Meaning"
+        android:label="@string/title_toolbar_simple_path_meaning"
         tools:layout="@layout/fragment_simple_path_meaning">
         <argument
             android:name="card01ID"
@@ -224,7 +224,7 @@
     <fragment
         android:id="@+id/pathOfWisdomFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomFragment"
-        android:label="The Path of Wisdom"
+        android:label="@string/title_toolbar_path_of_wisdom"
         tools:layout="@layout/fragment_path_of_wisdom">
         <action
             android:id="@+id/action_pathOfWisdomFragment_to_pathOfWisdomMeaningFragment"
@@ -239,7 +239,7 @@
     <fragment
         android:id="@+id/pathOfWisdomMeaningFragment"
         android:name="com.example.spiritualguide01.home.cards.cardsUI.cardReadings.pathOfWisdomFrag.PathOfWisdomMeaningFragment"
-        android:label="Path of Wisdom Meaning"
+        android:label="@string/title_toolbar_path_of_wisdom_meaning"
         tools:layout="@layout/fragment_path_of_wisdom_meaning">
         <argument
             android:name="card01ID"
@@ -277,7 +277,7 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.spiritualguide01.home.quotes.QuotesHomeFragment"
-        android:label="QUOTES"
+        android:label="@string/title_toolbar_quotes"
         tools:layout="@layout/fragment_quotes_home" >
         <action
             android:id="@+id/action_navigation_dashboard_to_quoteFragment"
@@ -299,7 +299,7 @@
     <fragment
         android:id="@+id/quoteFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag.QuoteFragment"
-        android:label="Quote of the Day"
+        android:label="@string/title_toolbar_qotd"
         tools:layout="@layout/fragment_quote" >
         <action
             android:id="@+id/action_quoteFragment_to_favoriteQrvFragment"
@@ -312,7 +312,7 @@
     <fragment
         android:id="@+id/favoriteQrvFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavoriteQrvFragment"
-        android:label="My Favorite Quotes"
+        android:label="@string/title_toolbar_my_fav_quotes"
         tools:layout="@layout/fragment_favorite_qrv" >
         <action
             android:id="@+id/action_favoriteQrvFragment_to_favQuoteOptionsFragment"
@@ -327,7 +327,7 @@
     <fragment
         android:id="@+id/favQuoteOptionsFragment"
         android:name="com.example.spiritualguide01.home.quotes.uiModels.favoriteQuoteFrag.FavQuoteOptionsFragment"
-        android:label="Favorites Options"
+        android:label="@string/title_toolbar_fav_options"
         tools:layout="@layout/fragment_fav_quote_options" >
         <argument
             android:name="favQuoteIDText"

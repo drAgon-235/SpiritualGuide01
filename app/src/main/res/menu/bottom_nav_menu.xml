@@ -4,13 +4,12 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/baseline_auto_awesome_motion_24"
-        android:title="Tarot" />
+        android:title="@string/title_home_tarot" />
 
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/baseline_chat_24"
-        android:title="Quotes"
-
+        android:title="@string/title_home_quotes"
         />
 
 

@@ -1,8 +1,38 @@
 <resources>
-    <string name="app_name">SpiritualGuide01</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="app_name">SpiritualGuide</string>
+
+    <!-- Nav Bar -->
+    <string name="title_home_tarot">Tarot</string>
+    <string name="title_home_quotes">Quotes</string>
+
+    <!-- Mobile Navigation / toolbar titles -->
+    <string name="title_toolbar_tarot">TAROT</string>
+    <string name="title_toolbar_card_meaning">Card Meaning</string>
+    <string name="title_toolbar_all_cards">All Cards by Arcanas</string>
+    <string name="title_toolbar_all_readings">All Readings</string>
+    <string name="title_toolbar_little_cross">The Little Cross</string>
+    <string name="title_toolbar_simple_path">The Simple Path</string>
+    <string name="title_toolbar_path_of_wisdom">The Path of Wisdom</string>
+    <string name="title_toolbar_love_oracle">The Love Oracle</string>
+    <string name="title_toolbar_little_cross_meaning">Interpretation: Little Cross</string>
+    <string name="title_toolbar_simple_path_meaning">Interpretation: Simple Path</string>
+    <string name="title_toolbar_path_of_wisdom_meaning">Interpretation: Path of Wisdom</string>
+    <string name="title_toolbar_love_oracle_meaning">Interpretation: Love Oracle</string>
+
+    <string name="title_toolbar_quotes">QUOTES</string>
+    <string name="title_toolbar_qotd">Quote of the Day</string>
+    <string name="title_toolbar_my_fav_quotes">My Favorite Quotes</string>
+    <string name="title_toolbar_fav_options">Options</string>
+
+    <!-- Tarot Home Fragment Bottoms -->
+    <string name="cards_home_card_of_day_btn">CARD OF THE DAY</string>
+    <string name="cards_home_all_readings_btn">YOUR PERSONAL\nCARD READING</string>
+    <string name="cards_home_all_arcanas_btn">ALL CARDS AND\nTHEIR MEANINGS</string>
+
+    <!-- Quotes Home Fragment Buttons -->
+    <string name="quotes_home_quote_of_day_btn">QUOTE OF THE DAY</string>
+    <string name="quotes_home_my_fav_quotes_btn">MY FAVORITE QUOTES</string>
+
 </resources>

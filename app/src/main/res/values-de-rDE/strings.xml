@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpiritualGuide</string>
+
+    <!-- Nav Bar -->
+    <string name="title_home_tarot">Tarot</string>
+    <string name="title_home_quotes">Zitate</string>
+
+    <!-- Mobile Navigation / Toolbar Titel -->
+    <string name="title_toolbar_tarot">TAROT</string>
+    <string name="title_toolbar_card_meaning">Bedeutung der Karte</string>
+    <string name="title_toolbar_all_cards">Alle Karten/Arcanas</string>
+    <string name="title_toolbar_all_readings">Alle Legearten</string>
+    <string name="title_toolbar_little_cross">Kleines Kreuz</string>
+    <string name="title_toolbar_simple_path">Kleiner Pfad</string>
+    <string name="title_toolbar_path_of_wisdom">Pfad der Weisheit</string>
+    <string name="title_toolbar_love_oracle">Liebes-Orakel</string>
+    <string name="title_toolbar_little_cross_meaning">Interpretation: Kleines Kreuz</string>
+    <string name="title_toolbar_simple_path_meaning">Interpretation: Kleiner Pfad</string>
+    <string name="title_toolbar_path_of_wisdom_meaning">Interpretation: Pfad der Weisheit</string>
+    <string name="title_toolbar_love_oracle_meaning">Interpretation: Liebes-Orakel</string>
+
+    <string name="title_toolbar_quotes">ZITATE</string>
+    <string name="title_toolbar_qotd">Zitat des Tages</string>
+    <string name="title_toolbar_my_fav_quotes">Meine Lieblings-Zitate</string>
+    <string name="title_toolbar_fav_options">Optionen</string>
+
+    <!-- Tarot Home Fragment Bottoms -->
+    <string name="cards_home_card_of_day_btn">KARTE DES TAGES</string>
+    <string name="cards_home_all_readings_btn">KARTEN LEGEN</string>
+    <string name="cards_home_all_arcanas_btn">ALLE KARTEN UND \nIHRE BEDEUTUNGEN</string>
+
+    <!-- Zitate Home Fragment Buttons -->
+    <string name="quotes_home_quote_of_day_btn">ZITAT DES TAGES</string>
+    <string name="quotes_home_my_fav_quotes_btn">MEINE\nLIEBLINGS-ZITATE</string>
+
+
+
+</resources>

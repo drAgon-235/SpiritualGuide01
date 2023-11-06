@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="232dp"
-        android:text="Quote of the day"
+        android:text="@string/quotes_home_quote_of_day_btn"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:backgroundTint="#21ACC5"
-        android:text="My Favorite Quotes"
+        android:text="@string/quotes_home_my_fav_quotes_btn"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/dayQuoteBTN"
         app:layout_constraintStart_toStartOf="@+id/dayQuoteBTN"
         app:layout_constraintTop_toBottomOf="@+id/dayQuoteBTN" />
