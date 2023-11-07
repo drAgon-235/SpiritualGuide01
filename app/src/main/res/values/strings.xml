@@ -50,6 +50,12 @@
     <string name="allcards_rv_wands">Wands (Minor Arcana)</string>
     <string name="allcards_rv_coins">Pentacles/Coins (Minor Arcana)</string>
 
+    <!-- Readings Home Fragment -->
+    <string name="readings_home_simple_path_tv">The Simple Path</string>
+    <string name="readings_home_little_cross_tv">The Little Cross</string>
+    <string name="readings_home_path_of_wisdom_tv">The Path of Wisdom</string>
+    <string name="readings_home_love_oracle_tv">The Love Oracle</string>
+
     <!-- Cards readings Buttons -->
     <string name="readings_shuffle_btn">SHUFFLE</string>
     <string name="readings_lay_btn">LAY</string>

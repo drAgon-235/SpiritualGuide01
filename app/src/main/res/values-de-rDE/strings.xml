@@ -50,6 +50,12 @@
     <string name="allcards_rv_wands">Stäbe (Kleine Arcana)</string>
     <string name="allcards_rv_coins">Münzen (Kleine Arcana)</string>
 
+    <!-- Readings Home Fragment -->
+    <string name="readings_home_simple_path_tv">Einfacher Pfad</string>
+    <string name="readings_home_little_cross_tv">Kleines Kreuz</string>
+    <string name="readings_home_path_of_wisdom_tv">Pfad der Weisheit</string>
+    <string name="readings_home_love_oracle_tv">Liebes - Orakel</string>
+
     <!-- Cards readings Buttons -->
     <string name="readings_shuffle_btn">MISCHEN</string>
     <string name="readings_lay_btn">LEGEN</string>

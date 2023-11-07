@@ -36,6 +36,7 @@ class ReadingsHomeFragment : Fragment() {
 
         // The distinct reading/oracle options:
 
+
         binding.simplePathIV.setOnClickListener {
             findNavController().navigate(ReadingsHomeFragmentDirections.actionReadingsHomeFragmentToSimplePathFragment())
         }
