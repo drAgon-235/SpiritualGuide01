@@ -16,10 +16,10 @@
     <string name="title_toolbar_simple_path">Kleiner Pfad</string>
     <string name="title_toolbar_path_of_wisdom">Pfad der Weisheit</string>
     <string name="title_toolbar_love_oracle">Liebes-Orakel</string>
-    <string name="title_toolbar_little_cross_meaning">Interpretation: Kleines Kreuz</string>
-    <string name="title_toolbar_simple_path_meaning">Interpretation: Kleiner Pfad</string>
-    <string name="title_toolbar_path_of_wisdom_meaning">Interpretation: Pfad der Weisheit</string>
-    <string name="title_toolbar_love_oracle_meaning">Interpretation: Liebes-Orakel</string>
+    <string name="title_toolbar_little_cross_meaning">Detung: Kleines Kreuz</string>
+    <string name="title_toolbar_simple_path_meaning">Detung: Kleiner Pfad</string>
+    <string name="title_toolbar_path_of_wisdom_meaning">Detung: Pfad der Weisheit</string>
+    <string name="title_toolbar_love_oracle_meaning">Detung: Liebes-Orakel</string>
 
     <string name="title_toolbar_quotes">ZITATE</string>
     <string name="title_toolbar_qotd">Zitat des Tages</string>
@@ -34,6 +34,70 @@
     <!-- Zitate Home Fragment Buttons -->
     <string name="quotes_home_quote_of_day_btn">ZITAT DES TAGES</string>
     <string name="quotes_home_my_fav_quotes_btn">MEINE\nLIEBLINGS-ZITATE</string>
+
+    <!-- Quotes Options Fragment Buttons -->
+    <string name="quotes_options_share_btn">Teilen</string>
+    <string name="quotes_options_delete_btn">Aus Favoritenliste\nlöschen</string>
+    <string name="quotes_options_deleted">Zitat GELÖSCHT</string>
+
+    <!-- Quotes Fragment Delete-Buttons -->
+    <string name="quotes_save_btn">In Favoriten\nspeichern</string>
+
+    <!-- All Cards RV Fragment -->
+    <string name="allcards_rv_trumps">Große Arcana (Trümpfe)</string>
+    <string name="allcards_rv_cups">Kelche (Kleine Arcana)</string>
+    <string name="allcards_rv_swords">Schwerter (Kleine Arcana)</string>
+    <string name="allcards_rv_wands">Stäbe (Kleine Arcana)</string>
+    <string name="allcards_rv_coins">Münzen (Kleine Arcana)</string>
+
+    <!-- Cards readings Buttons -->
+    <string name="readings_shuffle_btn">MISCHEN</string>
+    <string name="readings_lay_btn">LEGEN</string>
+    <string name="readings_interpretation_btn">DEUTUNG</string>
+
+    <!-- Little Cross Fragment -->
+    <string name="little_cross_card_1">Darum\ngeht es... </string>
+    <string name="little_cross_card_2">Vermeide das! </string>
+    <string name="little_cross_card_3">Tue das! </string>
+    <string name="little_cross_card_4">Zukunft\nÜberrschung</string>
+
+    <!-- Simple Path Fragment -->
+    <string name="simple_path_card_1">Vergangenheit</string>
+    <string name="simple_path_card_2">Gegenwart</string>
+    <string name="simple_path_card_3">Zukunft</string>
+
+    <!-- Path of Wisdom Fragment -->
+    <string name="path_of_wisdom_card_1">Chancen</string>
+    <string name="path_of_wisdom_card_2_7">Objektives,\nBewusstes</string>
+    <string name="path_of_wisdom_card_3_6">Subjektives\nGefühltes</string>
+    <string name="path_of_wisdom_card_4_5">Realität</string>
+    <string name="path_of_wisdom_pic_conscious">BEWUSSTES</string>
+    <string name="path_of_wisdom_pic_unconscious">UNBEWUSSTES</string>
+    <string name="path_of_wisdom_pic_reality">REALITÄT</string>
+    <string name="path_of_wisdom_pic_past">VERG.</string>
+    <string name="path_of_wisdom_pic_future">ZUKUNFT</string>
+
+    <!-- Love Oracle Fragment -->
+    <string name="love_oracle_card_1">Darum\ngeht es</string>
+    <string name="love_oracle_card_2">Die andere\nPerson</string>
+    <string name="love_oracle_card_3">DU</string>
+    <string name="love_oracle_card_4">Was zu\ntun ist</string>
+
+
+
+    <!-- The Cards -->
+
+    <!-- Major Arcana -->
+    <string name="card01_theFool_name">The Fool</string>
+    <string name="card01_theFool_keywords">Freiheit, Vertrauen, Unerfahrenheit, Unschuld</string>
+
+
+    <!-- CUPS -->
+    <!-- WANDS -->
+    <!-- SWORDS -->
+    <!-- COINS -->
+
+
 
 
 

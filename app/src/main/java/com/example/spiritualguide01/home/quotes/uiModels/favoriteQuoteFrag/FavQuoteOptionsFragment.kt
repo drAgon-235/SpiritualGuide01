@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.spiritualguide01.R
@@ -57,8 +58,8 @@ class FavQuoteOptionsFragment : Fragment() {
 
             // Changing the UI:
             // 1. Confirmation text in the quoteCV:
-            binding.quoteOfTheDayTV.setText("deleted from\nFavorite Quotes List")
-            binding.sourceTV.setText("! ! !")
+            binding.quoteOfTheDayTV.setText(". . .")
+            binding.sourceTV.setText(". . .")
             // 2. Change the color ot text and CV-Background
             binding.quoteOfTheDayTV.setTextColor(0xFFFFFFFF.toInt())
             binding.sourceTV.setTextColor(0xFFFFFFFF.toInt())
@@ -67,6 +68,8 @@ class FavQuoteOptionsFragment : Fragment() {
             binding.dislikingCV.visibility = View.INVISIBLE
             binding.shareCV.visibility = View.INVISIBLE
 
+            // The toast adapts it's language automatically through the strings.xml:
+            Toast.makeText(context, R.string.quotes_options_deleted, Toast.LENGTH_LONG).show()
         }
 
 

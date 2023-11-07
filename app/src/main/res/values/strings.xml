@@ -35,4 +35,64 @@
     <string name="quotes_home_quote_of_day_btn">QUOTE OF THE DAY</string>
     <string name="quotes_home_my_fav_quotes_btn">MY FAVORITE QUOTES</string>
 
+    <!-- Quotes Options Fragment Buttons -->
+    <string name="quotes_options_share_btn">Share</string>
+    <string name="quotes_options_delete_btn">Delete from my\nfavorite quotes</string>
+    <string name="quotes_options_deleted">Quote DELETED</string>
+
+    <!-- Quotes Fragment Delete-Buttons -->
+    <string name="quotes_save_btn">Save in my \nfavorite quotes list</string>
+
+    <!-- All Cards RV Fragment -->
+    <string name="allcards_rv_trumps">Major Arcana (Trumps)</string>
+    <string name="allcards_rv_cups">Cups (Minor Arcana)</string>
+    <string name="allcards_rv_swords">Swords (Minor Arcana)</string>
+    <string name="allcards_rv_wands">Wands (Minor Arcana)</string>
+    <string name="allcards_rv_coins">Pentacles/Coins (Minor Arcana)</string>
+
+    <!-- Cards readings Buttons -->
+    <string name="readings_shuffle_btn">SHUFFLE</string>
+    <string name="readings_lay_btn">LAY</string>
+    <string name="readings_interpretation_btn">INTERPRETATION</string>
+
+    <!-- Little Cross Fragment -->
+    <string name="little_cross_card_1">It\'s\nabout... </string>
+    <string name="little_cross_card_2">Don\'t do\nthis! </string>
+    <string name="little_cross_card_3">Do this! </string>
+    <string name="little_cross_card_4">Future\nsurpise</string>
+
+    <!-- Simple Path Fragment -->
+    <string name="simple_path_card_1">Past</string>
+    <string name="simple_path_card_2">Present</string>
+    <string name="simple_path_card_3">Future</string>
+
+    <!-- Path of Wisdom Fragment -->
+    <string name="path_of_wisdom_card_1">Chances</string>
+    <string name="path_of_wisdom_card_2_7">objective\nawareness</string>
+    <string name="path_of_wisdom_card_3_6">subjective\nemotions</string>
+    <string name="path_of_wisdom_card_4_5">reality</string>
+    <string name="path_of_wisdom_pic_conscious">CONSCIOUS</string>
+    <string name="path_of_wisdom_pic_unconscious">UNCONSCIOUS</string>
+    <string name="path_of_wisdom_pic_reality">REALITY</string>
+    <string name="path_of_wisdom_pic_past">PAST</string>
+    <string name="path_of_wisdom_pic_future">PRESENT</string>
+
+    <!-- Love Oracle Fragment -->
+    <string name="love_oracle_card_1">Relation issue</string>
+    <string name="love_oracle_card_2">The other\nperson</string>
+    <string name="love_oracle_card_3">YOU</string>
+    <string name="love_oracle_card_4">What to do</string>
+
+
+    <!-- The Cards -->
+
+    <!-- Major Arcana -->
+    <string name="card01_theFool_name">The Fool</string>
+    <string name="card01_theFool_keywords">freedom, faith, inexperience, innocence</string>
+
+    <!-- CUPS -->
+    <!-- WANDS -->
+    <!-- SWORDS -->
+    <!-- COINS -->
+
 </resources>

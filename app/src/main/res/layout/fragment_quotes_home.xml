@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="232dp"
+        android:backgroundTint="#F8BE64"
         android:text="@string/quotes_home_quote_of_day_btn"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"

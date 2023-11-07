@@ -26,7 +26,7 @@ interface FavQuoteDao {
     fun getInvertedList(): LiveData<List<FavoriteQuote>>
 
 
-    // delete FavoriteQuote by Text-ID:
+    // delete FavoriteQuote by Text-ID: (banned)
     @Query("DELETE FROM favorites_table WHERE q = :text")
     fun delete(text: String)
 
@@ -36,15 +36,9 @@ interface FavQuoteDao {
     fun deleteByID(nr: Long)
 
 
-
-
     // get number of all FavoriteQuotes in DB:
     @Query("SELECT COUNT(*) FROM favorites_table")
     fun count(): Int
-
-
-
-
 
 
 

@@ -18,7 +18,7 @@
             android:id="@+id/card01TV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Past"
+            android:text="@string/simple_path_card_1"
             app:layout_constraintEnd_toEndOf="@+id/card01CV"
             app:layout_constraintStart_toStartOf="@+id/card01CV"
             app:layout_constraintTop_toBottomOf="@+id/card01CV" />
@@ -37,7 +37,7 @@
             android:id="@+id/card02TV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Presence"
+            android:text="@string/simple_path_card_2"
             app:layout_constraintEnd_toEndOf="@+id/card02CV"
             app:layout_constraintStart_toStartOf="@+id/card02CV"
             app:layout_constraintTop_toBottomOf="@+id/card02CV" />
@@ -56,7 +56,7 @@
             android:id="@+id/card04TV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Future"
+            android:text="@string/simple_path_card_3"
             app:layout_constraintEnd_toEndOf="@+id/card04CV"
             app:layout_constraintStart_toStartOf="@+id/card04CV"
             app:layout_constraintTop_toBottomOf="@+id/card04CV" />
@@ -163,7 +163,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="INTERPRETATION"
+            android:text="@string/readings_interpretation_btn"
+            android:textSize="20sp"
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -185,7 +186,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="44dp"
-            android:text=" LAY"
+            android:text="@string/readings_lay_btn"
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -203,7 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="28dp"
-            android:text="SHUFFLE"
+            android:text="@string/readings_shuffle_btn"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

@@ -34,7 +34,8 @@ class PathOfWisdomFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentPathOfWisdomBinding.inflate(inflater, container, false)
-        return binding.root    }
+        return binding.root
+    }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -241,21 +242,29 @@ class PathOfWisdomFragment : Fragment() {
             // Interpretation Button:
             // Navigating to MeaningFragment and transmitting our 7 cards by id
             binding.interpretataionBTN.setOnClickListener {
-                val id1  = shuffledCardList[0].id
-                val id2  = shuffledCardList[1].id
-                val id3  = shuffledCardList[2].id
-                val id4  = shuffledCardList[3].id
-                val id5  = shuffledCardList[4].id
-                val id6  = shuffledCardList[5].id
-                val id7  = shuffledCardList[6].id
-                findNavController().navigate(PathOfWisdomFragmentDirections.actionPathOfWisdomFragmentToPathOfWisdomMeaningFragment(id1, id2, id3, id4,  id5,  id6, id7))
+                val id1 = shuffledCardList[0].id
+                val id2 = shuffledCardList[1].id
+                val id3 = shuffledCardList[2].id
+                val id4 = shuffledCardList[3].id
+                val id5 = shuffledCardList[4].id
+                val id6 = shuffledCardList[5].id
+                val id7 = shuffledCardList[6].id
+                findNavController().navigate(
+                    PathOfWisdomFragmentDirections.actionPathOfWisdomFragmentToPathOfWisdomMeaningFragment(
+                        id1,
+                        id2,
+                        id3,
+                        id4,
+                        id5,
+                        id6,
+                        id7
+                    )
+                )
             }
-
 
 
         }
     }
-
 
 
 }
