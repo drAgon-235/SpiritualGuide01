@@ -12,6 +12,8 @@ import com.example.spiritualguide01.databinding.FragmentOneCardBinding
 import com.example.spiritualguide01.home.cards.CardsViewModel
 import com.example.spiritualguide01.home.cards.cardsModel.Card
 import com.example.spiritualguide01.home.cards.cardsModel.RawCardData
+import com.example.spiritualguide01.home.cards.cardsModel.SuitEnum
+import com.example.spiritualguide01.home.cards.cardsModel.SuitEnum.*
 import java.lang.Exception
 
 private val TAG = "OneCardFragment_TAG"
@@ -21,8 +23,6 @@ class OneCardFragment : Fragment() {
 
     private lateinit var binding: FragmentOneCardBinding
     private val viewmodel: CardsViewModel by activityViewModels()
-
-
 
 
     override fun onCreateView(
@@ -87,7 +87,7 @@ class OneCardFragment : Fragment() {
             Log.e(TAG, "ERROR_2 getting one Card from VM - now you're really dumped")
         }
         // This double-treatment (LiveData / No LiveData) is neccessary, because I'm reusing this Fragment by different Buttons with different actions & purposes.
-// BUT still not running really properly ...
+
 
         // Isolating Card's corresponding picture as "Drawable" (always by Int):
         pic = oneCard.picture
@@ -95,13 +95,30 @@ class OneCardFragment : Fragment() {
         // Binding picture and texts to (re-usable, scrollable & very flexible) OneCardFragment:
         binding.cardPictureIV.setImageResource(pic)
         binding.editNameTV.text = oneCard.name
-        binding.editArcanaTV.text = oneCard.suit.toString()
         binding.editValueTV.text = oneCard.value
         binding.editKeywordsTV.text = oneCard.keywords
         binding.editMeaningtTV.text = oneCard.meaning_up
         binding.editFortuneTellTV.text = oneCard.fortuneTelling
         binding.editQtaTV.text = oneCard.qta
         binding.editDescriptionTV.text = oneCard.description
+
+
+        // Setting AND binding the Arcana Type(suit) by ENUM into strings (multi-lang):
+        // BEFORE:
+        // binding.editArcanaTV.text = oneCard.suit.toString()
+
+        // AFTER (regarding multi-language-mode):
+        when(oneCard.suit){
+            MAJOR_ARCANA -> {binding.editArcanaTV.setText(R.string.major_arcana)}
+            WANDS -> {binding.editArcanaTV.setText(R.string.minor_wands)}
+            CUPS -> {binding.editArcanaTV.setText(R.string.minor_cups)}
+            COINS -> {binding.editArcanaTV.setText(R.string.minor_coins)}
+            SWORDS -> {binding.editArcanaTV.setText(R.string.minor_swords)}
+            else -> {Log.d(TAG, "Something wrong with the suit(arcana)")}
+        }
+
+
+
     }
 
 

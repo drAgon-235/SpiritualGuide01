@@ -89,22 +89,39 @@
     <string name="love_oracle_card_3">DU</string>
     <string name="love_oracle_card_4">Was zu\ntun ist</string>
 
+    <!-- One Card Fragment -->
+    <string name="one_card_value">Wert:</string>
+    <string name="one_card_keywords">Schlüsselworte</string>
+    <string name="one_card_fortune_telling">Wahrsagungen</string>
+    <string name="one_card_meaning">Bedeutungen</string>
+    <string name="one_card_qta">Stelle Dir folgende Fragen</string>
+    <string name="one_card_description">Beschreibung</string>
+    <!-- The Arcanas' names -->
+    <string name="major_arcana">Große Arkana</string>
+    <string name="minor_cups">Kleine Arkana: Kelche</string>
+    <string name="minor_swords">Kleine Arkana: Schwerter</string>
+    <string name="minor_wands">Kleine Arkana: Stäbe</string>
+    <string name="minor_coins">Kleine Arkana: Münzen</string>
+
 
 
     <!-- The Cards -->
 
     <!-- Major Arcana -->
-    <string name="card01_theFool_name">The Fool</string>
+    <string name="card01_theFool_name">Der Narr</string>
     <string name="card01_theFool_keywords">Freiheit, Vertrauen, Unerfahrenheit, Unschuld</string>
+    <string name="card01_theFool_fortune_telling">Halte Ausschau nach neuen Projekten und Chancen.\nHandle mit voller Zuversicht, es kann nicht schiefgehen.\nEin neuer Anfang bahnt sich an, tu es!</string>
+    <string name="card01_theFool_meaning">Sich von Beschränkungen befreien, Freude und jugendlichen Elan zum Ausdruck bringen, aufgeschlossen sein, einen Vertrauensvorschuss geben, sich auf seine Instinkte einstellen, eifrig oder neugierig sein, sein Potenzial erkunden, Innovation und Veränderung annehmen</string>
+    <string name="card01_theFool_qta">Was würde ich tun, wenn ich mich frei fühlen würde, einen Sprung zu wagen? \nWie bereit bin ich, verletzlich und offen zu sein? \nWie könnten frühere Erfahrungen in dieser neuen Situation helfen?</string>
+    <string name="card01_theFool_description">Mit leichtem Schritt, als hätten die Erde und ihre Fesseln wenig Macht, ihn zurückzuhalten, hält ein junger Mann in prächtigem Gewand am Rande eines Abgrunds zwischen den großen Höhen der Welt inne; er betrachtet die weite Ferne vor ihm. Der Akt des eifrigen Gehens ist noch angedeutet, obwohl er in diesem Moment stillsteht; sein Hund springt noch. Die Kante, die sich zur Tiefe hin öffnet, hat nichts Schreckliches; es ist, als ob Engel darauf warteten, ihn zu stützen, wenn er von der Höhe herabstürzen würde. Sein Antlitz ist voller Intelligenz und erwartungsvoller Träume. In der einen Hand hält er eine Rose, in der anderen einen kostbaren Stab, von dem über seiner rechten Schulter ein seltsam bestickter Geldbeutel herabhängt. Er ist ein Fürst der anderen Welt, der durch diese Welt reist - inmitten der Morgenröte, in der frischen Luft. Die Sonne, die hinter ihm scheint, weiß, woher er kam, wohin er geht und wie er nach vielen Tagen auf einem anderen Weg zurückkehren wird. Er ist der Geist auf der Suche nach Erfahrung. In dieser Karte sind viele Symbole der institutionalisierten Mysterien zusammengefasst, die unter hohen Garantien all die Verwirrungen umkehren, die ihr vorausgegangen sind.</string>
+
+
 
 
     <!-- CUPS -->
     <!-- WANDS -->
     <!-- SWORDS -->
     <!-- COINS -->
-
-
-
 
 
 </resources>
