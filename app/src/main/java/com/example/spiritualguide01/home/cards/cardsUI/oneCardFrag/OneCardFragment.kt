@@ -103,7 +103,7 @@ class OneCardFragment : Fragment() {
         binding.editDescriptionTV.text = oneCard.description
 
 
-        // Setting AND binding the Arcana Type(suit) by ENUM into strings (multi-lang):
+        // Setting AND binding the (violet) Arcana Name as strings to according ArcanaType(suit) by ENUM(suit):
         // BEFORE:
         // binding.editArcanaTV.text = oneCard.suit.toString()
 
