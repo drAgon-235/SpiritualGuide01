@@ -7,7 +7,7 @@
     <string name="title_home_tarot">Tarot</string>
     <string name="title_home_quotes">Zitate</string>
 
-    <!-- Mobile Navigation / Toolbar Titel -->
+    <!-- Mobile Navigation / Toolbar Titel / All 16 Fragment Titles in nav_graph -->
     <string name="title_toolbar_tarot">TAROT</string>
     <string name="title_toolbar_card_meaning">Bedeutung der Karte</string>
     <string name="title_toolbar_all_cards">Alle Karten/Arcanas</string>
@@ -91,7 +91,7 @@
 
     <!-- One Card Fragment -->
     <string name="one_card_value">Wert:</string>
-    <string name="one_card_keywords">Schlüsselworte</string>
+    <string name="one_card_keywords">Stichworte</string>
     <string name="one_card_fortune_telling">Wahrsagungen</string>
     <string name="one_card_meaning">Bedeutungen</string>
     <string name="one_card_qta">Stelle Dir folgende Fragen</string>
@@ -362,10 +362,307 @@
     <string name="card36_cups_king_description">Die Figur bedarf keiner besonderen Beschreibung, das Gesicht ist eher dunkel, was auch auf Mut schließen lässt, aber tendenziell etwas lethargisch. Als wiederkehrendes Symbol auf dem Thron ist der Stierkopf zu beachten. Das Zeichen dieses Anzugs wird durchgehend als eingraviertes oder mit einem Wappen versehenes Pentagramm dargestellt, das die Entsprechung der vier Elemente in der menschlichen Natur und das, was sie möglicherweise beherrscht, versinnbildlicht. In vielen alten Tarot-Paketen stand diese Farbe für aktuelle Münze, Geld, Leugner. \nIch habe die Ersetzung der Pentagramme nicht erfunden und ich habe keinen besonderen Grund, die Alternative zu vertreten. Der Konsens über die Wahrsagungsbedeutungen weist jedoch eine gewisse Veränderung auf, da sich die Karten zufällig nicht speziell mit Fragen des Geldes befassen.</string>
 
 
+    <!-- SWORDS -->
+    <string name="card37_swords_ace_name">As der Schwerter</string>
+    <string name="card37_swords_ace_keywords">Logik, Sachlichkeit, Intellekt, Wahlfreiheit</string>
+    <string name="card37_swords_ace_fortune_telling">Es ist jetzt an der Zeit, eine Wahl zu treffen. \nHören Sie auf zu schwanken und tun Sie das, von dem Sie wissen, dass es das Beste ist.</string>
+    <string name="card37_swords_ace_meaning">Objektive Entscheidungen treffen, Logik anwenden, sich mit Argumenten aus einer schwierigen Situation befreien, Rätsel lösen, Dinge durchdenken, Fakten betonen, den Kopf freimachen, Klarheit suchen</string>
+    <string name="card37_swords_ace_qta">Wenn ich meine Entscheidung ausschließlich auf der Grundlage von Vernunft und Logik treffen würde, wie würde meine Entscheidung aussehen? \nWas denke ich über meine eigene Problemlösungsfähigkeit? \nWer kann mir die reinen und einfachen Fakten liefern?</string>
+    <string name="card37_swords_ace_description">Aus einer Wolke geht eine Hand hervor, die nach Worten greift und deren Spitze von einer Krone umgeben ist.</string>
+
+    <string name="card38_swords_two_name">Zwei Schwerter</string>
+    <string name="card38_swords_two_keywords">Verleugnung, Debatte, Sackgasse, Waffenstillstand</string>
+    <string name="card38_swords_two_fortune_telling">Manchmal besteht der einzige Weg zu gewinnen darin, den Kampf zu verweigern. \nSie stecken vorerst fest; Lassen Sie Zeit verstreichen, bevor Sie Maßnahmen ergreifen.</string>
+    <string name="card38_swords_two_meaning">Sich weigern, eine Entscheidung zu treffen, ohne die Fakten zu kennen, Beide Seiten eines Arguments untersuchen, leidenschaftlich für das argumentieren, woran man glaubt, die Themen abwägen, den offenen Austausch von Ideen fördern, politische oder religiöse Themen diskutieren, ohne „auf die Nerven zu gehen“</string>
+    <string name="card38_swords_two_qta">Welche Informationen benötige ich, um aus dieser Sackgasse herauszukommen? \nWie kann ich meine Defensive überwinden und die Fakten erkennen? \nWelche Standpunkte außer meinen eigenen spielen in dieser Situation eine Rolle?</string>
+    <string name="card38_swords_two_description">Eine getäuschte Frauenfigur balanciert zwei Schwerter auf ihren Schultern.</string>
+
+    <string name="card39_swords_three_name">Drei Schwerter</string>
+    <string name="card39_swords_three_keywords">Diversität, Unterschied, Unzufriedenheit, Kummer, Ablehnung</string>
+    <string name="card39_swords_three_fortune_telling">Es gibt viele Trennungen und Untreue. \nWas jetzt jedoch weh tut, wird sich später als gut für Sie erweisen.</string>
+    <string name="card39_swords_three_meaning">Mutig genug sein, die Dinge so zu sehen, wie sie wirklich sind, Ihren kritischen Blick üben, Ihr bester Kritiker sein, anerkennen, dass die Dinge nicht immer wie geplant verlaufen, den Kummer überwinden und eine schmerzhafte Wahrheit annehmen</string>
+    <string name="card39_swords_three_qta">Wie kann ich meine Depression überwinden? \nInwieweit sind meine Gefühle eine Frage der Wahl? \nWie kann ich aus den Fehlern der Vergangenheit lernen?</string>
+    <string name="card39_swords_three_description">Drei Schwerter durchbohren ein Herz; Wolken und Regen dahinter.</string>
+
+    <string name="card40_swords_four_name">Vier Schwerter</string>
+    <string name="card40_swords_four_keywords">Meditation, Kontemplation, Perspektiven-Wechsel, Gedankenwelt</string>
+    <string name="card40_swords_four_fortune_telling">Treffen Sie jetzt keine Entscheidung. \nWarten Sie, und Sie werden es nicht bereuen.</string>
+    <string name="card40_swords_four_meaning">Denken Sie über Ihre Pläne nach, bevor Sie sie in die Tat umsetzen. Machen Sie eine Pause, um zu meditieren oder Ihren Kopf frei zu bekommen. Nehmen Sie sich die Zeit, jemanden oder etwas zu verstehen, bevor Sie es kritisieren. Ruhen Sie sich aus. Beschäftigen Sie Ihre Gedanken mit einer gesunden Ablenkung</string>
+    <string name="card40_swords_four_qta">Wie lange ist es her, dass Sie sich bewusst eine „Auszeit“ genommen haben? \nWie schwer fällt es Ihnen zu meditieren? \nWas würde passieren, wenn Sie sich heute einfach weigern würden, eine Entscheidung zu treffen?</string>
+    <string name="card40_swords_four_description">Das Bildnis eines Ritters in Gebetshaltung in voller Länge auf seinem Grab.</string>
+
+    <string name="card41_swords_five_name">Fünf Schwerter</string>
+    <string name="card41_swords_five_keywords">Egoismus, Feindseligkeit, Irrationalität, Selbsterhaltung</string>
+    <string name="card41_swords_five_fortune_telling">Jemand bestiehlt Sie finanziell oder romantisch. \nSeien Sie vorsichtig bei Freunden, die hinter Ihrem Rücken reden.</string>
+    <string name="card41_swords_five_meaning">In Ihrem eigenen Interesse handeln, sich dafür entscheiden, für sich selbst einzustehen, nicht vor Meinungsverschiedenheiten und Zwietracht zurückweichen, Stellung beziehen, sich weigern, einem unethischen Plan zuzustimmen</string>
+    <string name="card41_swords_five_qta">Wie verhalte ich mich, wenn ich gewinne? Was sagt das über mich aus? \nWie kann ich das Notwendige tun, ohne anderen das Gefühl zu geben, besiegt zu sein? \nWas ist der Unterschied zwischen egoistischem Handeln und Handeln in meinem eigenen Interesse?</string>
+    <string name="card41_swords_five_description">Ein verächtlicher Mann kümmert sich um zwei sich zurückziehende und niedergeschlagene Gestalten. Ihre Schwerter liegen auf dem Boden. Zwei weitere trägt er auf seiner linken Schulter, ein drittes Schwert hält er in der rechten Hand und zeigt zur Erde. Er ist der Herr im Besitz des Feldes.</string>
+
+    <string name="card42_swords_six_name">Sechs Schwerter</string>
+    <string name="card42_swords_six_keywords">Anpassung, Feinjustierung, Wissenschaft, Reisen</string>
+    <string name="card42_swords_six_fortune_telling">Schon bald geht es auf eine lange Reise übers Wasser. \nAktionen haben unerwartete Konsequenzen, seien Sie also vorbereitet.</string>
+    <string name="card42_swords_six_meaning">Das Beste aus einer schlechten Situation machen, sich von einer Niederlage erholen, Erwartungen zurücksetzen, auf unerwartete Umstände Rücksicht nehmen, anderen helfen, die sich in einer schlimmen Situation befinden, die Art und Weise ändern, wie Sie die Welt sehen, Ihre Perspektive durch Studium oder Reisen erweitern</string>
+    <string name="card42_swords_six_qta">Welche Annahmen bestimmen mein Denken? \nWie bereit bin ich, anderen zu helfen? Um es anzufordern, wenn ich es brauche? \nWie bin ich darauf vorbereitet, mit Veränderungen umzugehen? Mit unerwarteten Ergebnissen?</string>
+    <string name="card42_swords_six_description">Ein Fährmann, der Passagiere in seinem Kahn zum anderen Ufer befördert. Der Kurs verläuft reibungslos, und da die Fracht leicht ist, kann man feststellen, dass die Arbeit seine Kräfte nicht übersteigt.</string>
+
+    <string name="card43_swords_seven_name">Sieben Schwerter</string>
+    <string name="card43_swords_seven_keywords">Unehrlichkeit, Anmaßung, Hinterlist, Verdächtigungen</string>
+    <string name="card43_swords_seven_fortune_telling">Gehen Sie nicht davon aus, dass die Menschen um Sie herum Ihr Vertrauen verdienen. \nBitten Sie um einen Bericht darüber, wo sich Menschen aufgehalten haben und was sie getan haben.</string>
+    <string name="card43_swords_seven_meaning">Sich weigern, etwas Unehrliches zu tun, auch wenn keine Chance besteht, jemals erwischt zu werden. Eine schwierige Situation mit Finesse bewältigen. Annahmen aufzeigen. Ethisch handeln in der Öffentlichkeit und im Privaten. Ein Leben führen, das über jeden Zweifel erhaben ist.</string>
+    <string name="card43_swords_seven_qta">Welche Annahmen mache ich? \nWie ausgeprägt ist mein Sinn für Ethik? \nWie soll ich reagieren, wenn ich weiß, dass andere gegen die Regeln verstoßen?</string>
+    <string name="card43_swords_seven_description">Ein Mann, der gerade dabei ist, schnell fünf Schwerter wegzutragen; die beiden anderen der Karte bleiben im Boden stecken. Ein Lager ist in unmittelbarer Nähe.</string>
+
+    <string name="card44_swords_eight_name">Acht Schwerter</string>
+    <string name="card44_swords_eight_keywords">Einschränkung, Begrenzung, Gefangenschaft, Hilflosigkeit</string>
+    <string name="card44_swords_eight_fortune_telling">Hören Sie auf, das Opfer zu spielen. \nSobald Sie erkennen, dass Sie selbst Ihr größtes Hindernis sind, kann Sie nichts mehr aufhalten.</string>
+    <string name="card44_swords_eight_meaning">Grenzen respektieren, Regeln respektieren, sich aus gesundheitlichen Gründen für eine Diät entscheiden, erkennen, dass man nicht immer die Kontrolle behalten kann, Hindernisse für weitere Fortschritte erkennen, sich weigern, über ungesunde oder unethische Optionen nachzudenken, um Hilfe bitten</string>
+    <string name="card44_swords_eight_qta">Wer ist befugt, den bürokratischen Aufwand abzubauen? \nWas genau sind die Hindernisse? Welche Ressourcen werden genau benötigt, um sie zu bewegen? \nInwieweit ist Ihre Ohnmacht eine Frage der Einstellung?</string>
+    <string name="card44_swords_eight_description">Eine Frau, gefesselt und getäuscht, mit den Schwertern der Karte um sich. Dennoch ist es eher eine Karte vorübergehender Dauer als einer unwiederbringlichen Knechtschaft.</string>
+
+    <string name="card45_swords_nine_name">Neun Schwertter</string>
+    <string name="card45_swords_nine_keywords">Reue, Sorge, Verzweiflung, Schlussfolgerung</string>
+    <string name="card45_swords_nine_fortune_telling">Wenn Sie die Maßnahmen ergreifen, die Sie jetzt in Betracht ziehen, werden Sie es in Zukunft bereuen.</string>
+    <string name="card45_swords_nine_meaning">Weigern Sie sich, sich über etwas Sorgen zu machen, das Sie nicht kontrollieren können, lehnen Sie Ängste ab, beurteilen Sie Ihre eigene Leistung mit Freundlichkeit und Sanftmut, nutzen Sie Meditation, um einen unruhigen Geist zu beruhigen, konfrontieren Sie Albträume und Ängste, ziehen Sie eine Schlussfolgerung und verdrängen Sie ein Problem aus Ihrem Kopf</string>
+    <string name="card45_swords_nine_qta">Welche Rolle spielen Sorgen in Ihrer aktuellen Situation? \nFür welche anderen Zwecke könnten Sie die Energie, die Sie der Angst widmen, verwenden? \nWie können Sie wissen, wann es Zeit ist, mit dem Denken aufzuhören und mit dem Handeln zu beginnen?</string>
+    <string name="card45_swords_nine_description">Jemand sitzt wehklagend auf dem Bett, die Schwerter über sich. Es ist wie jemand, der keinen Kummer kennt, der dem seinen gleicht. Es ist eine Karte völliger Verzweiflung.</string>
+
+    <string name="card46_swords_ten_name">Zehn Schwerter</string>
+    <string name="card46_swords_ten_keywords">Erschöpfung, Ruin, Katastrophe, Ausdauer, Besessenheit</string>
+    <string name="card46_swords_ten_fortune_telling">Katastrophe! \nVerschieben Sie Pläne und ergreifen Sie keine Maßnahmen, bis die Vorzeichen besser sind.</string>
+    <string name="card46_swords_ten_meaning">Erkennen Sie die Anzeichen dafür, dass Sie Ihre Grenzen erreicht haben, achten Sie darauf, was Ihr Körper Ihnen sagen will, geben Sie dem Bedürfnis nach Ruhe und Erneuerung nach, erkennen Sie an, dass Sie den Tiefpunkt erreicht haben, verpflichten Sie sich zu einer Kehrtwende, wissen Sie, dass das Schlimmste vorbei ist</string>
+    <string name="card46_swords_ten_qta">Was sind die Anzeichen dafür, dass die Zeit der Debatte vorbei ist? \nWie können Sie erkennen, wann das Interesse der Besessenheit gewichen ist? \nWenn Ihre eigenen Grenzen erreicht sind, wo können Sie sich um Hilfe wenden?</string>
+    <string name="card46_swords_ten_description">Eine liegende Figur, durchbohrt von allen zur Karte gehörenden Schwertern.</string>
+
+    <string name="card47_swords_page_name">Page der Schwerter</string>
+    <string name="card47_swords_page_keywords">Student, Lehrling, Stipendium, Information</string>
+    <string name="card47_swords_page_fortune_telling">Diese Karte stellt einen jungen Mann oder eine junge Frau mit einem lockeren, intellektuellen Auftreten dar, die wahrscheinlich als Steinbock, Wassermann oder Fisch geboren wurde und etwas Neues von Ihnen lernen oder eine Diskussion mit Ihnen führen möchte.</string>
+    <string name="card47_swords_page_meaning">Einen Studiengang verfolgen, gute Fragen stellen, Zeit in Studium und Praxis investieren, recherchieren, es sich zur Gewohnheit machen, neue Dinge zu lernen, eine Untersuchung beginnen, darlegen, was Sie wissen müssen, einen Mentor oder Lehrer finden</string>
+    <string name="card47_swords_page_qta">Fühlen Sie sich wohl dabei, Ihre eigene Unwissenheit zu offenbaren? \nWas sind die Noten eines guten Schülers? \nInwieweit sind Sie offen für neue Informationen?</string>
+    <string name="card47_swords_page_description">Eine geschmeidige, aktive Figur hält beim schnellen Gehen ein Schwert aufrecht in beiden Händen. Er zieht über zerklüftetes Land, und auf seinem Weg drängen sich die Wolken wild zusammen. Er ist wachsam und geschmeidig und schaut hin und her, als ob jeden Moment ein erwarteter Feind auftauchen könnte.</string>
+
+    <string name="card48_swords_knight_name">Ritter der Schwerter</string>
+    <string name="card48_swords_knight_keywords">Unverblümtheit, Intelligenz, Schärfe, Nachforschungen</string>
+    <string name="card48_swords_knight_fortune_telling">Ein Fehler führt dazu, dass jemand etwas sagt, was er oder sie bereut. \nWenn Sie das waren, seien Sie bereit, sich zu entschuldigen und weiterzumachen.</string>
+    <string name="card48_swords_knight_meaning">Sagen Sie Ihre Meinung, äußern Sie Ihre Meinung, üben Sie konstruktive Kritik, teilen Sie Ihr Wissen, machen Sie aufschlussreiche Beobachtungen, lokalisieren Sie das Problem, klären Sie, was andere gesagt haben, geben Sie anderen eine klare Richtung, enthüllen Sie die Wahrheit</string>
+    <string name="card48_swords_knight_qta">Was muss ich wirklich wissen? \nInwieweit habe ich die Fakten hinter meiner Situation untersucht? \nWie kann ich mein Wissen weitergeben, ohne andere zu verprellen?</string>
+    <string name="card48_swords_knight_description">Er reitet in voller Fahrt, als würde er seine Feinde zerstreuen. Im Design ist er wirklich ein prototypischer Held romantischer Ritterlichkeit. Er könnte fast Galahad sein, dessen Schwert schnell und sicher ist, weil er ein reines Herz hat.</string>
+
+    <string name="card49_swords_queen_name">Königin der Schwerter</string>
+    <string name="card49_swords_queen_keywords">Anmut, Können, Witz, Charme, Begabung</string>
+    <string name="card49_swords_queen_fortune_telling">Diese Karte stellt eine Frau mit einer künstlerischen, intellektuellen Natur dar, die wahrscheinlich zwischen dem 12. September und dem 12. Oktober geboren wurde und kluge, positive Kommunikation nutzt, um andere von ihrem Standpunkt zu überzeugen.</string>
+    <string name="card49_swords_queen_meaning">Takt zeigen oder Diplomatie anwenden, eine angespannte Situation entschärfen, wissen, was und wie man es sagt, anderen das Gefühl geben, sich wohl und selbstbewusst zu fühlen, das Beste aus jedem herauszuholen, ein Gespür für Worte haben, Witze erzählen, ein Händchen für Musik haben, Mathematik, Kunst oder Naturwissenschaften</string>
+    <string name="card49_swords_queen_qta">Wofür habe ich ein Händchen? Wie könnte sich meine besondere Gabe jetzt als nützlich erweisen? \nInwieweit bin ich in der Lage zu sagen, was gesagt werden muss? \nWie kann ich am besten sagen, was ich sagen möchte?</string>
+    <string name="card49_swords_queen_description">Ihre rechte Hand hebt die Waffe senkrecht und der Griff ruht auf einer Armlehne ihres königlichen Stuhls. Die linke Hand ist ausgestreckt, der Arm ist erhoben. Ihr Gesichtsausdruck ist streng, aber züchtig. es deutet auf Vertrautheit mit Trauer hin. Es stellt keine Gnade dar und trotz ihres Schwertes ist sie wohl kaum ein Symbol der Macht.</string>
+
+    <string name="card50_swords_king_name">König der Schwerter</string>
+    <string name="card50_swords_king_keywords">Fachwissen, Entscheidung, Urteil, Genie</string>
+    <string name="card50_swords_king_fortune_telling">Diese Karte stellt einen älteren Mann mit einem einsichtigen, überlegten Geist dar, der wahrscheinlich zwischen dem 11. Mai und dem 10. Juni geboren wurde und für seine Integrität und seine scharfe Entscheidungsfähigkeit bekannt ist.</string>
+    <string name="card50_swords_king_meaning">Sich mit Bestimmtheit und Autorität äußern, eine endgültige Entscheidung treffen, einen Experten hinzuziehen, Berater und Gutachter hinzuziehen, zu einem endgültigen Schluss kommen, auf der Grundlage fundierter Informationen eine vorteilhafte Vereinbarung treffen</string>
+    <string name="card50_swords_king_qta">Wie würde Ihre Entscheidung ausfallen, wenn Sie jetzt ein verbindliches Urteil fällen müssten? \nWie bequem ist es für Sie, genau das zu sagen, was Sie meinen? Wie oft mäßigen Sie Ihre Aussage, aus Angst, andere zu beleidigen? \nWenn Sie andere fragen würden: „Was ist mein Fachgebiet?“ Was würden sie sagen?</string>
+    <string name="card50_swords_king_description">Er sitzt im Urteil und hält das aus der Scheide gezogene Schild seiner Klage. Er erinnert natürlich an das herkömmliche Symbol der Gerechtigkeit in der Großen Arkana, und er mag diese Tugend repräsentieren, aber er ist vielmehr die Macht über Leben und Tod, kraft seines Amtes.</string>
 
     <!-- WANDS -->
-    <!-- SWORDS -->
+    <string name="card51_wands_ace_name">As der Stäbe</string>
+    <string name="card51_wands_ace_keywords">Wunsch, Inspiration, Vision, Schöpfung, Erfindung</string>
+    <string name="card51_wands_ace_fortune_telling">Jemand ist scharf auf Sie, ein neues Jobangebot steht vor der Tür, gehen Sie sanft und tragen Sie einen großen Stock</string>
+    <string name="card51_wands_ace_meaning">Inspiriert sein, ein wichtiges Ziel identifizieren, die Möglichkeit bekommen, alles zu tun, was man tun möchte, Anweisungen geben oder erhalten, eine Lösung sehen, etwas Neues erschaffen, erregt sein, sei es sexuell oder kreativ</string>
+    <string name="card51_wands_ace_qta">Was will ich wirklich mehr als alles andere? \nWas passiert, wenn ich diese Gelegenheit verstreichen lasse? \nWie klar habe ich meine Richtungen, Werte und Ziele definiert?</string>
+    <string name="card51_wands_ace_description">Eine aus einer Wolke hervortretende Hand ergreift einen starken Zauberstab oder eine Keule.</string>
+
+    <string name="card52_wands_two_name">Zwei Stäbe</string>
+    <string name="card52_wands_two_keywords">Konflikt, Entscheidung, Option, Individualität</string>
+    <string name="card52_wands_two_fortune_telling">Hüten Sie sich vor falschen Freunden. \nReden Sie nicht um den heißen Brei herum; Sagen Sie, was Sie denken und tun Sie, was Sie tun möchten.</string>
+    <string name="card52_wands_two_meaning">Eine Wahl haben, eine Option anbieten oder angeboten bekommen, den Wert der Herangehensweise einer anderen Person erkennen, verstehen, dass es mehr als einen Weg gibt, „eine Katze zu häuten“, erfolgreich mehr als eine Sache gleichzeitig tun, befähigt sein eine Entscheidung treffen</string>
+    <string name="card52_wands_two_qta">Wie entscheidet man in einem Konflikt, wer gewinnt? \nWelche Werte bestimmen Ihren Entscheidungsprozess? \nWelche Wahl wirst du treffen, wenn du überhaupt keine Wahl triffst?</string>
+    <string name="card52_wands_two_description">Ein großer Mann blickt von einem Zinnendach auf Meer und Küste; in seiner rechten Hand hält er einen Globus, während in seiner linken Hand ein Stab auf der Zinne ruht; ein anderer ist in einem Ring befestigt. Die Rose, das Kreuz und die Lilie sollten auf der linken Seite bemerkt werden.</string>
+
+    <string name="card53_wands_three_name">Drei Stäbe</string>
+    <string name="card53_wands_three_keywords">Umsetzung, Aktion, Erkundung</string>
+    <string name="card53_wands_three_fortune_telling">Sie planen bald eine Reise. \nSeien Sie auf der Hut: Ihr Schiff kommt herein.</string>
+    <string name="card53_wands_three_meaning">Einen Plan in die Tat umsetzen, den entscheidenden ersten Schritt machen, Gutes geschehen lassen, über die eigenen Grenzen hinausgehen, neue Wege beschreiten, sofort durchstarten, zusehen, wie die eigenen Pläne in die Tat umgesetzt werden</string>
+    <string name="card53_wands_three_qta">Wie können Sie es sich zur Gewohnheit machen, mit Ihren Gewohnheiten zu brechen? \nWie können Sie unter diesen Umständen eine entscheidende Führungspersönlichkeit sein? \nWas ist Ihr Aktionsplan für die nächste Woche, den nächsten Monat, das nächste Jahr oder das nächste Jahrzehnt?</string>
+    <string name="card53_wands_three_description">Eine ruhige, stattliche Persönlichkeit blickte mit dem Rücken vom Rand einer Klippe auf Schiffe, die über das Meer fahren. Drei Stäbe sind in den Boden gepflanzt und er stützt sich leicht auf einen von ihnen.</string>
+
+    <string name="card54_wands_four_name">Vier Stäbe</string>
+    <string name="card54_wands_four_keywords">Feier, Jubel, Gemeinschaft, Teamarbeit, Abschluss</string>
+    <string name="card54_wands_four_fortune_telling">Jemand beobachtet und bewertet Ihre Arbeit. \nMöglicherweise erhalten Sie bald eine Hochzeitseinladung.</string>
+    <string name="card54_wands_four_meaning">An einer großen Feier teilhaben, an einem gemeinsamen Erfolgs- und Erfolgserlebnis teilhaben, sich auf eine Party vorbereiten, gemeinsam auf ein gemeinsames Ziel hinarbeiten, Auszeichnungen verleihen oder gewinnen</string>
+    <string name="card54_wands_four_qta">Inwieweit leiste ich meinen Beitrag? \nWelche Art der Anerkennung wäre am sinnvollsten? \nWie könnte sich eine Feier jetzt auf die Moral der Gemeinschaft auswirken?</string>
+    <string name="card54_wands_four_description">An den vier großen Stäben im Vordergrund hängt eine große Girlande; zwei weibliche Figuren heben Blumensträuße in die Höhe; An ihrer Seite führt eine Brücke über einen Wassergraben zu einem alten Herrenhaus.</string>
+
+    <string name="card55_wands_five_name">Fünf Stäbe</string>
+    <string name="card55_wands_five_keywords">Konfrontation, Störung, Unterscheidung, Einwand, Streit</string>
+    <string name="card55_wands_five_fortune_telling">Bereiten Sie sich auf einen Kampf mit Ihrem besten Freund vor. \nDenken Sie daran: Sobald Sie Worte losgelassen haben, können Sie sie nicht mehr zurücknehmen.</string>
+    <string name="card55_wands_five_meaning">Eine abweichende Meinung ruhig äußern, jemandem erlauben, seine eigenen Methoden anzuwenden, um eine Aufgabe zu erledigen, das Wort für Diskussionen oder Debatten freigeben, bisher erzielte Fortschritte mit zuvor festgelegten Standards vergleichen</string>
+    <string name="card55_wands_five_qta">Inwieweit lohnt es sich, für Ihr aktuelles Anliegen zu kämpfen? \nWelche Alternativen gibt es zum regelrechten Konflikt? \nWas passiert in einem „fairen Kampf“? \nWie kannst du diesen Kampf fair halten?</string>
+    <string name="card55_wands_five_description">Eine Truppe Jugendlicher, die Stäbe schwingen, als ob sie Sport treiben oder sich streiten. Es handelt sich um eine mimische Kriegsführung, und dazu gehören die fünf Zauberstäbe.</string>
+
+    <string name="card56_wands_six_name">Sechs Stäbe</string>
+    <string name="card56_wands_six_keywords">Sieg, Leistung, Erfolg, Triumph</string>
+    <string name="card56_wands_six_fortune_telling">Jemand plant eine Party für Sie, aber nicht jeder freut sich über Ihren jüngsten Erfolg. \nPassen Sie auf neidische Freunde auf.</string>
+    <string name="card56_wands_six_meaning">Ihre Kollegen übertreffen, einen Wettbewerb gewinnen, als fähige Person anerkannt werden, Ihren „Moment im Rampenlicht“ haben, von der Menge angefeuert werden, eine Auszeichnung erhalten, sich die Bewunderung anderer verdienen, jemandem sagen: „Gut gemacht!“</string>
+    <string name="card56_wands_six_qta">Nach welcher Art von Anerkennung sehne ich mich? Warum? \nWie großzügig lobe ich die Leistungen anderer? \nWas passiert, wenn die Parade vorbei ist?</string>
+    <string name="card56_wands_six_description">Ein mit Lorbeer geschmückter Reiter trägt einen Stab, der mit einer Lorbeerkrone geschmückt ist; Lakaien mit Stäben stehen ihm zur Seite.</string>
+
+    <string name="card57_wands_seven_name">Sieben Stäbe</string>
+    <string name="card57_wands_seven_keywords">Tapferkeit, Mut, Entschlossenheit</string>
+    <string name="card57_wands_seven_fortune_telling">Lassen Sie sich von einem persönlichen Angriff nicht überraschen. \nBereiten Sie sich darauf vor, sich selbst oder jemanden, den Sie lieben, zu verteidigen.</string>
+    <string name="card57_wands_seven_meaning">Sich weigern, durch Angst oder Einschüchterung zum Schweigen gebracht zu werden, den Kampf allen Widrigkeiten zum Trotz fortzusetzen, grimmig zu sein, sich gegen physische und emotionale Angriffe zu verteidigen, sich zu weigern, Missbrauch hinzunehmen, an seinen Werten festzuhalten, trotz allem Druck, sie aufzugeben</string>
+    <string name="card57_wands_seven_qta">Wann fühlst du dich am meisten bedroht? Wann gehst du in die Defensive? \nWie fähig sind Sie, sich zu verteidigen? \nWelche Arten von Überzeugungen sind es wert, verteidigt zu werden?</string>
+    <string name="card57_wands_seven_description">Ein junger Mann auf einer schroffen Anhöhe, einen Stab schwingend; Von unten werden ihm sechs weitere Stäbe entgegengehoben.</string>
+
+    <string name="card58_wands_eight_name">Acht Stäbe</string>
+    <string name="card58_wands_eight_keywords">Geschwindigkeit, Schnelligkeit, Reaktionsfähigkeit, Veränderung</string>
+    <string name="card58_wands_eight_fortune_telling">Achten Sie auf einen überraschenden Brief per Post. \nDeine ganze Welt steht kurz davor, auf den Kopf gestellt zu werden.</string>
+    <string name="card58_wands_eight_meaning">Schnelle Maßnahmen ergreifen, so schnell wie möglich mit einem Plan vorankommen, sich selbst mit Energie versorgen, sich an plötzliche Veränderungen anpassen, Rückschläge gelassen ertragen, die Idee annehmen, dass nichts für immer gleich bleibt, schnell und angemessen auf unvorhergesehene Probleme reagieren</string>
+    <string name="card58_wands_eight_qta">Wie schnell können Sie sich an Veränderungen anpassen? \nWie würden Sie auf eine überwältigende, plötzliche Veränderung reagieren? \nWelche Veränderungen zeichnen sich für Sie ab? Wie gut haben Sie sich darauf vorbereitet?</string>
+    <string name="card58_wands_eight_description">Die Karte stellt Bewegung durch das Unbewegliche dar – einen Flug von Zauberstäben durch ein offenes Land; aber sie orientieren sich an der Laufzeit ihres Kurses. Das, was sie bedeuten, ist naheliegend; es kann sogar an der Schwelle liegen.</string>
+
+    <string name="card59_wands_nine_name">Neun Stäbe</string>
+    <string name="card59_wands_nine_keywords">Zähigkeit, Beharrlichkeit, Ausdauer, Loyalität, Befreiung</string>
+    <string name="card59_wands_nine_fortune_telling">Entspannen Sie sich noch nicht; es kommt noch mehr. \nDer Test, vor dem Sie jetzt stehen, findet aus einem Grund statt: um Ihnen zu zeigen, wer Ihre wahren Freunde sind.</string>
+    <string name="card59_wands_nine_meaning">Für die Dauer daran festhalten, seine Versprechen und Verpflichtungen erfüllen, unter unglaublichem Druck standhalten, sich über die Ziellinie schleppen, sich aus eigener Kraft wieder aufrappeln, sich weigern, aufzuhören, so weit zu gehen, wie man gehen kann, und mit dem eigenen zufrieden sein Leistung</string>
+    <string name="card59_wands_nine_qta">Wie gehen Sie damit um, wenn es wirklich schwierig wird? \nWas ermutigt Sie, weiterzumachen, wenn es Ihnen schlecht geht? \nAn welchem Punkt sollten Sie in der Lage sein, diese Situation loszulassen?</string>
+    <string name="card59_wands_nine_description">Die Figur stützt sich auf seinen Stab und blickt erwartungsvoll, als warte sie auf einen Feind. Dahinter befinden sich acht weitere Stäbe – aufrecht, in geordneter Anordnung, wie eine Palisade.</string>
+
+    <string name="card60_wands_ten_name">Zehn Stäbe</string>
+    <string name="card60_wands_ten_keywords">Erschöpfung, Widerstand, Belastung, Unterdrückung</string>
+    <string name="card60_wands_ten_fortune_telling">Du bist erschöpft. \nZiehen Sie sich zurück, nehmen Sie sich eine Auszeit und überlassen Sie die Dinge eine Weile jemand anderem.</string>
+    <string name="card60_wands_ten_meaning">Sich in extremen Situationen behaupten, anderen helfen, ihre Lasten zu tragen, den Unterdrückten zu Hilfe kommen, die eigenen Grenzen kennen und ehrlich sein, erkennen, wenn man für eine bestimmte Aufgabe nicht gut geeignet ist</string>
+    <string name="card60_wands_ten_qta">Woher wissen Sie, wann Sie das Ende Ihrer Kräfte erreicht haben? \nWie leicht sagen Sie Nein zu neuen Projekten und Anfragen? \nWelche Projekte könnten Sie delegieren ... oder streichen?</string>
+    <string name="card60_wands_ten_description">Ein Mann, der unter der Last der zehn Stäbe leidet, die er trägt.</string>
+
+    <string name="card61_wands_page_name">Page der Stäbe</string>
+    <string name="card61_wands_page_keywords">Enthusiasmus, Eifer, Zuversicht, Bestätigung, Bejahung</string>
+    <string name="card61_wands_page_fortune_telling">Diese Karte steht für einen jungen Mann oder eine junge Frau mit einem feurigen, enthusiastischen Auftreten, wahrscheinlich als Krebs, Löwe oder Jungfrau geboren, der/die eine neue Beziehung mit Ihnen beginnen möchte.</string>
+    <string name="card61_wands_page_meaning">Eine neue Chance ergreifen, ein Cheerleader oder glühender Verfechter seiner Sache sein, ein wahrer Gläubiger sein, erste Schritte in Richtung Unabhängigkeit unternehmen, auf die eigenen Fähigkeiten vertrauen, um Feedback bitten</string>
+    <string name="card61_wands_page_qta">Wie leicht geben Sie Ihre eigene Unerfahrenheit zu? \nWie können Sie ein besserer Schüler oder Angestellter sein? \nWelche Eigenschaften würden die Entdeckungsreise eines völligen Neulings erleichtern?</string>
+    <string name="card61_wands_page_description">In einer ländlichen Szene, steht ein junger Mann in der Verkündigung. Er ist unbekannt, aber treu, und seine Botschaft ist seltsam.</string>
+
+    <string name="card62_wands_knight_name">Ritter der Stäbe</string>
+    <string name="card62_wands_knight_keywords">Kühnheit, Tapferkeit, Leidenschaft, Überzeugungskraft, Fürsprache</string>
+    <string name="card62_wands_knight_fortune_telling">Diese Karte steht für einen Mann mit einer kühnen, leidenschaftlichen Persönlichkeit, der wahrscheinlich zwischen dem 12. Juli und dem 11. August geboren ist und Sie mitreißen will.</string>
+    <string name="card62_wands_knight_meaning">Vorwärts stürmen, schnell vorankommen, sich nicht einschränken lassen, die Menschen in Ihrer Umgebung mit Ihrem Witz und Charme verblüffen, andere von Ihrem Führungsanspruch überzeugen, andere davon überzeugen, Ihnen zu folgen, ein Katalysator für Veränderungen sein</string>
+    <string name="card62_wands_knight_qta">Inwieweit haben Sie Ihr Endziel definiert? \nWas ist der schnellste Weg, die Aufgabe zu erledigen? Ist das unbedingt der beste Weg? \nWie lange ist es her, dass Sie zurückgeblickt haben, um zu sehen, ob andere wirklich Ihrem Beispiel folgen?</string>
+    <string name="card62_wands_knight_description">Inwieweit haben Sie Ihr Endziel definiert? \nWas ist der schnellste Weg, die Aufgabe zu erledigen? Ist das unbedingt der beste Weg? \nWie lange ist es her, dass Sie zurückgeblickt haben, um zu sehen, ob andere wirklich Ihrem Beispiel folgen?</string>
+
+    <string name="card63_wands_queen_name">Königin der Stäbe</string>
+    <string name="card63_wands_queen_keywords">Aufmerksamkeit, Anziehungskraft, Einigung, Zusammenarbeit</string>
+    <string name="card63_wands_queen_fortune_telling">Diese Karte steht für eine Frau mit einer attraktiven, anziehenden Persönlichkeit, die wahrscheinlich zwischen dem 11. März und dem 20. April geboren ist und Sie dazu bringen möchte, die Dinge auf ihre Art zu tun.</string>
+    <string name="card63_wands_queen_meaning">Aufmerksam sein, anderen helfen, sich auf das Thema zu konzentrieren, alle zur Zusammenarbeit bewegen, Gemeinsamkeiten erkennen, Menschen trotz ihrer Unterschiede zusammenbringen, umgekehrte Psychologie anwenden</string>
+    <string name="card63_wands_queen_qta">Wie achtsam bin ich? \nWie kann ich die Aufmerksamkeit der Menschen auf das lenken, was wir gemeinsam haben? \nInwieweit bin ich in der Lage, Menschen davon zu überzeugen, das zu tun, was ich von ihnen möchte?</string>
+    <string name="card63_wands_queen_description">Die Stäbe in dieser Farbe sind immer in Blättern, da es sich um eine Farbe des Lebens und der Lebendigkeit handelt. Emotional und auch sonst entspricht die Persönlichkeit der Königin der des Königs, ist aber magnetischer.</string>
+
+    <string name="card64_wands_king_name">König of Stäbe</string>
+    <string name="card64_wands_king_keywords">Kreativität, Erfindungsreichtum, Leistung, Richtung</string>
+    <string name="card64_wands_king_fortune_telling">Diese Karte steht für einen älteren Mann mit einer beherrschenden, charismatischen Persönlichkeit, der wahrscheinlich zwischen dem 13. November und dem 12. Dezember geboren ist und der es vorzieht, Anweisungen zu geben und sie zu befolgen</string>
+    <string name="card64_wands_king_meaning">Alte Dinge auf neue und aufregende Weise zusammenfügen, unerwartete Lösungen finden, seine Erfahrung nutzen, um Rätsel und Probleme zu lösen, das tun, was man sich vorgenommen hat, die Bemühungen anderer anleiten</string>
+    <string name="card64_wands_king_qta">Wie selbstbewusst bin ich als Führungskraft? \nWie kann ich mehr Selbstvertrauen ausstrahlen? \nWie kann ich mein Fachwissen auf eine Weise anbieten, die andere dazu inspiriert, mir zu folgen?</string>
+    <string name="card64_wands_king_description">Die physische und emotionale Natur, der diese Karte zugeordnet ist, ist dunkel, feurig, geschmeidig, lebhaft, leidenschaftlich, edel. Der König erhebt einen blühenden Stab und trägt, wie seine drei Entsprechungen in den übrigen Farben, unter seiner Krone eine so genannte Erhaltungshaube. Er verbindet sich mit dem Symbol des Löwen, das auf der Rückseite seines Throns prangt.</string>
+
+
     <!-- COINS -->
+    <string name="card65_coins_ace_name">As der Pentagramme/Münzen</string>
+    <string name="card65_coins_ace_keywords">Gesundheit, Reichtum, Praktikabilität, Empfangen</string>
+    <string name="card65_coins_ace_fortune_telling">Ihre Gesundheit wird sich verbessern. \nDer Scheck, auf den Sie warten, ist wirklich auf dem Postweg.</string>
+    <string name="card65_coins_ace_meaning">Entwurf eines Plans zur Erreichung von Wohlstand, Erkennen von Möglichkeiten zur Verbesserung des Einkommens oder der Gesundheit, Erkennen, dass Sie alles haben, was Sie brauchen, Wertschätzung für alles, was das Universum Ihnen gegeben hat, Empfangen des perfekten Geschenks zur perfekten Zeit</string>
+    <string name="card65_coins_ace_qta">Wie würde ich mich entscheiden, wenn ich meine Entscheidung ausschließlich von praktischen Erwägungen abhängig machen würde? \nWelche Ressourcen stehen mir zur Verfügung? \nWelche physischen und finanziellen Auswirkungen wird meine Entscheidung haben?</string>
+    <string name="card65_coins_ace_description">Eine Hand, die wie üblich aus einer Wolke kommt, hält ein Pentagramm/eine Münze hoch.</string>
+
+    <string name="card66_coins_two_name">Zwei Pentagramme/Münzen</string>
+    <string name="card66_coins_two_keywords">Bewertung, Entscheidung, Budgetierung, Diagnose</string>
+    <string name="card66_coins_two_fortune_telling">Es ist an der Zeit, den Haushalt auszugleichen. \nVermeiden Sie die Versuchung, kritische Gelder für frivole Güter auszugeben. </string>
+    <string name="card66_coins_two_meaning">Abwägen von Optionen, Vergleichen von Preisen, Bestimmen des Wertes einer Option gegenüber einer anderen, Jonglieren mit Ressourcen, um über die Runden zu kommen, Treffen schwieriger Entscheidungen auf der Grundlage dessen, was das Beste für Ihren Körper oder Ihr Sparbuch ist, Betrachten des Endergebnisses, Einholen einer zweiten Meinung zu Gesundheitsfragen</string>
+    <string name="card66_coins_two_qta">Welche Werte bestimmen meine Entscheidungen? \nWie weit bin ich bereit, jetzt ein wenig Vergnügen zu opfern, um später mehr Vergnügen zu haben? \nAngesichts meiner derzeitigen Situation, welche Vorgehensweise würde mir mehr von dem geben, was ich wirklich brauche?</string>
+    <string name="card66_coins_two_description">Ein junger Mann, der tanzt, hat in jeder Hand ein Pentagramm, und sie sind durch eine endlose Schnur verbunden, die wie die umgekehrte Zahl 8 aussieht.</string>
+
+    <string name="card67_coins_three_name">Drei Pentagramme/Münzen</string>
+    <string name="card67_coins_three_keywords">Ausdruck, Herstellung, Arbeit, Beitrag</string>
+    <string name="card67_coins_three_fortune_telling">Ein hochdotierter Vertrag ist in Ihrer Zukunft. \nWenn Sie hart arbeiten, werden Sie Erfolg haben.</string>
+    <string name="card67_coins_three_meaning">Ein Projekt zu Ende bringen, Standards setzen und einhalten, nach Vorgaben arbeiten, etwas herstellen, das andere schätzen, etwas Neues schaffen, seinen Teil in einem Gruppenprojekt beitragen, genau das liefern, worum andere gebeten haben</string>
+    <string name="card67_coins_three_qta">Wie kann ich mehr erreichen? \nWas wird von mir erwartet? Welche Rolle spiele ich bei der Kontrolle dieser Erwartungen? \nWas ist vereinbart worden? Wie gut wurde diese Vereinbarung eingehalten?</string>
+    <string name="card67_coins_three_description">Ein Bildhauer bei seiner Arbeit in einem Kloster. Vergleiche die Zeichnung, die die Acht der Münzen illustriert. Der Lehrling oder Amateur darin hat seine Belohnung erhalten und ist nun ernsthaft an der Arbeit.</string>
+
+    <string name="card68_coins_four_name">Vier Pentagramme/Münzen</string>
+    <string name="card68_coins_four_keywords">Schutz, Erhaltung, Bewahrung, Sicherheit</string>
+    <string name="card68_coins_four_fortune_telling">Ein regnerischer Tag steht bevor - es ist Zeit, Geld zu sparen</string>
+    <string name="card68_coins_four_meaning">Sparen für einen verregneten Tag, Fasten als Teil einer spirituellen Praxis, Diät, um den Körper zu verbessern, Verzicht auf Sex, um eine spirituelle Tradition oder ein persönliches Versprechen einzuhalten, finanziell konservativ sein, einen Treuhandfonds einrichten, ein Sparkonto eröffnen</string>
+    <string name="card68_coins_four_qta">Welche Faktoren bestimmen, wie konservativ oder großzügig Sie sind? \nWelche Dinge müssen um jeden Preis bewahrt werden? \nWann ist Habgier oder Geiz ein guter Charakterzug? Wann könnte Großzügigkeit gegen Sie arbeiten?</string>
+    <string name="card68_coins_four_description">Eine gekrönte Gestalt mit einem Pentagramm über der Krone umklammert eine andere mit Händen und Armen; zwei Pentagramme befinden sich unter seinen Füßen. Er hält an dem fest, was er hat.</string>
+
+    <string name="card69_coins_five_name">Fünf Pentagramme/Münzen</string>
+    <string name="card69_coins_five_keywords">Armut, Elend, Not, Krise</string>
+    <string name="card69_coins_five_fortune_telling">Die Finanzen werden knapper, \n Bereiten Sie sich auf einen Rückschlag vor.</string>
+    <string name="card69_coins_five_meaning">Erkennen Sie Ihre Bedürfnisse und ergreifen Sie Maßnahmen, um sie zu erfüllen, tun Sie so viel wie möglich mit dem Wenigen, das Sie haben, geben Sie zu, dass Sie Hilfe brauchen, nehmen Sie die Hilfe an, die sich Ihnen bietet, konzentrieren Sie sich auf das, was Sie haben, und nicht auf das, was Sie nicht haben, suchen Sie das Licht am Ende des Tunnels</string>
+    <string name="card69_coins_five_qta">Welche wichtigen Ressourcen fehlen mir? \nWelche Menschen oder Gruppen würden mir zu Hilfe kommen, wenn ich sie darum bitten würde? \nWie könnte sich ein verarmter Geist auf meine körperliche oder finanzielle Situation auswirken?</string>
+    <string name="card69_coins_five_description">Zwei Bettler gehen im Schneesturm an einem beleuchteten Fensterflügel vorbei.</string>
+
+    <string name="card70_coins_six_name">Sechs Pentagramme/Münzen</string>
+    <string name="card70_coins_six_keywords">Wohltätigkeit, Fairness, Kooperation, Teilen</string>
+    <string name="card70_coins_six_fortune_telling">Wenn Sie Hilfe brauchen, bitten Sie darum. \Denken Sie aber daran: Was Sie erhalten, kann durch das begrenzt sein, was Sie in der Vergangenheit anderen gegeben haben.</string>
+    <string name="card70_coins_six_meaning">Zeit, Geld oder Mühe für eine Wohltätigkeitsorganisation spenden, sich an einer Gruppenarbeit beteiligen, seine Ressourcen anderen zur Verfügung stellen, ohne eine Gegenleistung zu erwarten, sicherstellen, dass alle gleich behandelt werden, zusammen auf ein gemeinsames Ziel hinarbeiten, Reichtum, Zeit oder Aufmerksamkeit umverteilen, den Zehnten geben, die Anerkennung für seinen Erfolg teilen</string>
+    <string name="card70_coins_six_qta">Was halte ich von Wohltätigkeit? Darüber, sie zu geben? Darüber, sie anzunehmen? \nWie kann ich wissen, ob ich andere fair behandle? \nWas könnte ich geben, was sonst niemand kann?</string>
+    <string name="card70_coins_six_description">Ein Mensch in der Gestalt eines Kaufmanns wiegt Geld in einer Waage und verteilt es an Bedürftige und Notleidende. Es ist ein Zeugnis für seinen eigenen Erfolg im Leben und für seine Herzensgüte.</string>
+
+    <string name="card71_coins_seven_name">Sieben Pentagramme/Münzen</string>
+    <string name="card71_coins_seven_keywords">Beurteilung, Bewertung, Neubewertung, Reflexion</string>
+    <string name="card71_coins_seven_fortune_telling">Die Dinge sind nicht so gelaufen wie erwartet. \nSammeln Sie die Scherben auf und bereiten Sie sich darauf vor, weiterzumachen.</string>
+    <string name="card71_coins_seven_meaning">Ergebnisse im Hinblick auf eine Leistungsverbesserung betrachten, sich fragen: "Wie glücklich bin ich?", Ideen zur Verbesserung der Gesundheit oder des Wohlstands entwickeln, entscheiden, dass es Zeit für eine Veränderung ist, eine ehrliche Meinung äußern</string>
+    <string name="card71_coins_seven_qta">Inwieweit habe ich meine eigenen Erwartungen erfüllt? \nWas sind die Bedingungen für Erfolg? \nWie kann ich mit den Fortschritten, die ich gemacht habe, zufriedener sein?</string>
+    <string name="card71_coins_seven_description">Ein junger Mann, der sich auf seinen Stab stützt, blickt aufmerksam auf sieben Pentakel, die an einem grünen Büschel zu seiner Rechten befestigt sind; man könnte sagen, dass dies seine Schätze sind und dass sein Herz dort ist.</string>
+
+    <string name="card72_coins_eight_name">Acht Pentagramme/Münzen</string>
+    <string name="card72_coins_eight_keywords">Anstrengung, Fleiß, Geschicklichkeit</string>
+    <string name="card72_coins_eight_fortune_telling">Hören Sie auf, übermäßig zu analysieren, zu recherchieren und Gliederungen zu erstellen. \nSchnallen Sie sich an und erledigen Sie die Arbeit. \nSchluss mit der Prokrastination!</string>
+    <string name="card72_coins_eight_meaning">Sein Bestes geben, Enthusiasmus und Eifer in die Arbeit einbringen, sich bemühen, das Beste aus sich herauszuholen, die richtige Arbeit für sich finden, sich um die kleinen Details kümmern, ein geschickter Handwerker werden, etwas mit den Händen bauen, ein handgemachtes Geschenk machen</string>
+    <string name="card72_coins_eight_qta">Wie lange ist es her, dass Sie "in Ihrer Arbeit versunken" waren? \nWie können Sie Ihr Engagement und Ihre Konzentration verbessern? \nWelche Arbeit können Sie am besten? Was an dieser Arbeit reizt Sie?</string>
+    <string name="card72_coins_eight_description">Ein Handwerksmeister bei seiner Arbeit, die er in Form von Trophäen ausstellt.</string>
+
+    <string name="card73_coins_nine_name">Neun Pentagramme/Münzen</string>
+    <string name="card73_coins_nine_keywords">Ausbildung, Disziplin, Vertrauen, genug</string>
+    <string name="card73_coins_nine_fortune_telling">Solange Sie nicht zu schätzen wissen, was Sie haben, werden Sie auch kein Glück haben, mehr zu bekommen.</string>
+    <string name="card73_coins_nine_meaning">Zeit investieren, um eine schwierige Aufgabe zu erlernen oder zu lehren, sich vor körperlichen oder finanziellen Extremen hüten, Opfer bringen, um größere Ziele zu erreichen, eine komplexe Aufgabe in einfache Schritte zerlegen, wollen, was man hat, den Unterschied zwischen Bedürfnissen und Wünschen kennen</string>
+    <string name="card73_coins_nine_qta">Wenn Sie das, was Sie wollen, nicht haben könnten, wie würden Sie es schaffen? \nKönnten Sie eine komplexe Aufgabe einfacher machen, indem Sie sie in kleinere Schritte unterteilen? \nWie geduldig sind Sie während des Lernprozesses? Mit sich selbst? Mit anderen?</string>
+    <string name="card73_coins_nine_description">Eine Frau mit einem Vogel am Handgelenk steht inmitten einer Fülle von Weinreben im Garten eines herrschaftlichen Hauses. Es ist ein weites Gebiet, das auf eine Fülle von Dingen hinweist. Möglicherweise ist es ihr eigener Besitz und zeugt von materiellem Wohlstand.</string>
+
+    <string name="card74_coins_ten_name">Zehn Pentagramme/Münzen</string>
+    <string name="card74_coins_ten_keywords">Reichtum, Überfluss, Erwerb, Habgier</string>
+    <string name="card74_coins_ten_fortune_telling">Das große Geld ist in der nahen Zukunft. \Erwarten Sie einen mächtigen Segen, der auf Sie zukommt.</string>
+    <string name="card74_coins_ten_meaning">Den körperlichen und finanziellen Segen feiern, erkennen, wie glücklich oder gesegnet man ist, mit seinen körperlichen und finanziellen Errungenschaften zufrieden sein, die "Zeiten des Überflusses" optimal nutzen, ein Festmahl genießen, Freunde oder Familie mit Geschenken überhäufen</string>
+    <string name="card74_coins_ten_qta">Wie viel Zeug brauche ich wirklich? \nWie denke ich über Reichtum und Überfluss? Wie definiere ich diese Begriffe? \nWie könnte der Verzicht auf einige Besitztümer Raum für Wachstum schaffen?</string>
+    <string name="card74_coins_ten_description">Ein Mann und eine Frau unter einem Torbogen, der den Eingang zu einem Haus und einem Anwesen bildet. Sie werden von einem Kind begleitet, das neugierig auf zwei Hunde blickt, die eine im Vordergrund sitzende alte Persönlichkeit ansprechen. Das Kind hält die Hand auf einem der Hunde.</string>
+
+    <string name="card75_coins_page_name">Page der Pentagramme/Münzen</string>
+    <string name="card75_coins_page_keywords">Geschicklichkeit, Wohlstand, Lernen, Wachstum, Reife</string>
+    <string name="card75_coins_page_fortune_telling">Diese Karte steht für einen jungen Mann oder eine junge Frau mit einem erdverbundenen, praktischen Auftreten, der/die wahrscheinlich als Widder, Stier oder Zwilling geboren wurde und der/die Sie spielerisch ermutigt, finanzielle oder sexuelle Risiken einzugehen.</string>
+    <string name="card75_coins_page_meaning">Den Wert eines Dollars schätzen lernen, einen Sparplan aufstellen, die ersten Schritte zum Schuldenabbau unternehmen, neue körperliche Aufgaben erlernen, die eigene Sexualität entdecken, eine Diät, ein Gewichthebeprogramm oder eine gesundheitsbezogene Anstrengung beginnen, Lernen durch Handeln</string>
+    <string name="card75_coins_page_qta">Wie können Sie mehr finanzielle oder sexuelle Erfahrungen sammeln, ohne Ihren Lebensunterhalt oder Ihre Gesundheit zu riskieren? \nWie könnte praktisches Lernen in Ihrer Situation eine Rolle spielen? \nWas ist die praktischste Entscheidung, die Sie treffen könnten?</string>
+    <string name="card75_coins_page_description">Eine jugendliche Gestalt, die aufmerksam auf das Pentagramm blickt, das über ihren erhobenen Händen schwebt. Er bewegt sich langsam, unempfänglich für das, was um ihn herum geschieht.</string>
+
+    <string name="card76_coins_knight_name">Ritter der Pentagramme/Münzen</string>
+    <string name="card76_coins_knight_keywords">Vorsicht, Konzentration, Realismus, Erfindergeist</string>
+    <string name="card76_coins_knight_fortune_telling">Eine geizige Person könnte Sie tadeln, weil Sie Geld ausgeben. \Seien Sie darauf vorbereitet, eine wirtschaftliche oder sexuelle Entscheidung zu verteidigen.</string>
+    <string name="card76_coins_knight_meaning">Kluger Umgang mit Geld, Sparen für schlechte Zeiten, Aufmerksames Achten auf physische oder finanzielle Details, Wissen, wohin jeder Dollar fließt, Safer Sex, Vorziehen von Fakten gegenüber "guten Gefühlen", Finden kreativer Wege, um mit den vorhandenen Ressourcen auszukommen, Fertigstellung einer neuen Erfindung</string>
+    <string name="card76_coins_knight_qta">Was ist der Unterschied zwischen Vorsicht und Angst? \nWie kann ich die Praktikabilität meiner eigenen Ideen und Methoden bewerten? \nWie realistisch sind meine Ziele?</string>
+    <string name="card76_coins_knight_description">Er reitet ein langsames, ausdauerndes, schweres Pferd, dem sein eigenes Aussehen entspricht. Er hält sein Symbol, aber er schaut es nicht an.</string>
+
+    <string name="card77_coins_queen_name">Königin der Pentagramme/Münzen</string>
+    <string name="card77_coins_queen_keywords">Luxus, Komfort, Einfallsreichtum, Großzügigkeit, Wohlstand</string>
+    <string name="card77_coins_queen_fortune_telling">Diese Karte steht für eine Frau mit einer expansiven, sinnlichen Natur, die wahrscheinlich zwischen dem 13. und 31. Dezember geboren ist und die sinnliche Anziehungskraft und das Versprechen von Belohnung nutzt, um andere von ihrem Standpunkt zu überzeugen.</string>
+    <string name="card77_coins_queen_meaning">Wertschätzung von gutem Essen, gutem Wein, schöner Kunst, schönen Körpern oder anderen schönen Dingen im Leben, Genießen einer gesunden Sexualität, sich selbst verwöhnen, sich gelegentlich etwas gönnen, jemanden mit einer Entschädigung belohnen, die über die Erwartungen hinausgeht, alles haben</string>
+    <string name="card77_coins_queen_qta">Wie definiere ich Luxus? \nInwieweit bin ich in der Lage, in sinnlichen Genüssen zu schwelgen? \nWas müsste ich aufgeben, um "alles zu haben"?</string>
+    <string name="card77_coins_queen_description">Das Gesicht deutet auf eine dunkle Frau hin, deren Qualitäten sich in der Vorstellung einer großen Seele zusammenfassen lassen; sie hat auch den ernsten Zug der Intelligenz; sie betrachtet ihr Symbol und kann darin Welten sehen.</string>
+
+    <string name="card78_coins_king_name">König der Pentagramme/Münzen</string>
+    <string name="card78_coins_king_keywords">Stabilität, Verlässlichkeit, Vertrauen, Einverständnis</string>
+    <string name="card78_coins_king_fortune_telling">Diese Karte steht für einen älteren Mann mit einem finanziell, sozial und politisch konservativen Geist, der wahrscheinlich zwischen dem 12. August und dem 11. September geboren wurde und dafür bekannt ist, seinen Worten Taten folgen zu lassen.</string>
+    <string name="card78_coins_king_meaning">Schuldenfrei werden, mehr als genug haben, um über die Runden zu kommen, in einen Sparplan einzahlen, eine neue Stelle annehmen, um beruflich voranzukommen, eine Lebens- oder Krankenversicherung abschließen, selbstbewusst im Schlafzimmer sein, die Rolle des Vollstreckers übernehmen, wenn man dazu aufgefordert wird</string>
+    <string name="card78_coins_king_qta">Wie können Sie mit mehr Selbstvertrauen und Reife mit Ausgaben umgehen? \nWie verlässlich sind Sie? Wie verlässlich würden andere Sie einschätzen? \nInwieweit ist eine konservative Sichtweise wertvoll? Ab welchem Punkt wird er eher zu einer Belastung als zu einem Segen?</string>
+    <string name="card78_coins_king_description">Die Figur bedarf keiner besonderen Beschreibung, das Gesicht ist eher dunkel, was auch Mut suggeriert, aber in der Tendenz etwas lethargisch. Der Stierkopf ist als wiederkehrendes Symbol auf dem Thron zu sehen. Das Zeichen dieser Farbe wird durchgängig als eingraviertes oder mit dem Pentagramm versehenes Wappen dargestellt, das die Entsprechung der vier Elemente in der menschlichen Natur und das, was sie beherrschen kann, versinnbildlicht. \nIn vielen alten Tarot-Packungen stand diese Farbe für aktuelle Münzen, Geld, Leugner. Ich habe die Ersetzung der Pentakel nicht erfunden, und ich habe keinen besonderen Grund, diese Alternative zu unterstützen. Aber der Konsens der divinatorischen Bedeutungen ist auf der Seite einer Veränderung, weil die Karten nicht zufällig besonders mit Geldfragen zu tun haben.</string>
+
+
+
+
 
 
 </resources>

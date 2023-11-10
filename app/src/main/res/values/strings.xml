@@ -361,10 +361,315 @@
     <string name="card36_cups_king_description">The figure calls for no special description, the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull\'s head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. \nI have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money.</string>
 
 
+    <!-- SWORDS -->
+    <string name="card37_swords_ace_name">Ace of Swords</string>
+    <string name="card37_swords_ace_keywords">logic, objectivity, intellect, choice</string>
+    <string name="card37_swords_ace_fortune_telling">The time to make a choice is now. \nStop wavering and do what you know is best.</string>
+    <string name="card37_swords_ace_meaning">Making objective decisions, Applying logic, Reasoning your way out of a difficult situation, Solving puzzles, Thinking things through, Emphasizing the facts, Clearing your mind, Seeking clarity</string>
+    <string name="card37_swords_ace_qta">If I made my decision purely based on reason and logic, what would my decision be? \nWhat do I think about my own problem-solving ability? \nWho can supply me with the pure and simple facts?</string>
+    <string name="card37_swords_ace_description">A hand issues from a cloud, grasping as word, the point of which is encircled by a crown.</string>
 
+    <string name="card38_swords_two_name">Two of Swords</string>
+    <string name="card38_swords_two_keywords">denial, debate, impasse, truce</string>
+    <string name="card38_swords_two_fortune_telling">Sometimes, the only way to win is to refuse to fight. \nYou are stuck for now; let time pass before taking action.</string>
+    <string name="card38_swords_two_meaning">Refusing to make a decision without getting the facts, Exploring both sides of an argument, Arguing passionately for what you believe in, Weighing the issues, Encouraging the open exchange of ideas, Discussing political or religious issues without getting "hot under the collar"</string>
+    <string name="card38_swords_two_qta">What information do I need to get past this impasse? \nHow can I get past being defensive and see the facts? \nWhat viewpoints, other than my own, play a role in this situation?</string>
+    <string name="card38_swords_two_description">A hoodwinked female figure balances two swords upon her shoulders.</string>
+
+    <string name="card39_swords_three_name">Three of Swords</string>
+    <string name="card39_swords_three_keywords">variance, difference, dissatisfaction, heartache, rejection</string>
+    <string name="card39_swords_three_fortune_telling">Breakups and infidelity abound. \nWhat hurts now, though, will turn out to be good for you later on.</string>
+    <string name="card39_swords_three_meaning">Being brave enough to see things as they really are, Exercising your critical eye, Being your own best critic, Acknowledging that things don\'t always turn out as planned, Moving past heartbreak to embrace a painful truth</string>
+    <string name="card39_swords_three_qta">How can I get past my depression? \nTo what extent are my emotions a matter of choice? \nHow can I learn from the mistakes of the past?</string>
+    <string name="card39_swords_three_description">Three swords piercing a heart; cloud and rain behind.</string>
+
+    <string name="card40_swords_four_name">Four of Swords</string>
+    <string name="card40_swords_four_keywords">meditation, contemplation, perspective, mindset</string>
+    <string name="card40_swords_four_fortune_telling">Do not make any decision now. \nWait, and you will be glad you did.</string>
+    <string name="card40_swords_four_meaning">Thinking over your plans before putting them into action, Pausing to meditate or clear your mind, Taking time to understand someone or something before criticizing it, Resting, Occupying your thoughts with a healthy distraction</string>
+    <string name="card40_swords_four_qta">How long has it been since you deliberately took a "time out?" \nHow difficult is it for you to meditate? \nWhat would happen if you simply refused to make a decision today?</string>
+    <string name="card40_swords_four_description">The effigy of a knight in the attitude of prayer, at full length upon his tomb.</string>
+
+    <string name="card41_swords_five_name">Five of Swords</string>
+    <string name="card41_swords_five_keywords">selfishness, hostility, irrationality, self-preservation</string>
+    <string name="card41_swords_five_fortune_telling">Someone is stealing from you, financially or romantically. \nBe wary of friends who talk behind your back.</string>
+    <string name="card41_swords_five_meaning">Acting in your own best interest, Choosing to stand up for yourself, Not backing down from disagreement and discord, Taking a stand, Refusing to go along with an unethical plan</string>
+    <string name="card41_swords_five_qta">How do I behave when I win? What does that say about me? \nHow can I do what iss necessary without making others feel defeated? \nWhat is the difference between selfish action and acting in my own best interest?</string>
+    <string name="card41_swords_five_description">A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field.</string>
+
+    <string name="card42_swords_six_name">Six of Swords</string>
+    <string name="card42_swords_six_keywords">adaptation, adjustments, science, travel</string>
+    <string name="card42_swords_six_fortune_telling">You will soon go on a long journey over water. \nActions have unexpected consequences, so be prepared.</string>
+    <string name="card42_swords_six_meaning">Making the best of a bad situation, Recovering from defeat, Resetting expectations, Making allowances for unexpected circumstances, Helping others who find themselves in dire circumstances, Changing the way you see the world, Broadening your perspective through study or travel</string>
+    <string name="card42_swords_six_qta">What assumptions govern my thinking? \nHow willing am I to lend aid to others? To request it when I need it? \nHow prepared am I to deal with change? With unexpected outcomes?</string>
+    <string name="card42_swords_six_description">A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength.</string>
+
+    <string name="card43_swords_seven_name">Seven of Swords</string>
+    <string name="card43_swords_seven_keywords">dishonesty, presumption, sneakiness, assumptions</string>
+    <string name="card43_swords_seven_fortune_telling">Don\'t assume people around you are worthy of your trust. \nAsk for an accounting of where people have been, and what they have been doing.</string>
+    <string name="card43_swords_seven_meaning">Refusing to do something dishonest, even when there is no chance of ever being caught, Handling a difficult situation with finesse, Pointing out assumptions, Acting ethically in public and in private, Living a life that is beyond reproach</string>
+    <string name="card43_swords_seven_qta">What assumptions am I making? \nHow well-defined is my sense of ethics? \nHow should I respond when I know others are breaking the rules?</string>
+    <string name="card43_swords_seven_description">A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand.</string>
+
+    <string name="card44_swords_eight_name">Eight of Swords</string>
+    <string name="card44_swords_eight_keywords">restriction, limitation, confinement, helplessness</string>
+    <string name="card44_swords_eight_fortune_telling">Get over playing the victim. \nOnce you realize you are your own biggest obstacle, nothing can hold you back.</string>
+    <string name="card44_swords_eight_meaning">Honoring limits, Respecting the rules, Deciding to go on a diet for your health\'s sake, Recognizing you cannot always be in control, Identifying obstacles to further progress, Refusing to think about unhealthy or unethical options, Asking for assistance</string>
+    <string name="card44_swords_eight_qta">Who is empowered to cut through the red tape? \nWhat, exactly, are the obstacles? What resources, exactly, are needed to move them? \nTo what extent is your powerlessness a matter of attitude?</string>
+    <string name="card44_swords_eight_description">A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage.</string>
+
+    <string name="card45_swords_nine_name">Nine of Swords</string>
+    <string name="card45_swords_nine_keywords">remorse, worry, distraught, conclusion</string>
+    <string name="card45_swords_nine_fortune_telling">If you take the action you are considering now, you will be sorry in the future.</string>
+    <string name="card45_swords_nine_meaning">Refusing to worry about what you cannot control, Rejecting anxiety, Judging your own performance with kindness and gentleness, Using meditation to quiet a troubled mind, Confronting nightmares and fears, Drawing a conclusion and putting an issue out of your mind</string>
+    <string name="card45_swords_nine_qta">What role does worry play in your current situation? \nTo what other ends might you devote the energy you are giving to anxiety? \nHow can you know when it\'s time to stop thinking and start acting?</string>
+    <string name="card45_swords_nine_description">One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation.</string>
+
+    <string name="card46_swords_ten_name">Ten of Swords</string>
+    <string name="card46_swords_ten_keywords">exhaustion, ruin, disaster, stamina, obsession</string>
+    <string name="card46_swords_ten_fortune_telling">Disaster! \nPut off plans and do not take action until omens are better.</string>
+    <string name="card46_swords_ten_meaning">Seeing the signs that you have reached your limits, Paying attention to what your body is trying to tell you, Giving in to the need for rest and renewal, Acknowledging that you have hit bottom, Committing to a turnaround, Knowing the worst is over</string>
+    <string name="card46_swords_ten_qta">What are the signs that the time for debate is over? \nHow can you tell when interest has given way to obsession? \nWhen your own limits are reached, where can you turn for aid?</string>
+    <string name="card46_swords_ten_description">A prostrate figure, pierced by all the swords belonging to the card.</string>
+
+    <string name="card47_swords_page_name">Page of Swords</string>
+    <string name="card47_swords_page_keywords">student, apprentice, scholarship, information</string>
+    <string name="card47_swords_page_fortune_telling">This card represents a young man or woman with an airy, intellectual demeanor, likely born a Capricorn, Aquarius, or Pisces, who wants to learn something new from you or have a discussion with you.</string>
+    <string name="card47_swords_page_meaning">Pursuing a course of study, Asking good questions, Investing time in study and practice, Doing research, Making a habit of learning new things, Starting an investigation, Outlining what you need to know, Finding a mentor or teacher</string>
+    <string name="card47_swords_page_qta">How comfortable are you with revealing your own ignorance? \nWhat are the marks of a good student? \nTo what extent are you open to new information?</string>
+    <string name="card47_swords_page_description">A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment.</string>
+
+    <string name="card48_swords_knight_name">Knight of Swords</string>
+    <string name="card48_swords_knight_keywords">bluntness, intelligence, incisiveness, investigation</string>
+    <string name="card48_swords_knight_fortune_telling">A blunder leads someone to say something he or she regrets. \nIf this was you, be prepared to apologize and move on.</string>
+    <string name="card48_swords_knight_meaning">Speaking your mind, Making your opinions known, Offering constructive criticism, Sharing your knowledge, Making insightful observations, Pinpointing the problem, Clarifying what others have said, Giving clear direction to others, Uncovering the truth</string>
+    <string name="card48_swords_knight_qta">What do I really need to know? \nTo what extent have I investigated the facts behind my situation? \nHow can I share what I know without alienating others?</string>
+    <string name="card48_swords_knight_description">He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart.</string>
+
+    <string name="card49_swords_queen_name">Queen of Swords</string>
+    <string name="card49_swords_queen_keywords">grace, skill, wit, charm, aptitude</string>
+    <string name="card49_swords_queen_fortune_telling">This card represents a woman with an artistic, intellectual nature, likely born between September 12th and October 12th, who uses clever, positive communication to sway others to her point of view.</string>
+    <string name="card49_swords_queen_meaning">Exercising tact or using diplomacy, Defusing a tense situation, Knowing what to say and how to say it, Making others feel comfortable and confident, Bringing out the best in everyone, Having a way with words, Telling jokes, Possessing a knack for music, math, art, or science</string>
+    <string name="card49_swords_queen_qta">What do I have a knack for? How might my special gift prove useful now? \nTo what extent am I capable of saying what needs to be said? \nWhat is the best possible way to say what I want to say?</string>
+    <string name="card49_swords_queen_description">Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power.</string>
+
+    <string name="card50_swords_king_name">King of Swords</string>
+    <string name="card50_swords_king_keywords">expertise, decision, verdict, genius</string>
+    <string name="card50_swords_king_fortune_telling">This card represents an older man with an insightful, deliberate spirit, likely born between May 11th and June 10th, who is known for his integrity and sharp decision-making ability.</string>
+    <string name="card50_swords_king_meaning">Expressing yourself with firmness and authority, Rendering a final decision, Consulting an expert, Calling in advisors and consultants, Coming to a final conclusion, Reaching a beneficial agreement based on sound information</string>
+    <string name="card50_swords_king_qta">What would your decision be if you had to render a binding verdict right now? \nHow comfortable are you saying exactly what you mean? How often do you temper what you have to say for fear of offending others? \nIf you were to ask others, "What's my area of expertise?" what would they say?</string>
+    <string name="card50_swords_king_description">He sits in judgment, holding the unsheathed sign of his suit. He recalls, of course, the conventional Symbol of justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office.</string>
 
     <!-- WANDS -->
-    <!-- SWORDS -->
+    <string name="card51_wands_ace_name">Ace of Wands</string>
+    <string name="card51_wands_ace_keywords">desire, inspiration, vision, creation, invention</string>
+    <string name="card51_wands_ace_fortune_telling">Someone has the "hots" for you, A new job offer is coming your way, Walk softly, and carry a big stick</string>
+    <string name="card51_wands_ace_meaning">Being inspired, Identifying an important goal, Being given the opportunity to do whatever you want to do, Giving or receiving direction, Seeing a solution, Creating something new, Being aroused, sexually or creatively</string>
+    <string name="card51_wands_ace_qta">What do I really want, more than anything else? \nWhat happens if I let this opportunity pass me by? \nHow clearly have I defined my directions, values, and goals?</string>
+    <string name="card51_wands_ace_description">A hand issuing from a cloud grasps a stout wand or club.</string>
+
+    <string name="card52_wands_two_name">Two of Wands</string>
+    <string name="card52_wands_two_keywords">conflict, decision, option, individuality</string>
+    <string name="card52_wands_two_fortune_telling">Beware false friends. \nDon\'t be mealy-mouthed; say what you think and do what you want to do.</string>
+    <string name="card52_wands_two_meaning">Having a choice, Offering or being offered an option, Seeing the value of another person\'s approach, Understanding there\'s more than one way to "skin a cat", Successfully doing more than one thing at a time, Being empowered to make a choice</string>
+    <string name="card52_wands_two_qta">In a conflict, how do you decide who wins? \nWhat values govern your decision-making process? \nWhat choice will you make if you make no choice at all?</string>
+    <string name="card52_wands_two_description">A tall man looks from a battlemented roof over sea and shore; he holds a globe in his right hand, while a staff in his left rests on the battlement; another is fixed in a ring. The Rose and Cross and Lily should be noticed on the left side.</string>
+
+    <string name="card53_wands_three_name">Three of Wands</string>
+    <string name="card53_wands_three_keywords">implementation, action, exploration</string>
+    <string name="card53_wands_three_fortune_telling">You will be planning a trip soon. \nBe on the lookout: your ship is coming in.</string>
+    <string name="card53_wands_three_meaning">Putting a plan into motion, Taking that critical first step, Making good things happen, Going beyond your limits, Blazing new trails, Hitting the ground running, Seeing your plans come to fruition</string>
+    <string name="card53_wands_three_qta">How can you make a habit of breaking your habits? \nHow can you be a decisive leader in this circumstance? \nWhat is your action plan for the next week, month, year, or decade?</string>
+    <string name="card53_wands_three_description">A calm, stately personage, with his back turned, looking from a cliff\'s edge at ships passing over the sea. Three staves are planted in the ground, and he leans slightly on one of them.</string>
+
+    <string name="card54_wands_four_name">Four of Wands</string>
+    <string name="card54_wands_four_keywords">celebration, jubilation, community, teamwork, completion</string>
+    <string name="card54_wands_four_fortune_telling">Someone is watching and evaluating your work. \nYou may get a wedding invitation soon.</string>
+    <string name="card54_wands_four_meaning">Sharing in a great celebration, Sharing in a communal sense of achievement and success, Preparing for a party, Working together toward a common goal, Giving or winning awards</string>
+    <string name="card54_wands_four_qta">To what extent am I doing my part? \nWhat kind of recognition would be most meaningful? \nHow might a celebration now impact community morale?</string>
+    <string name="card54_wands_four_description">From the four great staves planted in the foreground there is a great garland suspended; two female figures uplift nosegays; at their side is a bridge over a moat, leading to an old manorial house.</string>
+
+    <string name="card55_wands_five_name">Five of Wands</string>
+    <string name="card55_wands_five_keywords">confrontation, disruption, distinction, objection, strife</string>
+    <string name="card55_wands_five_fortune_telling">Prepare for a fight with your best friend. \nRemember: once you let words loose, you can\'t take them back.</string>
+    <string name="card55_wands_five_meaning">Calmly expressing a dissenting opinion, Allowing someone to use his or her own methods to get a job done, Opening the floor for discussion or debate, Comparing progress made so far to standards set earlier</string>
+    <string name="card55_wands_five_qta">To what extent is your current issue worth fighting for? \nWhat alternatives are there to outright conflict? \nWhat happens in a "fair fight?" \nHow can you keep this fight fair?</string>
+    <string name="card55_wands_five_description">A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare, and hereto correspond the five wands.</string>
+
+    <string name="card56_wands_six_name">Six of Wands</string>
+    <string name="card56_wands_six_keywords">victory, achievement, success, triumph</string>
+    <string name="card56_wands_six_fortune_telling">Someone is planning a party for you, but not everyone feels so good about your recent success. \nWatch out for envious friends.</string>
+    <string name="card56_wands_six_meaning">Outperforming your peers, Winning a competition, Being recognized as a capable person, Having your "moment in the spotlight", Being cheered on by the crowd, Getting an award, Earning the admiration of others, Telling someone, "Good job!"</string>
+    <string name="card56_wands_six_qta">What kind of recognition do I crave? Why? \nHow freely do I praise the achievements of others? \nWhat happens when the parade is over?</string>
+    <string name="card56_wands_six_description">A laurelled horseman bears one staff adorned with a laurel crown; footmen with staves are at his side.</string>
+
+    <string name="card57_wands_seven_name">Seven of Wands</string>
+    <string name="card57_wands_seven_keywords">bravery, resolve, determination</string>
+    <string name="card57_wands_seven_fortune_telling">Don\'t be surprised by a personal attack. \nPrepare to defend yourself or someone you love.</string>
+    <string name="card57_wands_seven_meaning">Refusing to be silenced through fear or intimidation, Continuing a fight against all odds, Being fierce, Defending yourself against physical and emotional attacks, Refusing to put up with abuse, Clinging to your values despite all pressure to abandon them</string>
+    <string name="card57_wands_seven_qta">When do you feel most threatened? When do you get defensive? \nHow capable are you of defending yourself? \nWhat kinds of beliefs are worth defending?</string>
+    <string name="card57_wands_seven_description">A young man on a craggy eminence brandishing a staff; six other staves are raised towards him from below.</string>
+
+    <string name="card58_wands_eight_name">Eight of Wands</string>
+    <string name="card58_wands_eight_keywords">speed, swiftness, responsiveness, change</string>
+    <string name="card58_wands_eight_fortune_telling">Watch for a surprising letter in the mail. \nYour whole world is about to be turned on its ear.</string>
+    <string name="card58_wands_eight_meaning">Taking swift action, Moving forward with a plan as quickly as possible, Energizing yourself, Adapting to sudden changes, Taking setbacks in stride, Embracing the idea that nothing stays the same forever, Reacting quickly and appropriately to unforeseen problems</string>
+    <string name="card58_wands_eight_qta">How quickly to you adapt to change? \nWhat would your response be to overwhelming, sudden change? \nWhat changes are on your horizon? How well have you prepared for them?</string>
+    <string name="card58_wands_eight_description">The card represents motion through the immovable-a flight of wands through an open country; but they draw to the term of their course. That which they signify is at hand; it may be even on the threshold.</string>
+
+    <string name="card59_wands_nine_name">Nine of Wands</string>
+    <string name="card59_wands_nine_keywords">toughness, persistence, stamina, loyalty, release</string>
+    <string name="card59_wands_nine_fortune_telling">Don\'t relax yet; there is more to come. \nThe test you are facing now is happening for one reason: to show you who your real friends are.</string>
+    <string name="card59_wands_nine_meaning">Sticking with it for the duration, Fulfilling your promises and obligations, Bearing up under incredible duress, Dragging yourself across the finish line, Picking yourself up by your own bootstraps, Refusing to quit, Going as far as you can go and being satisfied with your performance</string>
+    <string name="card59_wands_nine_qta">How do you cope when things get really tough? \nWhen you get low, what encourages you to go on? \nAt what point should you be able to let this situation go?</string>
+    <string name="card59_wands_nine_description">The figure leans upon his staff and has an expectant look, as if awaiting an enemy. Behind are eight other staves-erect, in orderly disposition, like a palisade.</string>
+
+    <string name="card60_wands_ten_name">Ten of Wands</string>
+    <string name="card60_wands_ten_keywords">exhaustion, resistance, burden, oppression</string>
+    <string name="card60_wands_ten_fortune_telling">You\'re worn out. \nBack off, take a time out, and let someone else handle things for a while.</string>
+    <string name="card60_wands_ten_meaning">Holding your own in extreme circumstances, Helping others carry their burdens, Coming to the aid of the oppressed, Knowing and being honest about your own limits, Recognizing when you are not well-suited for a particular task</string>
+    <string name="card60_wands_ten_qta">How will you know when you reach the end of your rope? \nHow easily do you say no to new projects and requests? \nWhat projects could you delegate...or eliminate?</string>
+    <string name="card60_wands_ten_description">A man oppressed by the weight of the ten staves which he is carrying.</string>
+
+    <string name="card61_wands_page_name">Page of Wands</string>
+    <string name="card61_wands_page_keywords">enthusiasm, eagerness, confidence, validation, affirmation</string>
+    <string name="card61_wands_page_fortune_telling">This card represents a young man or woman with a fiery, enthusiastic demeanor, likely born a Cancer, Leo, or Virgo, who wants to start a new relationship with you</string>
+    <string name="card61_wands_page_meaning">Leaping at a new opportunity, Being a cheerleader or ardent advocate for your cause, Being a True Believer, Taking first steps toward independence, Trusting in your own abilities, Asking for feedback</string>
+    <string name="card61_wands_page_qta">How easily do you admit your own inexperience? \nHow can you be a better student or employee? \nWhat qualities would make a total beginner\'s voyage of discovery easier?</string>
+    <string name="card61_wands_page_description">In a scene similar to the former, a young man stands in the act of proclamation. He is unknown but faithful, and his tidings are strange.</string>
+
+    <string name="card62_wands_knight_name">Knight of Wands</string>
+    <string name="card62_wands_knight_keywords">boldness, bravado, passion, persuasion, advocacy</string>
+    <string name="card62_wands_knight_fortune_telling">This card represents a man with a bold, passionate personality, likely born between July 12th and August 11th, who wants to sweep you off your feet</string>
+    <string name="card62_wands_knight_meaning">Charging ahead, Making rapid progress, Refusing limits, Dazzling those around you with your wit and charm, Convincing others of your right to leadership, Convincing others to follow you, Being a catalyst for change</string>
+    <string name="card62_wands_knight_qta">To what extent have you defined your ultimate goal? \nWhat is the fastest way to get the job done? Is this necessarily the best way? \nHow long has it been since you looked back to see if others really are following your lead?</string>
+    <string name="card62_wands_knight_description">He is shewn as if upon a journey, armed with a short wand, and although mailed is not on a warlike errand. He is passing mounds or pyramids. The motion of the horse is a key to the character of its rider, and suggests the precipitate mood, or things connected therewith.</string>
+
+    <string name="card63_wands_queen_name">Queen of Wands</string>
+    <string name="card63_wands_queen_keywords">attention, attraction, unification, collaboration</string>
+    <string name="card63_wands_queen_fortune_telling">This card represents a woman with an attractive, appealing personality, likely born between March 11th and April 20th, who wants to charm you into doing things her way</string>
+    <string name="card63_wands_queen_meaning">Paying close attention, Helping others focus on the issue at hand, Getting everyone to work together, Identifying common ground, Bringing people together, despite their differences, Using reverse psychology</string>
+    <string name="card63_wands_queen_qta">How attentive am I? \nHow can I draw people\'s attention to what we have in common? \nTo what extent am I able to convince people to do what I want them to do?</string>
+    <string name="card63_wands_queen_description">The Wands throughout this suit are always in leaf, as it is a suit of life and animation. Emotionally and otherwise, the Queen\'s personality corresponds to that of the King, but is more magnetic.</string>
+
+    <string name="card64_wands_king_name">King of Wands</string>
+    <string name="card64_wands_king_keywords">creativity, ingenuity, achievement, direction</string>
+    <string name="card64_wands_king_fortune_telling">This card represents an older man with a commanding, charismatic personality, likely born between November 13th and December 12th, who prefers to give directions and have them followed</string>
+    <string name="card64_wands_king_meaning">Putting old things together in new and exciting ways, Coming up with unexpected solutions, Using your experience to solve puzzles and problems, Doing what you set out to do, Directing the efforts of others</string>
+    <string name="card64_wands_king_qta">How confident a leader am I? \nHow can I project more confidence? \nHow can I offer my expertise in ways that inspire others to follow me?</string>
+    <string name="card64_wands_king_description">The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown. He connects with the symbol of the lion, which is emblazoned on the back of his throne.</string>
+
+
     <!-- COINS -->
+    <string name="card65_coins_ace_name">Ace of Pentacles/Coins</string>
+    <string name="card65_coins_ace_keywords">health, wealth, practicality, receiving</string>
+    <string name="card65_coins_ace_fortune_telling">Your health will improve. \nThe check you are looking for really is in the mail.</string>
+    <string name="card65_coins_ace_meaning">Outlining a plan for achieving prosperity, Becoming aware of opportunities to improve income or health, Realizing you have everything you need, Appreciating everything the Universe has given you, Receiving the perfect gift at the perfect time</string>
+    <string name="card65_coins_ace_qta">If I made my decision based solely on practical concerns, what would my decision be? \nWhat resources are available to me? \nWhat will be the physical and financial impact of my decisions?</string>
+    <string name="card65_coins_ace_description">A hand - issuing, as usual, from a cloud - holds up a pentacle/coin.</string>
+
+    <string name="card66_coins_two_name">Two of Pentacles/Coins</string>
+    <string name="card66_coins_two_keywords">evaluation, decision, budgeting, diagnosis</string>
+    <string name="card66_coins_two_fortune_telling">It is time to balance the budget. \nAvoid the temptation to spend critical funds on frivolous goods.</string>
+    <string name="card66_coins_two_meaning">Weighing options, Comparing prices, Determining the value of one option over another, Juggling resources to make ends meet, Making difficult choices based on what\'s best for your body or your bankbook, Looking at the bottom line, Asking for a second opinion on health issues</string>
+    <string name="card66_coins_two_qta">What values govern my decisions? \nHow willing am I to sacrifice a little pleasure now in order to have more pleasure later on? \nGiven my current situation, which course of action will give me more of what I really need?</string>
+    <string name="card66_coins_two_description">A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.</string>
+
+    <string name="card67_coins_three_name">Three of Pentacles/Coins</string>
+    <string name="card67_coins_three_keywords">expression, production, work, contribution</string>
+    <string name="card67_coins_three_fortune_telling">A high-dollar contract is in your future. \nIf you work hard, you\'ll succeed.</string>
+    <string name="card67_coins_three_meaning">Finishing a project, Setting and meeting standards, Performing according to specifications, Making something others value, Creating something new, Doing your part in a group project, Delivering exactly what others have asked for</string>
+    <string name="card67_coins_three_qta">How can I get more done? \nWhat\'s expected of me? How large a role do I play in controlling those expectations? \nWhat\'s been agreed to? How well has that agreement been followed?</string>
+    <string name="card67_coins_three_description">A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.</string>
+
+    <string name="card68_coins_four_name">Four of Pentacles/Coins</string>
+    <string name="card68_coins_four_keywords">protection, conservation, preservation, safety</string>
+    <string name="card68_coins_four_fortune_telling">A rainy day is coming - it\'s time to save some money</string>
+    <string name="card68_coins_four_meaning">Saving for a rainy day, Fasting as part of a spiritual practice, Dieting in an effort to improve your body, Abstaining from sex as a way of honoring a spiritual tradition or personal promise, Being financially conservative, Establishing a trust fund, Opening a savings account</string>
+    <string name="card68_coins_four_qta">What factors determine how conservative or generous you are? \nWhat kinds of things must be preserved at all costs? \nWhen is greediness or stinginess a good trait to have? When might generosity work against you?</string>
+    <string name="card68_coins_four_description">A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.</string>
+
+    <string name="card69_coins_five_name">Five of Pentacles/Coins</string>
+    <string name="card69_coins_five_keywords">poverty, destitution, need, crisis</string>
+    <string name="card69_coins_five_fortune_telling">Finances are getting tighter, \nPrepare for a setback.</string>
+    <string name="card69_coins_five_meaning">Recognizing your needs and taking action to fulfill them, Doing as much as you can do with what little you have, Admitting you need help, Embracing the aid that comes your way, Focusing on what you have versus what you don\'t, Looking for the light at the end of the tunnel</string>
+    <string name="card69_coins_five_qta">What critical resources do I lack? \nWhat people or groups would come to my aid if I asked? \nHow might an impoverished spirit be impacting my physical or financial condition?</string>
+    <string name="card69_coins_five_description">Two mendicants in a snow-storm pass a lighted casement.</string>
+
+    <string name="card70_coins_six_name">Six of Pentacles/Coins</string>
+    <string name="card70_coins_six_keywords">charity, fairness, cooperation, sharing</string>
+    <string name="card70_coins_six_fortune_telling">When you need help, ask for it. \nRemember, though: what you receive may be limited by what you\'ve given to others in the past.</string>
+    <string name="card70_coins_six_meaning">Giving time, money, or effort to a charity, Taking part in a group effort, Lending your resources to others without expecting anything in return, Making sure everyone is treated equally, Working together toward a common goal, Redistributing wealth, time, or attention, Tithing, Sharing credit for your success</string>
+    <string name="card70_coins_six_qta">How do I feel about charity? About giving it? About receiving it? \nHow can I know if I\'m treating others fairly? \nWhat could I give that no one else can?</string>
+    <string name="card70_coins_six_description">A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart.</string>
+
+    <string name="card71_coins_seven_name">Seven of Pentacles/Coins</string>
+    <string name="card71_coins_seven_keywords">assessment, evaluation, re-evaluation, reflection</string>
+    <string name="card71_coins_seven_fortune_telling">Things won\'t work out as expected. \nPick up the pieces and prepare to move on.</string>
+    <string name="card71_coins_seven_meaning">Looking at results with an eye toward improving performance, Asking, "How happy am I?", Coming up with ideas for improving your health or prosperity, Deciding it\'s time for a change, Expressing an honest opinion</string>
+    <string name="card71_coins_seven_qta">To what extent have I fulfilled my own expectations? \nWhat are the terms of success? \nHow can I be happier with the progress I have made?</string>
+    <string name="card71_coins_seven_description">A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.</string>
+
+    <string name="card72_coins_eight_name">Eight of Pentacles/Coins</string>
+    <string name="card72_coins_eight_keywords">effort, work diligence, skill</string>
+    <string name="card72_coins_eight_fortune_telling">Stop over-analyzing, researching, and outlining. \nBuckle down and get the work done. \nNo more procrastination!</string>
+    <string name="card72_coins_eight_meaning">Doing your best, Bringing enthusiasm and zeal to your work, Making an effort to be the best you can be, Finding the work that is right for you, Taking care of the small details, Becoming a finely skilled craftsperson, Building something with your hands, Making a handmade gift</string>
+    <string name="card72_coins_eight_qta">How long has it been since you were "lost in your work?" \nHow can you improve your level of dedication and focus? \nWhat work do you do best? What about that work appeals to you?</string>
+    <string name="card72_coins_eight_description">An artist in stone at his work, which he exhibits in the form of trophies.</string>
+
+    <string name="card73_coins_nine_name">Nine of Pentacles/Coins</string>
+    <string name="card73_coins_nine_keywords">training, discipline, confidence, enough</string>
+    <string name="card73_coins_nine_fortune_telling">Until you appreciate what you have, you won\'t have any luck getting more.</string>
+    <string name="card73_coins_nine_meaning">Investing time in learning or teaching a difficult task, Restraining yourself from physical or financial extremes, Making sacrifices as a way of achieving larger goals, Breaking a complex task down into simple steps, Wanting what you have, Knowing the difference between needs and wants</string>
+    <string name="card73_coins_nine_qta">If you could not have what you want, how would you make do? \nCould you make a complex task easier by breaking it down into smaller steps? \nHow patient are you during the learning process? With yourself? With others?</string>
+    <string name="card73_coins_nine_description">A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being.</string>
+
+    <string name="card74_coins_ten_name">Ten of Pentacles/Coins</string>
+    <string name="card74_coins_ten_keywords">wealth, abundance, acquisition, greed</string>
+    <string name="card74_coins_ten_fortune_telling">Big money is in the near future. \nExpect a powerful blessing to come your way.</string>
+    <string name="card74_coins_ten_meaning">Celebrating your physical and financial blessings, Realizing how lucky or how blessed you are, Being satisfied with your physical and financial achievements, Taking best advantage of "times of plenty", Enjoying a feast, Showering friends or family with gifts</string>
+    <string name="card74_coins_ten_qta">How much stuff do I really need? \nHow do I feel about wealth and abundance? How do I define these terms? \nHow might shedding some possessions open room for growth?</string>
+    <string name="card74_coins_ten_description">A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child\'s hand is on one of them.</string>
+
+    <string name="card75_coins_page_name">Page of Pentacles/Coins</string>
+    <string name="card75_coins_page_keywords">practicality, prosperity, learning, growth, adolescence</string>
+    <string name="card75_coins_page_fortune_telling">This card represents a young man or woman with an earthy, practical demeanor, likely born an Aries, Taurus, or Gemini, who playfully encourages you to take financial or sexual risks.</string>
+    <string name="card75_coins_page_meaning">Learning the value of a dollar, Starting a savings plan, Taking the first steps toward getting out of debt, Learning new physical tasks, Discovering your sexuality, Launching a diet, a weight-lifting program, or a health-related effort, Learning by doing</string>
+    <string name="card75_coins_page_qta">How can you get more financial or sexual experience without risking your livelihood or health? \nHow might hands-on learning play a role in your situation? \nWhat\'s the most practical choice you could make?</string>
+    <string name="card75_coins_page_description">A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him.</string>
+
+    <string name="card76_coins_knight_name">Knight of Pentacles/Coins</string>
+    <string name="card76_coins_knight_keywords">caution, focus, realism, invention</string>
+    <string name="card76_coins_knight_fortune_telling">A stingy person may chide you for spending money. \nBe prepared to defend an economic or sexual decision.</string>
+    <string name="card76_coins_knight_meaning">Spending money wisely, Saving for a rainy day, Paying close attention to physical or financial details, Knowing where every dollar goes, Having safe sex, Preferring facts to "good feelings", Finding creative ways to "make do" with resources on hand, Completing a new invention</string>
+    <string name="card76_coins_knight_qta">What\'s the difference between caution and fear? \nHow can I evaluate the practicality of my own ideas and methods? \nHow realistic are my goals?</string>
+    <string name="card76_coins_knight_description">He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein.</string>
+
+    <string name="card77_coins_queen_name">Queen of Pentacles/Coins</string>
+    <string name="card77_coins_queen_keywords">luxury, comfort, resourcefulness, generosity, prosperity</string>
+    <string name="card77_coins_queen_fortune_telling">This card represents a woman with an expansive, sensual nature, likely born between December 13th and 31st, who uses sensual appeal and the promise of reward to sway others to her point of view.</string>
+    <string name="card77_coins_queen_meaning">Appreciating fine food, fine wine, beautiful art, beautiful bodies, or any of the better things in life, Reveling in healthy sexuality, Treating yourself, Splurging on the occasional "nice to have" item, Rewarding someone with compensation above and beyond expectations, Having it all</string>
+    <string name="card77_coins_queen_qta">How do I define luxury? \nTo what extent am I capable of reveling in sensual pleasure? \nWhat would I have to give up in order to "have it all?"</string>
+    <string name="card77_coins_queen_description">The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein.</string>
+
+    <string name="card78_coins_king_name">King of Pentacles/Coins</string>
+    <string name="card78_coins_king_keywords">stability, dependability, confidence, intervention</string>
+    <string name="card78_coins_king_fortune_telling">This card represents an older man with a financially, socially, and politically conservative spirit, likely born between August 12th and September 11th, who is known for putting his money where his mouth is.</string>
+    <string name="card78_coins_king_meaning">Becoming debt-free, Having more than enough to get by, Making contributions to a savings plan, Taking a new job with an eye toward advancing your career, Buying life or health insurance, Being confident in the bedroom, Taking on the role of enforcer when called upon to do so</string>
+    <string name="card78_coins_king_qta">How can you handle expenses with greater confidence and maturity? \nHow dependable are you? How dependable would others say you are? \nTo what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?</string>
+    <string name="card78_coins_king_description">The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull\'s head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money.</string>
+
+
+<!--
+    <string name="card65_coins_ace_name"> of Pentacles/Coins</string>
+    <string name="card65_coins_ace_keywords"></string>
+    <string name="card65_coins_ace_fortune_telling"></string>
+    <string name="card65_coins_ace_meaning"></string>
+    <string name="card65_coins_ace_qta"></string>
+    <string name="card65_coins_ace_description"></string>
+-->
+
+
+
 
 </resources>
