@@ -153,8 +153,8 @@ class SimplePathFragment : Fragment() {
         // Interpretation Button:
         // Navigating to MeaningFragment and transmitting our 3 cards by id
         binding.interpretationBTN.setOnClickListener {
-            val id1  = shuffledCardList[0].id
-            val id2  = shuffledCardList[1].id
+            val id1  = shuffledCardList[1].id
+            val id2  = shuffledCardList[0].id
             val id3  = shuffledCardList[2].id
             findNavController().navigate(SimplePathFragmentDirections.actionSimplePathFragmentToSimplePathMeaningFragment(card01ID = id1, card02ID = id2, card03ID = id3))
         }

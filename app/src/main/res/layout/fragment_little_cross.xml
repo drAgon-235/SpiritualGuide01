@@ -252,7 +252,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="INTERPRETATION"
+            android:text="@string/readings_interpretation_btn"
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="@+id/card04CV"
             app:layout_constraintStart_toStartOf="@+id/card04CV"
