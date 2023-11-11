@@ -7,14 +7,14 @@ import androidx.room.PrimaryKey
 data class Card(
     @PrimaryKey
     val id: Int,
-    val name: String,
+    val name: Int,
     val suit: SuitEnum,
     val value: String,
-    val keywords: String,
-    val fortuneTelling: String,
-    val meaning_up: String,
+    val keywords: Int,
+    val fortuneTelling: Int,
+    val meaning_up: Int,
     val meaning_rev: String,
-    val qta: String,
-    val description: String,
+    val qta: Int,
+    val description: Int,
     val picture: Int
 )

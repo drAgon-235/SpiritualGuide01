@@ -333,12 +333,12 @@
     <string name="card32_cups_ten_qta">Wer kann definieren, was „Freude“ ausmacht? \nWelche Vorgehensweise gibt es, wenn Sie sich überfordert fühlen? \nWelche Rolle könnten Gelübde oder Versprechen dabei spielen, ein größeres Maß an Freude in Ihrem Leben zu erreichen? </string>
     <string name="card32_cups_ten_description">Aussehen der Tassen in einem Regenbogen; Es wird von einem Mann und einer Frau unten, offensichtlich Ehemann und Ehefrau, voller Staunen und Ekstase betrachtet. Sein rechter Arm liegt um sie; seine Linke ist nach oben gehoben; Sie hebt ihren rechten Arm. Die beiden neben ihnen tanzenden Kinder haben das Wunderkind nicht bemerkt, sind aber auf ihre Art glücklich - dahinter eine häusliche Szene.</string>
 
-    <string name="card33_cups_eleven_name">Page der Kelche</string>
-    <string name="card33_cups_eleven_keywords">Begeisterung, erste Eindrücke, Romantik, Oberflächlichkeit</string>
-    <string name="card33_cups_eleven_fortune_telling">Diese Karte stellt einen jungen Mann oder eine junge Frau mit einem wässrigen, verträumten Auftreten dar, der wahrscheinlich als Waage, Skorpion oder Schütze geboren wurde und eine neue Beziehung mit Ihnen beginnen möchte</string>
-    <string name="card33_cups_eleven_meaning">Zeigen Sie Ihre Gefühle frei, stürzen Sie sich in eine Romantik, pflegen Sie eine heimliche Schwärmerei, geben Sie sich romantischen Fantasien hin, beginnen Sie eine neue Beziehung, erinnern Sie sich an Ihre erste Liebe, erleben Sie zum ersten Mal Liebe, konvertieren Sie zu einer neuen Religion</string>
-    <string name="card33_cups_eleven_qta">Wie groß ist Ihre Sorge, dass andere Sie für dumm oder unerfahren halten könnten? \nInwieweit können Sie ehrlich zu Ihrem Mangel an Erfahrung in Liebe und Glauben sein? \nWie können Sie die Begeisterung über einen längeren Zeitraum aufrechterhalten?</string>
-    <string name="card33_cups_eleven_description">Eine jugendliche Gestalt, die aufmerksam auf das Pentagramm blickt, das über seinen erhobenen Händen schwebt. Er bewegt sich langsam und nimmt nicht wahr, was um ihn herum passiert.</string>
+    <string name="card33_cups_page_name">Page der Kelche</string>
+    <string name="card33_cups_page_keywords">Begeisterung, erste Eindrücke, Romantik, Oberflächlichkeit</string>
+    <string name="card33_cups_page_fortune_telling">Diese Karte stellt einen jungen Mann oder eine junge Frau mit einem wässrigen, verträumten Auftreten dar, der wahrscheinlich als Waage, Skorpion oder Schütze geboren wurde und eine neue Beziehung mit Ihnen beginnen möchte</string>
+    <string name="card33_cups_page_meaning">Zeigen Sie Ihre Gefühle frei, stürzen Sie sich in eine Romantik, pflegen Sie eine heimliche Schwärmerei, geben Sie sich romantischen Fantasien hin, beginnen Sie eine neue Beziehung, erinnern Sie sich an Ihre erste Liebe, erleben Sie zum ersten Mal Liebe, konvertieren Sie zu einer neuen Religion</string>
+    <string name="card33_cups_page_qta">Wie groß ist Ihre Sorge, dass andere Sie für dumm oder unerfahren halten könnten? \nInwieweit können Sie ehrlich zu Ihrem Mangel an Erfahrung in Liebe und Glauben sein? \nWie können Sie die Begeisterung über einen längeren Zeitraum aufrechterhalten?</string>
+    <string name="card33_cups_page_description">Eine jugendliche Gestalt, die aufmerksam auf das Pentagramm blickt, das über seinen erhobenen Händen schwebt. Er bewegt sich langsam und nimmt nicht wahr, was um ihn herum passiert.</string>
 
     <string name="card34_cups_knight_name">Ritter der Kelche</string>
     <string name="card34_cups_knight_keywords">Inbrunst, Eifer, Launenhaftigkeit, Erleuchtung</string>
@@ -659,6 +659,9 @@
     <string name="card78_coins_king_meaning">Schuldenfrei werden, mehr als genug haben, um über die Runden zu kommen, in einen Sparplan einzahlen, eine neue Stelle annehmen, um beruflich voranzukommen, eine Lebens- oder Krankenversicherung abschließen, selbstbewusst im Schlafzimmer sein, die Rolle des Vollstreckers übernehmen, wenn man dazu aufgefordert wird</string>
     <string name="card78_coins_king_qta">Wie können Sie mit mehr Selbstvertrauen und Reife mit Ausgaben umgehen? \nWie verlässlich sind Sie? Wie verlässlich würden andere Sie einschätzen? \nInwieweit ist eine konservative Sichtweise wertvoll? Ab welchem Punkt wird er eher zu einer Belastung als zu einem Segen?</string>
     <string name="card78_coins_king_description">Die Figur bedarf keiner besonderen Beschreibung, das Gesicht ist eher dunkel, was auch Mut suggeriert, aber in der Tendenz etwas lethargisch. Der Stierkopf ist als wiederkehrendes Symbol auf dem Thron zu sehen. Das Zeichen dieser Farbe wird durchgängig als eingraviertes oder mit dem Pentagramm versehenes Wappen dargestellt, das die Entsprechung der vier Elemente in der menschlichen Natur und das, was sie beherrschen kann, versinnbildlicht. \nIn vielen alten Tarot-Packungen stand diese Farbe für aktuelle Münzen, Geld, Leugner. Ich habe die Ersetzung der Pentakel nicht erfunden, und ich habe keinen besonderen Grund, diese Alternative zu unterstützen. Aber der Konsens der divinatorischen Bedeutungen ist auf der Seite einer Veränderung, weil die Karten nicht zufällig besonders mit Geldfragen zu tun haben.</string>
+
+    <string name="card_back_name">Rückseite</string>
+    <string name="card_back_empty">.</string>
 
 
 

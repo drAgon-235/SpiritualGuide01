@@ -71,7 +71,7 @@ class LoveOracleMeaningFragment : Fragment() {
         picNr01 = cardNr01.picture
         // Binding picture and texts to (re-usable, scrollable & very flexible) Fragment:
         binding.cardPictureIV.setImageResource(picNr01)
-        binding.editNameTV.text = cardNr01.name
+        binding.editNameTV.setText(cardNr01.name)
         //Changing the color of the CardView of eaach Card according to LittleCrossFragment (green)
         //binding.card01CV.setBackgroundColor(0xFFB2D56F.toInt())
 
@@ -93,7 +93,7 @@ class LoveOracleMeaningFragment : Fragment() {
         }
         picNr02 = cardNr02.picture
         binding.card02PictureIV.setImageResource(picNr02)
-        binding.edit2NameTV.text = cardNr02.name
+        binding.edit2NameTV.setText(cardNr02.name)
         //binding.card02CV.setBackgroundColor(0xFFB2D56F.toInt())
 
 
@@ -114,7 +114,7 @@ class LoveOracleMeaningFragment : Fragment() {
         }
         picNr03 = cardNr03.picture
         binding.card03PictureIV.setImageResource(picNr03)
-        binding.edit3NameTV.text = cardNr03.name
+        binding.edit3NameTV.setText(cardNr03.name)
         //binding.card03CV.setBackgroundColor(0xFFB2D56F.toInt())
 
 
@@ -135,7 +135,7 @@ class LoveOracleMeaningFragment : Fragment() {
         }
         picNr04 = cardNr04.picture
         binding.card04PictureIV.setImageResource(picNr04)
-        binding.edit4NameTV.text = cardNr04.name
+        binding.edit4NameTV.setText(cardNr04.name)
         //binding.card04CV.setBackgroundColor(0xFFB2D56F.toInt())
 
 

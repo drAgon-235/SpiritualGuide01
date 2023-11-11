@@ -65,7 +65,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         picNr01 = cardNr01.picture
         // Binding picture and texts to (re-usable, scrollable & very flexible) Fragment:
         binding.cardPictureIV.setImageResource(picNr01)
-        binding.editNameTV.text = cardNr01.name
+        binding.editNameTV.setText(cardNr01.name)
 
 
 
@@ -83,7 +83,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         }
         picNr02 = cardNr02.picture
         binding.card02PictureIV.setImageResource(picNr02)
-        binding.edit2NameTV.text = cardNr02.name
+        binding.edit2NameTV.setText(cardNr02.name)
 
 
 
@@ -101,7 +101,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         }
         picNr03 = cardNr03.picture
         binding.card03PictureIV.setImageResource(picNr03)
-        binding.edit3NameTV.text = cardNr03.name
+        binding.edit3NameTV.setText(cardNr03.name)
 
 
 
@@ -119,7 +119,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         }
         picNr04 = cardNr04.picture
         binding.card04PictureIV.setImageResource(picNr04)
-        binding.edit4NameTV.text = cardNr04.name
+        binding.edit4NameTV.setText(cardNr04.name)
 
 
 
@@ -137,7 +137,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         }
         picNr05 = cardNr05.picture
         binding.card05PictureIV.setImageResource(picNr05)
-        binding.edit5NameTV.text = cardNr05.name
+        binding.edit5NameTV.setText(cardNr05.name)
 
 
 
@@ -155,7 +155,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         }
         picNr06 = cardNr06.picture
         binding.card06PictureIV.setImageResource(picNr06)
-        binding.edit6NameTV.text = cardNr06.name
+        binding.edit6NameTV.setText(cardNr06.name)
 
 
 
@@ -173,7 +173,7 @@ class PathOfWisdomMeaningFragment : Fragment() {
         }
         picNr07 = cardNr07.picture
         binding.card07PictureIV.setImageResource(picNr07)
-        binding.edit7NameTV.text = cardNr07.name
+        binding.edit7NameTV.setText(cardNr07.name)
 
 
 

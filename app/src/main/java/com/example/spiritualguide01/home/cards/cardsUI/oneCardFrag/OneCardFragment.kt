@@ -94,13 +94,13 @@ class OneCardFragment : Fragment() {
 
         // Binding picture and texts to (re-usable, scrollable & very flexible) OneCardFragment:
         binding.cardPictureIV.setImageResource(pic)
-        binding.editNameTV.text = oneCard.name
+        binding.editNameTV.setText(oneCard.name)
         binding.editValueTV.text = oneCard.value
-        binding.editKeywordsTV.text = oneCard.keywords
-        binding.editMeaningtTV.text = oneCard.meaning_up
-        binding.editFortuneTellTV.text = oneCard.fortuneTelling
-        binding.editQtaTV.text = oneCard.qta
-        binding.editDescriptionTV.text = oneCard.description
+        binding.editKeywordsTV.setText(oneCard.keywords)
+        binding.editMeaningtTV.setText(oneCard.meaning_up)
+        binding.editFortuneTellTV.setText(oneCard.fortuneTelling)
+        binding.editQtaTV.setText(oneCard.qta)
+        binding.editDescriptionTV.setText(oneCard.description)
 
 
         // Setting AND binding the (violet) Arcana Name as strings to according ArcanaType(suit) by ENUM(suit):
