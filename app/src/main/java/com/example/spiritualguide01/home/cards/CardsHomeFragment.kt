@@ -12,8 +12,6 @@ import com.example.spiritualguide01.databinding.FragmentCardsHomeBinding
 class CardsHomeFragment : Fragment() {
 
     private lateinit var binding: FragmentCardsHomeBinding
-    private val viewModel: CardsViewModel by activityViewModels()
-
 
     override fun onCreateView(
         inflater: LayoutInflater,
