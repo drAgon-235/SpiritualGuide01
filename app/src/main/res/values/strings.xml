@@ -664,8 +664,7 @@
     <string name="card_back_empty">.</string>
 
 
-
-<!--
+    <!--
     <string name="card65_coins_ace_name"> of Pentacles/Coins</string>
     <string name="card65_coins_ace_keywords"></string>
     <string name="card65_coins_ace_fortune_telling"></string>
@@ -673,8 +672,6 @@
     <string name="card65_coins_ace_qta"></string>
     <string name="card65_coins_ace_description"></string>
 -->
-
-
 
 
 </resources>
