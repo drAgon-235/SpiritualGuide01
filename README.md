@@ -93,14 +93,14 @@ This Fragment offers you 3 options:
 # Disclaymer
 (despite this being just a project for my own learning purposes, I have to observe the legal aspects)
 
-### Quotes API
+## Quotes API
 The free API for random quotes - no key, unlimited requests :smiley: : [zenquotes.io](https://zenquotes.io/)
   ( *very good for basic educational purposes!!!*)
 
-### Design of card backside
+## Design of card backside
 The design of the 'backside of the card deck' is a freepik from: [freepik.com](https://www.freepik.com/free-vector/hand-drawn-mystical-tarot-mobile-wallpaper_21862417.htm)
 
-### Design of Tarot Deck - Rider Waite Deck
+## Design of Tarot Deck - Rider Waite Deck
 
 The "Rider-Waite" Tarot Deck is the most popular one since over 100 years.
 It is no more protected by any copyrights, which usually expire after 70 years.
@@ -116,7 +116,7 @@ Very slow & badly performing API with poor database: [tarot-api-3hv5](https://ta
 
 Very good free "Rider-Waite" Tarot Deck Database - Texts & Pictures on:  [kaggle.com](https://www.kaggle.com/datasets/lsind18/tarot-json?resource=)
 
-### Copyrights
+## Copyrights
 (c) 2023 Slawomir Z. Dragon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
