@@ -91,6 +91,8 @@ This Fragment offers you 3 options:
 --------------------------------------------------------------------
 
 ## Disclaymer
+(despite this being just a project for my own learning purposes, I have to observe the legal aspects)
+
 ### Quotes API
 The free API for random quotes - no key, unlimited requests :smiley: : [zenquotes.io](https://zenquotes.io/)
   ( *very good for basic educational purposes!!!*)
@@ -99,7 +101,6 @@ The free API for random quotes - no key, unlimited requests :smiley: : [zenquote
 The design of the 'backside of the card deck' is a freepik from: [freepik.com](https://www.freepik.com/free-vector/hand-drawn-mystical-tarot-mobile-wallpaper_21862417.htm)
 
 ### Design of Tarot Deck - Rider Waite Deck
-(despite this being just a project for my own learning purposes, I have to observe the legal aspects)
 
 The "Rider-Waite" Tarot Deck is the most popular one since over 100 years.
 It is no more protected by any copyrights, which usually expire after 70 years.
