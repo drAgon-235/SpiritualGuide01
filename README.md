@@ -85,7 +85,7 @@ This Fragment offers you 3 options:
 ### Multi Language Mode:
 - English (default)
 - German (took me 1 week to translate everything, so it is really 'the same text/meaning')
-- more soon ... 
+- to be continued ... 
 
 
 --------------------------------------------------------------------
