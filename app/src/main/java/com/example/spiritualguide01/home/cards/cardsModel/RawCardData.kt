@@ -7,7 +7,7 @@ import com.example.spiritualguide01.R
 // It is no more protected by any copyrights, which usually expire after 70 years.
 // That means, all the attributes & images of each card are worldwide known & the same & free to use for anybody.
 // But in order NOT to type the texts from a common book, I copied & combined them from two online Datasets:
-// https://www.kaggle.com/datasets/lsind18/tarot-json?resource=download (No API !!!)
+// https://www.kaggle.com/datasets/lsind18/tarot-json?resource= (No API !!!)
 // https://tarot-api-3hv5.onrender.com/api/v1/cards (very unprofessional API,
 // too slow & too unreliable for usage in my App ( I tested it, only each fifth API-Call was working properly - so I just took the 'description' into my DB, which was missing in the kaggle-DB)
 
@@ -15,7 +15,7 @@ object RawCardData {
 
     /*
     The design of the backside of the card deck is a freepik from:
-    <a href="https://www.freepik.com/free-vector/hand-drawn-mystical-tarot-mobile-wallpaper_21862417.htm#page=2&query=tarot%20background&position=9&from_view=keyword&track=ais">Image by pikisuperstar</a> on Freepik
+    <a href="https://www.freepik.com/free-vector/hand-drawn-mystical-tarot-mobile-wallpaper_21862417.htm">Image by pikisuperstar</a> on Freepik
     Thanks a lot :-)
  */
 
