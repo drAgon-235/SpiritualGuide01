@@ -90,7 +90,7 @@ This Fragment offers you 3 options:
 
 --------------------------------------------------------------------
 
-## Disclaymer
+# Disclaymer
 (despite this being just a project for my own learning purposes, I have to observe the legal aspects)
 
 ### Quotes API
