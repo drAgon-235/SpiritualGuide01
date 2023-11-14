@@ -115,6 +115,7 @@ Very slow & badly performing API with poor database: [tarot-api-3hv5](https://ta
 Very good free "Rider-Waite" Tarot Deck Database - Texts & Pictures on:  [kaggle.com](https://www.kaggle.com/datasets/lsind18/tarot-json?resource=)
 
 ### Copyrights
+(despite this being just a project for my own learning purposes, I have to observe the legal aspects)
 (c) 2023 Slawomir Z. Dragon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
