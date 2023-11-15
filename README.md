@@ -46,8 +46,7 @@ This Fragment offers you 3 options:
    - 5 Recyclerviews (1 for each Arcana) in a ScrollView
 
 ### TAROT Cards user flow example 
-![userflow_cards](https://github.com/drAgon-235/SpiritualGuide01/assets/81158877/39fb63aa-27d2-4b88-84c0-75cb4a7f5b2b)
-
+![userflow_cards](https://github.com/drAgon-235/SpiritualGuide01/assets/81158877/2c4f7e80-6479-4080-9afa-7e235cf85256)
 
 
 ## Quotes (Buttom Navigation Item)
