@@ -66,7 +66,7 @@ This Fragment offers you 3 options:
 ### Cards user flow example
 
 <p align="center">
-<img src=drawable/userflow_cards.png >
+<img src=userflow_cards.png>
 </p>
 
 ------------------------------------------------------------------
