@@ -261,10 +261,7 @@ class PathOfWisdomFragment : Fragment() {
                     )
                 )
             }
-
-
         }
     }
-
-
+//test
 }
