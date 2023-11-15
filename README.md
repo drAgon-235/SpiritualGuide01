@@ -45,9 +45,8 @@ This Fragment offers you 3 options:
 4. All cards & their meanings
    - 5 Recyclerviews (1 for each Arcana) in a ScrollView
 
-### Cards user flow example 
-
-
+### TAROT Cards user flow example 
+![userflow_cards](https://github.com/drAgon-235/SpiritualGuide01/assets/81158877/39fb63aa-27d2-4b88-84c0-75cb4a7f5b2b)
 
 
 
@@ -63,10 +62,12 @@ This Fragment offers you 3 options:
 
    - room database nr. 2 for Favorite Quotes only used here
 
-### Cards user flow example
+### Quotes user flow example
+![userflow_quotes](https://github.com/drAgon-235/SpiritualGuide01/assets/81158877/a5c9082e-a3dc-49b7-a1dc-bafbc37ec5d8)
+
 
 <p align="center">
-<img src=userflow_cards.png>
+<img src=>
 </p>
 
 ------------------------------------------------------------------
