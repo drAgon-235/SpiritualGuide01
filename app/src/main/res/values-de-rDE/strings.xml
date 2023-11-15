@@ -27,21 +27,22 @@
     <string name="title_toolbar_fav_options">Optionen</string>
 
     <!-- Tarot Home Fragment Bottoms -->
-    <string name="cards_home_card_of_day_btn">KARTE DES TAGES</string>
+    <string name="cards_home_card_of_day_btn">EXPRESS \nKARTE DES TAGES</string>
     <string name="cards_home_all_readings_btn">KARTEN LEGEN</string>
     <string name="cards_home_all_arcanas_btn">ALLE KARTEN UND \nIHRE BEDEUTUNGEN</string>
 
     <!-- Zitate Home Fragment Buttons -->
-    <string name="quotes_home_quote_of_day_btn">ZITAT DES TAGES</string>
+    <string name="quotes_home_quote_of_day_btn">EXPRESS \nZITAT DES TAGES</string>
     <string name="quotes_home_my_fav_quotes_btn">MEINE\nLIEBLINGS-ZITATE</string>
 
     <!-- Quotes Options Fragment Buttons -->
     <string name="quotes_options_share_btn">Teilen</string>
     <string name="quotes_options_delete_btn">Aus Favoritenliste\nlöschen</string>
-    <string name="quotes_options_deleted">Zitat GELÖSCHT</string>
+    <string name="quotes_options_deleted_toast">Zitat GELÖSCHT</string>
 
     <!-- Quotes Fragment Delete-Buttons -->
     <string name="quotes_save_btn">In Favoriten\nspeichern</string>
+    <string name="quotes_saved_toast">Zitat GESPEICHERT</string>
 
     <!-- All Cards RV Fragment -->
     <string name="allcards_rv_trumps">Große Arcana (Trümpfe)</string>
@@ -562,98 +563,98 @@
 
 
     <!-- COINS -->
-    <string name="card65_coins_ace_name">As der Pentagramme/Münzen</string>
+    <string name="card65_coins_ace_name">As der Münzen</string>
     <string name="card65_coins_ace_keywords">Gesundheit, Reichtum, Praktikabilität, Empfangen</string>
     <string name="card65_coins_ace_fortune_telling">Ihre Gesundheit wird sich verbessern. \nDer Scheck, auf den Sie warten, ist wirklich auf dem Postweg.</string>
     <string name="card65_coins_ace_meaning">Entwurf eines Plans zur Erreichung von Wohlstand, Erkennen von Möglichkeiten zur Verbesserung des Einkommens oder der Gesundheit, Erkennen, dass Sie alles haben, was Sie brauchen, Wertschätzung für alles, was das Universum Ihnen gegeben hat, Empfangen des perfekten Geschenks zur perfekten Zeit</string>
     <string name="card65_coins_ace_qta">Wie würde ich mich entscheiden, wenn ich meine Entscheidung ausschließlich von praktischen Erwägungen abhängig machen würde? \nWelche Ressourcen stehen mir zur Verfügung? \nWelche physischen und finanziellen Auswirkungen wird meine Entscheidung haben?</string>
     <string name="card65_coins_ace_description">Eine Hand, die wie üblich aus einer Wolke kommt, hält ein Pentagramm/eine Münze hoch.</string>
 
-    <string name="card66_coins_two_name">Zwei Pentagramme/Münzen</string>
+    <string name="card66_coins_two_name">Zwei Münzen</string>
     <string name="card66_coins_two_keywords">Bewertung, Entscheidung, Budgetierung, Diagnose</string>
     <string name="card66_coins_two_fortune_telling">Es ist an der Zeit, den Haushalt auszugleichen. \nVermeiden Sie die Versuchung, kritische Gelder für frivole Güter auszugeben. </string>
     <string name="card66_coins_two_meaning">Abwägen von Optionen, Vergleichen von Preisen, Bestimmen des Wertes einer Option gegenüber einer anderen, Jonglieren mit Ressourcen, um über die Runden zu kommen, Treffen schwieriger Entscheidungen auf der Grundlage dessen, was das Beste für Ihren Körper oder Ihr Sparbuch ist, Betrachten des Endergebnisses, Einholen einer zweiten Meinung zu Gesundheitsfragen</string>
     <string name="card66_coins_two_qta">Welche Werte bestimmen meine Entscheidungen? \nWie weit bin ich bereit, jetzt ein wenig Vergnügen zu opfern, um später mehr Vergnügen zu haben? \nAngesichts meiner derzeitigen Situation, welche Vorgehensweise würde mir mehr von dem geben, was ich wirklich brauche?</string>
     <string name="card66_coins_two_description">Ein junger Mann, der tanzt, hat in jeder Hand ein Pentagramm, und sie sind durch eine endlose Schnur verbunden, die wie die umgekehrte Zahl 8 aussieht.</string>
 
-    <string name="card67_coins_three_name">Drei Pentagramme/Münzen</string>
+    <string name="card67_coins_three_name">Drei Münzen</string>
     <string name="card67_coins_three_keywords">Ausdruck, Herstellung, Arbeit, Beitrag</string>
     <string name="card67_coins_three_fortune_telling">Ein hochdotierter Vertrag ist in Ihrer Zukunft. \nWenn Sie hart arbeiten, werden Sie Erfolg haben.</string>
     <string name="card67_coins_three_meaning">Ein Projekt zu Ende bringen, Standards setzen und einhalten, nach Vorgaben arbeiten, etwas herstellen, das andere schätzen, etwas Neues schaffen, seinen Teil in einem Gruppenprojekt beitragen, genau das liefern, worum andere gebeten haben</string>
     <string name="card67_coins_three_qta">Wie kann ich mehr erreichen? \nWas wird von mir erwartet? Welche Rolle spiele ich bei der Kontrolle dieser Erwartungen? \nWas ist vereinbart worden? Wie gut wurde diese Vereinbarung eingehalten?</string>
     <string name="card67_coins_three_description">Ein Bildhauer bei seiner Arbeit in einem Kloster. Vergleiche die Zeichnung, die die Acht der Münzen illustriert. Der Lehrling oder Amateur darin hat seine Belohnung erhalten und ist nun ernsthaft an der Arbeit.</string>
 
-    <string name="card68_coins_four_name">Vier Pentagramme/Münzen</string>
+    <string name="card68_coins_four_name">Vier Münzen</string>
     <string name="card68_coins_four_keywords">Schutz, Erhaltung, Bewahrung, Sicherheit</string>
     <string name="card68_coins_four_fortune_telling">Ein regnerischer Tag steht bevor - es ist Zeit, Geld zu sparen</string>
     <string name="card68_coins_four_meaning">Sparen für einen verregneten Tag, Fasten als Teil einer spirituellen Praxis, Diät, um den Körper zu verbessern, Verzicht auf Sex, um eine spirituelle Tradition oder ein persönliches Versprechen einzuhalten, finanziell konservativ sein, einen Treuhandfonds einrichten, ein Sparkonto eröffnen</string>
     <string name="card68_coins_four_qta">Welche Faktoren bestimmen, wie konservativ oder großzügig Sie sind? \nWelche Dinge müssen um jeden Preis bewahrt werden? \nWann ist Habgier oder Geiz ein guter Charakterzug? Wann könnte Großzügigkeit gegen Sie arbeiten?</string>
     <string name="card68_coins_four_description">Eine gekrönte Gestalt mit einem Pentagramm über der Krone umklammert eine andere mit Händen und Armen; zwei Pentagramme befinden sich unter seinen Füßen. Er hält an dem fest, was er hat.</string>
 
-    <string name="card69_coins_five_name">Fünf Pentagramme/Münzen</string>
+    <string name="card69_coins_five_name">Fünf Münzen</string>
     <string name="card69_coins_five_keywords">Armut, Elend, Not, Krise</string>
     <string name="card69_coins_five_fortune_telling">Die Finanzen werden knapper, \n Bereiten Sie sich auf einen Rückschlag vor.</string>
     <string name="card69_coins_five_meaning">Erkennen Sie Ihre Bedürfnisse und ergreifen Sie Maßnahmen, um sie zu erfüllen, tun Sie so viel wie möglich mit dem Wenigen, das Sie haben, geben Sie zu, dass Sie Hilfe brauchen, nehmen Sie die Hilfe an, die sich Ihnen bietet, konzentrieren Sie sich auf das, was Sie haben, und nicht auf das, was Sie nicht haben, suchen Sie das Licht am Ende des Tunnels</string>
     <string name="card69_coins_five_qta">Welche wichtigen Ressourcen fehlen mir? \nWelche Menschen oder Gruppen würden mir zu Hilfe kommen, wenn ich sie darum bitten würde? \nWie könnte sich ein verarmter Geist auf meine körperliche oder finanzielle Situation auswirken?</string>
     <string name="card69_coins_five_description">Zwei Bettler gehen im Schneesturm an einem beleuchteten Fensterflügel vorbei.</string>
 
-    <string name="card70_coins_six_name">Sechs Pentagramme/Münzen</string>
+    <string name="card70_coins_six_name">Sechs Münzen</string>
     <string name="card70_coins_six_keywords">Wohltätigkeit, Fairness, Kooperation, Teilen</string>
     <string name="card70_coins_six_fortune_telling">Wenn Sie Hilfe brauchen, bitten Sie darum. \Denken Sie aber daran: Was Sie erhalten, kann durch das begrenzt sein, was Sie in der Vergangenheit anderen gegeben haben.</string>
     <string name="card70_coins_six_meaning">Zeit, Geld oder Mühe für eine Wohltätigkeitsorganisation spenden, sich an einer Gruppenarbeit beteiligen, seine Ressourcen anderen zur Verfügung stellen, ohne eine Gegenleistung zu erwarten, sicherstellen, dass alle gleich behandelt werden, zusammen auf ein gemeinsames Ziel hinarbeiten, Reichtum, Zeit oder Aufmerksamkeit umverteilen, den Zehnten geben, die Anerkennung für seinen Erfolg teilen</string>
     <string name="card70_coins_six_qta">Was halte ich von Wohltätigkeit? Darüber, sie zu geben? Darüber, sie anzunehmen? \nWie kann ich wissen, ob ich andere fair behandle? \nWas könnte ich geben, was sonst niemand kann?</string>
     <string name="card70_coins_six_description">Ein Mensch in der Gestalt eines Kaufmanns wiegt Geld in einer Waage und verteilt es an Bedürftige und Notleidende. Es ist ein Zeugnis für seinen eigenen Erfolg im Leben und für seine Herzensgüte.</string>
 
-    <string name="card71_coins_seven_name">Sieben Pentagramme/Münzen</string>
+    <string name="card71_coins_seven_name">Sieben Münzen</string>
     <string name="card71_coins_seven_keywords">Beurteilung, Bewertung, Neubewertung, Reflexion</string>
     <string name="card71_coins_seven_fortune_telling">Die Dinge sind nicht so gelaufen wie erwartet. \nSammeln Sie die Scherben auf und bereiten Sie sich darauf vor, weiterzumachen.</string>
     <string name="card71_coins_seven_meaning">Ergebnisse im Hinblick auf eine Leistungsverbesserung betrachten, sich fragen: "Wie glücklich bin ich?", Ideen zur Verbesserung der Gesundheit oder des Wohlstands entwickeln, entscheiden, dass es Zeit für eine Veränderung ist, eine ehrliche Meinung äußern</string>
     <string name="card71_coins_seven_qta">Inwieweit habe ich meine eigenen Erwartungen erfüllt? \nWas sind die Bedingungen für Erfolg? \nWie kann ich mit den Fortschritten, die ich gemacht habe, zufriedener sein?</string>
     <string name="card71_coins_seven_description">Ein junger Mann, der sich auf seinen Stab stützt, blickt aufmerksam auf sieben Pentakel, die an einem grünen Büschel zu seiner Rechten befestigt sind; man könnte sagen, dass dies seine Schätze sind und dass sein Herz dort ist.</string>
 
-    <string name="card72_coins_eight_name">Acht Pentagramme/Münzen</string>
+    <string name="card72_coins_eight_name">Acht Münzen</string>
     <string name="card72_coins_eight_keywords">Anstrengung, Fleiß, Geschicklichkeit</string>
     <string name="card72_coins_eight_fortune_telling">Hören Sie auf, übermäßig zu analysieren, zu recherchieren und Gliederungen zu erstellen. \nSchnallen Sie sich an und erledigen Sie die Arbeit. \nSchluss mit der Prokrastination!</string>
     <string name="card72_coins_eight_meaning">Sein Bestes geben, Enthusiasmus und Eifer in die Arbeit einbringen, sich bemühen, das Beste aus sich herauszuholen, die richtige Arbeit für sich finden, sich um die kleinen Details kümmern, ein geschickter Handwerker werden, etwas mit den Händen bauen, ein handgemachtes Geschenk machen</string>
     <string name="card72_coins_eight_qta">Wie lange ist es her, dass Sie "in Ihrer Arbeit versunken" waren? \nWie können Sie Ihr Engagement und Ihre Konzentration verbessern? \nWelche Arbeit können Sie am besten? Was an dieser Arbeit reizt Sie?</string>
     <string name="card72_coins_eight_description">Ein Handwerksmeister bei seiner Arbeit, die er in Form von Trophäen ausstellt.</string>
 
-    <string name="card73_coins_nine_name">Neun Pentagramme/Münzen</string>
+    <string name="card73_coins_nine_name">Neun Münzen</string>
     <string name="card73_coins_nine_keywords">Ausbildung, Disziplin, Vertrauen, genug</string>
     <string name="card73_coins_nine_fortune_telling">Solange Sie nicht zu schätzen wissen, was Sie haben, werden Sie auch kein Glück haben, mehr zu bekommen.</string>
     <string name="card73_coins_nine_meaning">Zeit investieren, um eine schwierige Aufgabe zu erlernen oder zu lehren, sich vor körperlichen oder finanziellen Extremen hüten, Opfer bringen, um größere Ziele zu erreichen, eine komplexe Aufgabe in einfache Schritte zerlegen, wollen, was man hat, den Unterschied zwischen Bedürfnissen und Wünschen kennen</string>
     <string name="card73_coins_nine_qta">Wenn Sie das, was Sie wollen, nicht haben könnten, wie würden Sie es schaffen? \nKönnten Sie eine komplexe Aufgabe einfacher machen, indem Sie sie in kleinere Schritte unterteilen? \nWie geduldig sind Sie während des Lernprozesses? Mit sich selbst? Mit anderen?</string>
     <string name="card73_coins_nine_description">Eine Frau mit einem Vogel am Handgelenk steht inmitten einer Fülle von Weinreben im Garten eines herrschaftlichen Hauses. Es ist ein weites Gebiet, das auf eine Fülle von Dingen hinweist. Möglicherweise ist es ihr eigener Besitz und zeugt von materiellem Wohlstand.</string>
 
-    <string name="card74_coins_ten_name">Zehn Pentagramme/Münzen</string>
+    <string name="card74_coins_ten_name">Zehn Münzen</string>
     <string name="card74_coins_ten_keywords">Reichtum, Überfluss, Erwerb, Habgier</string>
     <string name="card74_coins_ten_fortune_telling">Das große Geld ist in der nahen Zukunft. \Erwarten Sie einen mächtigen Segen, der auf Sie zukommt.</string>
     <string name="card74_coins_ten_meaning">Den körperlichen und finanziellen Segen feiern, erkennen, wie glücklich oder gesegnet man ist, mit seinen körperlichen und finanziellen Errungenschaften zufrieden sein, die "Zeiten des Überflusses" optimal nutzen, ein Festmahl genießen, Freunde oder Familie mit Geschenken überhäufen</string>
     <string name="card74_coins_ten_qta">Wie viel Zeug brauche ich wirklich? \nWie denke ich über Reichtum und Überfluss? Wie definiere ich diese Begriffe? \nWie könnte der Verzicht auf einige Besitztümer Raum für Wachstum schaffen?</string>
     <string name="card74_coins_ten_description">Ein Mann und eine Frau unter einem Torbogen, der den Eingang zu einem Haus und einem Anwesen bildet. Sie werden von einem Kind begleitet, das neugierig auf zwei Hunde blickt, die eine im Vordergrund sitzende alte Persönlichkeit ansprechen. Das Kind hält die Hand auf einem der Hunde.</string>
 
-    <string name="card75_coins_page_name">Page der Pentagramme/Münzen</string>
+    <string name="card75_coins_page_name">Page der Münzen</string>
     <string name="card75_coins_page_keywords">Geschicklichkeit, Wohlstand, Lernen, Wachstum, Reife</string>
     <string name="card75_coins_page_fortune_telling">Diese Karte steht für einen jungen Mann oder eine junge Frau mit einem erdverbundenen, praktischen Auftreten, der/die wahrscheinlich als Widder, Stier oder Zwilling geboren wurde und der/die Sie spielerisch ermutigt, finanzielle oder sexuelle Risiken einzugehen.</string>
     <string name="card75_coins_page_meaning">Den Wert eines Dollars schätzen lernen, einen Sparplan aufstellen, die ersten Schritte zum Schuldenabbau unternehmen, neue körperliche Aufgaben erlernen, die eigene Sexualität entdecken, eine Diät, ein Gewichthebeprogramm oder eine gesundheitsbezogene Anstrengung beginnen, Lernen durch Handeln</string>
     <string name="card75_coins_page_qta">Wie können Sie mehr finanzielle oder sexuelle Erfahrungen sammeln, ohne Ihren Lebensunterhalt oder Ihre Gesundheit zu riskieren? \nWie könnte praktisches Lernen in Ihrer Situation eine Rolle spielen? \nWas ist die praktischste Entscheidung, die Sie treffen könnten?</string>
     <string name="card75_coins_page_description">Eine jugendliche Gestalt, die aufmerksam auf das Pentagramm blickt, das über ihren erhobenen Händen schwebt. Er bewegt sich langsam, unempfänglich für das, was um ihn herum geschieht.</string>
 
-    <string name="card76_coins_knight_name">Ritter der Pentagramme/Münzen</string>
+    <string name="card76_coins_knight_name">Ritter der Münzen</string>
     <string name="card76_coins_knight_keywords">Vorsicht, Konzentration, Realismus, Erfindergeist</string>
     <string name="card76_coins_knight_fortune_telling">Eine geizige Person könnte Sie tadeln, weil Sie Geld ausgeben. \Seien Sie darauf vorbereitet, eine wirtschaftliche oder sexuelle Entscheidung zu verteidigen.</string>
     <string name="card76_coins_knight_meaning">Kluger Umgang mit Geld, Sparen für schlechte Zeiten, Aufmerksames Achten auf physische oder finanzielle Details, Wissen, wohin jeder Dollar fließt, Safer Sex, Vorziehen von Fakten gegenüber "guten Gefühlen", Finden kreativer Wege, um mit den vorhandenen Ressourcen auszukommen, Fertigstellung einer neuen Erfindung</string>
     <string name="card76_coins_knight_qta">Was ist der Unterschied zwischen Vorsicht und Angst? \nWie kann ich die Praktikabilität meiner eigenen Ideen und Methoden bewerten? \nWie realistisch sind meine Ziele?</string>
     <string name="card76_coins_knight_description">Er reitet ein langsames, ausdauerndes, schweres Pferd, dem sein eigenes Aussehen entspricht. Er hält sein Symbol, aber er schaut es nicht an.</string>
 
-    <string name="card77_coins_queen_name">Königin der Pentagramme/Münzen</string>
+    <string name="card77_coins_queen_name">Königin der Münzen</string>
     <string name="card77_coins_queen_keywords">Luxus, Komfort, Einfallsreichtum, Großzügigkeit, Wohlstand</string>
     <string name="card77_coins_queen_fortune_telling">Diese Karte steht für eine Frau mit einer expansiven, sinnlichen Natur, die wahrscheinlich zwischen dem 13. und 31. Dezember geboren ist und die sinnliche Anziehungskraft und das Versprechen von Belohnung nutzt, um andere von ihrem Standpunkt zu überzeugen.</string>
     <string name="card77_coins_queen_meaning">Wertschätzung von gutem Essen, gutem Wein, schöner Kunst, schönen Körpern oder anderen schönen Dingen im Leben, Genießen einer gesunden Sexualität, sich selbst verwöhnen, sich gelegentlich etwas gönnen, jemanden mit einer Entschädigung belohnen, die über die Erwartungen hinausgeht, alles haben</string>
     <string name="card77_coins_queen_qta">Wie definiere ich Luxus? \nInwieweit bin ich in der Lage, in sinnlichen Genüssen zu schwelgen? \nWas müsste ich aufgeben, um "alles zu haben"?</string>
     <string name="card77_coins_queen_description">Das Gesicht deutet auf eine dunkle Frau hin, deren Qualitäten sich in der Vorstellung einer großen Seele zusammenfassen lassen; sie hat auch den ernsten Zug der Intelligenz; sie betrachtet ihr Symbol und kann darin Welten sehen.</string>
 
-    <string name="card78_coins_king_name">König der Pentagramme/Münzen</string>
+    <string name="card78_coins_king_name">König der Münzen</string>
     <string name="card78_coins_king_keywords">Stabilität, Verlässlichkeit, Vertrauen, Einverständnis</string>
     <string name="card78_coins_king_fortune_telling">Diese Karte steht für einen älteren Mann mit einem finanziell, sozial und politisch konservativen Geist, der wahrscheinlich zwischen dem 12. August und dem 11. September geboren wurde und dafür bekannt ist, seinen Worten Taten folgen zu lassen.</string>
     <string name="card78_coins_king_meaning">Schuldenfrei werden, mehr als genug haben, um über die Runden zu kommen, in einen Sparplan einzahlen, eine neue Stelle annehmen, um beruflich voranzukommen, eine Lebens- oder Krankenversicherung abschließen, selbstbewusst im Schlafzimmer sein, die Rolle des Vollstreckers übernehmen, wenn man dazu aufgefordert wird</string>

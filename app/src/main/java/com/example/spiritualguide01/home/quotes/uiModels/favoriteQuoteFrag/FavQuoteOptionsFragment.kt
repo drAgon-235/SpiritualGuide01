@@ -69,7 +69,7 @@ class FavQuoteOptionsFragment : Fragment() {
             binding.shareCV.visibility = View.INVISIBLE
 
             // The toast adapts it's language automatically through the strings.xml:
-            Toast.makeText(context, R.string.quotes_options_deleted, Toast.LENGTH_LONG).show()
+            Toast.makeText(context, R.string.quotes_options_deleted_toast, Toast.LENGTH_LONG).show()
         }
 
 

@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.spiritualguide01.R
@@ -24,7 +25,6 @@ class QuoteFragment : Fragment() {
     private val viewModelFavQuotes: FavQuotesViewModel by viewModels()
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -37,13 +37,15 @@ class QuoteFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentQuoteBinding.inflate(inflater, container, false)
-        return binding.root    }
+        return binding.root
+    }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val likedLogo = binding.favoriteBorderIV.setImageResource(R.drawable.baseline_favorite_border_24)
+        val likedLogo =
+            binding.favoriteBorderIV.setImageResource(R.drawable.baseline_favorite_border_24)
         val notLikedLogo = binding.favoriteFullIV.setImageResource(R.drawable.baseline_favorite_24)
         val shareLogo = binding.shareIV.setImageResource(R.drawable.baseline_share_24)
         //val favListLogo = binding.favoriteListIV.setImageResource(R.drawable.baseline_view_list_24)
@@ -56,13 +58,12 @@ class QuoteFragment : Fragment() {
         }
 
 
-
-/*
-        //Go to My Favorite Quotes List RV-Fragment:
-        binding.goToFavListCV.setOnClickListener {
-            findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
-        }
- */
+        /*
+                //Go to My Favorite Quotes List RV-Fragment:
+                binding.goToFavListCV.setOnClickListener {
+                    findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
+                }
+         */
 
 
         //var newIndex = viewModelFavQuotes.favQuotesListLD.value!!.lastIndex + 1
@@ -78,8 +79,8 @@ class QuoteFragment : Fragment() {
                     FavoriteQuote(
                         binding.quoteOfTheDayTV.text.toString(),
                         binding.sourceTV.text.toString(),
-                         // by omitting the variable "id" I enable the FavoriteQuote-RoomDB to generate it automatically - that was my "FAVORITE" BUG ;-)
-                            // this only works, when we set id = 0 in the "FavoriteQuote" class
+                        // by omitting the variable "id" I enable the FavoriteQuote-RoomDB to generate it automatically - that was my "FAVORITE" BUG ;-)
+                        // this only works, when we set id = 0 in the "FavoriteQuote" class
                     )
                 )
                 Log.d(TAG, "Finish: INSERTING Quote of the Day into FavoriteQuotesDB Successful!")
@@ -87,16 +88,15 @@ class QuoteFragment : Fragment() {
                 Log.e(TAG, "ERROR: INSERTING Quote of the Day into FavoriteQuotesDB!")
             }
 
-                     findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
+            // The toast adapts it's language automatically through the strings.xml:
+            Toast.makeText(context, R.string.quotes_saved_toast, Toast.LENGTH_LONG).show()
+
+            findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
 
         }
 
 
-
-
     }
-
-
 
 
 }

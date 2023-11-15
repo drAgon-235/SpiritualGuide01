@@ -27,21 +27,22 @@
     <string name="title_toolbar_fav_options">Options</string>
 
     <!-- Tarot Home Fragment Bottoms -->
-    <string name="cards_home_card_of_day_btn">CARD OF THE DAY</string>
+    <string name="cards_home_card_of_day_btn">EXPRESS \nCARD OF THE DAY</string>
     <string name="cards_home_all_readings_btn">YOUR PERSONAL\nCARD READING</string>
     <string name="cards_home_all_arcanas_btn">ALL CARDS AND\nTHEIR MEANINGS</string>
 
     <!-- Quotes Home Fragment Buttons -->
-    <string name="quotes_home_quote_of_day_btn">QUOTE OF THE DAY</string>
+    <string name="quotes_home_quote_of_day_btn">EXPRESS \nQUOTE OF THE DAY</string>
     <string name="quotes_home_my_fav_quotes_btn">MY FAVORITE QUOTES</string>
 
     <!-- Quotes Options Fragment Buttons -->
     <string name="quotes_options_share_btn">Share</string>
     <string name="quotes_options_delete_btn">Delete from my\nfavorite quotes</string>
-    <string name="quotes_options_deleted">Quote DELETED</string>
+    <string name="quotes_options_deleted_toast">Quote DELETED</string>
 
     <!-- Quotes Fragment Delete-Buttons -->
     <string name="quotes_save_btn">Save in my \nfavorite quotes list</string>
+    <string name="quotes_saved_toast">Quote SAVED</string>
 
     <!-- All Cards RV Fragment -->
     <string name="allcards_rv_trumps">Major Arcana (Trumps)</string>
@@ -561,98 +562,98 @@
 
 
     <!-- COINS -->
-    <string name="card65_coins_ace_name">Ace of Pentacles/Coins</string>
+    <string name="card65_coins_ace_name">Ace of Coins</string>
     <string name="card65_coins_ace_keywords">health, wealth, practicality, receiving</string>
     <string name="card65_coins_ace_fortune_telling">Your health will improve. \nThe check you are looking for really is in the mail.</string>
     <string name="card65_coins_ace_meaning">Outlining a plan for achieving prosperity, Becoming aware of opportunities to improve income or health, Realizing you have everything you need, Appreciating everything the Universe has given you, Receiving the perfect gift at the perfect time</string>
     <string name="card65_coins_ace_qta">If I made my decision based solely on practical concerns, what would my decision be? \nWhat resources are available to me? \nWhat will be the physical and financial impact of my decisions?</string>
     <string name="card65_coins_ace_description">A hand - issuing, as usual, from a cloud - holds up a pentacle/coin.</string>
 
-    <string name="card66_coins_two_name">Two of Pentacles/Coins</string>
+    <string name="card66_coins_two_name">Two of Coins</string>
     <string name="card66_coins_two_keywords">evaluation, decision, budgeting, diagnosis</string>
     <string name="card66_coins_two_fortune_telling">It is time to balance the budget. \nAvoid the temptation to spend critical funds on frivolous goods.</string>
     <string name="card66_coins_two_meaning">Weighing options, Comparing prices, Determining the value of one option over another, Juggling resources to make ends meet, Making difficult choices based on what\'s best for your body or your bankbook, Looking at the bottom line, Asking for a second opinion on health issues</string>
     <string name="card66_coins_two_qta">What values govern my decisions? \nHow willing am I to sacrifice a little pleasure now in order to have more pleasure later on? \nGiven my current situation, which course of action will give me more of what I really need?</string>
     <string name="card66_coins_two_description">A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.</string>
 
-    <string name="card67_coins_three_name">Three of Pentacles/Coins</string>
+    <string name="card67_coins_three_name">Three of Coins</string>
     <string name="card67_coins_three_keywords">expression, production, work, contribution</string>
     <string name="card67_coins_three_fortune_telling">A high-dollar contract is in your future. \nIf you work hard, you\'ll succeed.</string>
     <string name="card67_coins_three_meaning">Finishing a project, Setting and meeting standards, Performing according to specifications, Making something others value, Creating something new, Doing your part in a group project, Delivering exactly what others have asked for</string>
     <string name="card67_coins_three_qta">How can I get more done? \nWhat\'s expected of me? How large a role do I play in controlling those expectations? \nWhat\'s been agreed to? How well has that agreement been followed?</string>
     <string name="card67_coins_three_description">A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.</string>
 
-    <string name="card68_coins_four_name">Four of Pentacles/Coins</string>
+    <string name="card68_coins_four_name">Four of Coins</string>
     <string name="card68_coins_four_keywords">protection, conservation, preservation, safety</string>
     <string name="card68_coins_four_fortune_telling">A rainy day is coming - it\'s time to save some money</string>
     <string name="card68_coins_four_meaning">Saving for a rainy day, Fasting as part of a spiritual practice, Dieting in an effort to improve your body, Abstaining from sex as a way of honoring a spiritual tradition or personal promise, Being financially conservative, Establishing a trust fund, Opening a savings account</string>
     <string name="card68_coins_four_qta">What factors determine how conservative or generous you are? \nWhat kinds of things must be preserved at all costs? \nWhen is greediness or stinginess a good trait to have? When might generosity work against you?</string>
     <string name="card68_coins_four_description">A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.</string>
 
-    <string name="card69_coins_five_name">Five of Pentacles/Coins</string>
+    <string name="card69_coins_five_name">Five of Coins</string>
     <string name="card69_coins_five_keywords">poverty, destitution, need, crisis</string>
     <string name="card69_coins_five_fortune_telling">Finances are getting tighter, \nPrepare for a setback.</string>
     <string name="card69_coins_five_meaning">Recognizing your needs and taking action to fulfill them, Doing as much as you can do with what little you have, Admitting you need help, Embracing the aid that comes your way, Focusing on what you have versus what you don\'t, Looking for the light at the end of the tunnel</string>
     <string name="card69_coins_five_qta">What critical resources do I lack? \nWhat people or groups would come to my aid if I asked? \nHow might an impoverished spirit be impacting my physical or financial condition?</string>
     <string name="card69_coins_five_description">Two mendicants in a snow-storm pass a lighted casement.</string>
 
-    <string name="card70_coins_six_name">Six of Pentacles/Coins</string>
+    <string name="card70_coins_six_name">Six of Coins</string>
     <string name="card70_coins_six_keywords">charity, fairness, cooperation, sharing</string>
     <string name="card70_coins_six_fortune_telling">When you need help, ask for it. \nRemember, though: what you receive may be limited by what you\'ve given to others in the past.</string>
     <string name="card70_coins_six_meaning">Giving time, money, or effort to a charity, Taking part in a group effort, Lending your resources to others without expecting anything in return, Making sure everyone is treated equally, Working together toward a common goal, Redistributing wealth, time, or attention, Tithing, Sharing credit for your success</string>
     <string name="card70_coins_six_qta">How do I feel about charity? About giving it? About receiving it? \nHow can I know if I\'m treating others fairly? \nWhat could I give that no one else can?</string>
     <string name="card70_coins_six_description">A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart.</string>
 
-    <string name="card71_coins_seven_name">Seven of Pentacles/Coins</string>
+    <string name="card71_coins_seven_name">Seven of Coins</string>
     <string name="card71_coins_seven_keywords">assessment, evaluation, re-evaluation, reflection</string>
     <string name="card71_coins_seven_fortune_telling">Things won\'t work out as expected. \nPick up the pieces and prepare to move on.</string>
     <string name="card71_coins_seven_meaning">Looking at results with an eye toward improving performance, Asking, "How happy am I?", Coming up with ideas for improving your health or prosperity, Deciding it\'s time for a change, Expressing an honest opinion</string>
     <string name="card71_coins_seven_qta">To what extent have I fulfilled my own expectations? \nWhat are the terms of success? \nHow can I be happier with the progress I have made?</string>
     <string name="card71_coins_seven_description">A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.</string>
 
-    <string name="card72_coins_eight_name">Eight of Pentacles/Coins</string>
+    <string name="card72_coins_eight_name">Eight of Coins</string>
     <string name="card72_coins_eight_keywords">effort, work diligence, skill</string>
     <string name="card72_coins_eight_fortune_telling">Stop over-analyzing, researching, and outlining. \nBuckle down and get the work done. \nNo more procrastination!</string>
     <string name="card72_coins_eight_meaning">Doing your best, Bringing enthusiasm and zeal to your work, Making an effort to be the best you can be, Finding the work that is right for you, Taking care of the small details, Becoming a finely skilled craftsperson, Building something with your hands, Making a handmade gift</string>
     <string name="card72_coins_eight_qta">How long has it been since you were "lost in your work?" \nHow can you improve your level of dedication and focus? \nWhat work do you do best? What about that work appeals to you?</string>
     <string name="card72_coins_eight_description">An artist in stone at his work, which he exhibits in the form of trophies.</string>
 
-    <string name="card73_coins_nine_name">Nine of Pentacles/Coins</string>
+    <string name="card73_coins_nine_name">Nine of Coins</string>
     <string name="card73_coins_nine_keywords">training, discipline, confidence, enough</string>
     <string name="card73_coins_nine_fortune_telling">Until you appreciate what you have, you won\'t have any luck getting more.</string>
     <string name="card73_coins_nine_meaning">Investing time in learning or teaching a difficult task, Restraining yourself from physical or financial extremes, Making sacrifices as a way of achieving larger goals, Breaking a complex task down into simple steps, Wanting what you have, Knowing the difference between needs and wants</string>
     <string name="card73_coins_nine_qta">If you could not have what you want, how would you make do? \nCould you make a complex task easier by breaking it down into smaller steps? \nHow patient are you during the learning process? With yourself? With others?</string>
     <string name="card73_coins_nine_description">A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being.</string>
 
-    <string name="card74_coins_ten_name">Ten of Pentacles/Coins</string>
+    <string name="card74_coins_ten_name">Ten of Coins</string>
     <string name="card74_coins_ten_keywords">wealth, abundance, acquisition, greed</string>
     <string name="card74_coins_ten_fortune_telling">Big money is in the near future. \nExpect a powerful blessing to come your way.</string>
     <string name="card74_coins_ten_meaning">Celebrating your physical and financial blessings, Realizing how lucky or how blessed you are, Being satisfied with your physical and financial achievements, Taking best advantage of "times of plenty", Enjoying a feast, Showering friends or family with gifts</string>
     <string name="card74_coins_ten_qta">How much stuff do I really need? \nHow do I feel about wealth and abundance? How do I define these terms? \nHow might shedding some possessions open room for growth?</string>
     <string name="card74_coins_ten_description">A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child\'s hand is on one of them.</string>
 
-    <string name="card75_coins_page_name">Page of Pentacles/Coins</string>
+    <string name="card75_coins_page_name">Page of Coins</string>
     <string name="card75_coins_page_keywords">practicality, prosperity, learning, growth, adolescence</string>
     <string name="card75_coins_page_fortune_telling">This card represents a young man or woman with an earthy, practical demeanor, likely born an Aries, Taurus, or Gemini, who playfully encourages you to take financial or sexual risks.</string>
     <string name="card75_coins_page_meaning">Learning the value of a dollar, Starting a savings plan, Taking the first steps toward getting out of debt, Learning new physical tasks, Discovering your sexuality, Launching a diet, a weight-lifting program, or a health-related effort, Learning by doing</string>
     <string name="card75_coins_page_qta">How can you get more financial or sexual experience without risking your livelihood or health? \nHow might hands-on learning play a role in your situation? \nWhat\'s the most practical choice you could make?</string>
     <string name="card75_coins_page_description">A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him.</string>
 
-    <string name="card76_coins_knight_name">Knight of Pentacles/Coins</string>
+    <string name="card76_coins_knight_name">Knight of Coins</string>
     <string name="card76_coins_knight_keywords">caution, focus, realism, invention</string>
     <string name="card76_coins_knight_fortune_telling">A stingy person may chide you for spending money. \nBe prepared to defend an economic or sexual decision.</string>
     <string name="card76_coins_knight_meaning">Spending money wisely, Saving for a rainy day, Paying close attention to physical or financial details, Knowing where every dollar goes, Having safe sex, Preferring facts to "good feelings", Finding creative ways to "make do" with resources on hand, Completing a new invention</string>
     <string name="card76_coins_knight_qta">What\'s the difference between caution and fear? \nHow can I evaluate the practicality of my own ideas and methods? \nHow realistic are my goals?</string>
     <string name="card76_coins_knight_description">He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein.</string>
 
-    <string name="card77_coins_queen_name">Queen of Pentacles/Coins</string>
+    <string name="card77_coins_queen_name">Queen of Coins</string>
     <string name="card77_coins_queen_keywords">luxury, comfort, resourcefulness, generosity, prosperity</string>
     <string name="card77_coins_queen_fortune_telling">This card represents a woman with an expansive, sensual nature, likely born between December 13th and 31st, who uses sensual appeal and the promise of reward to sway others to her point of view.</string>
     <string name="card77_coins_queen_meaning">Appreciating fine food, fine wine, beautiful art, beautiful bodies, or any of the better things in life, Reveling in healthy sexuality, Treating yourself, Splurging on the occasional "nice to have" item, Rewarding someone with compensation above and beyond expectations, Having it all</string>
     <string name="card77_coins_queen_qta">How do I define luxury? \nTo what extent am I capable of reveling in sensual pleasure? \nWhat would I have to give up in order to "have it all?"</string>
     <string name="card77_coins_queen_description">The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein.</string>
 
-    <string name="card78_coins_king_name">King of Pentacles/Coins</string>
+    <string name="card78_coins_king_name">King of Coins</string>
     <string name="card78_coins_king_keywords">stability, dependability, confidence, intervention</string>
     <string name="card78_coins_king_fortune_telling">This card represents an older man with a financially, socially, and politically conservative spirit, likely born between August 12th and September 11th, who is known for putting his money where his mouth is.</string>
     <string name="card78_coins_king_meaning">Becoming debt-free, Having more than enough to get by, Making contributions to a savings plan, Taking a new job with an eye toward advancing your career, Buying life or health insurance, Being confident in the bedroom, Taking on the role of enforcer when called upon to do so</string>
