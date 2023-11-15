@@ -65,11 +65,6 @@ This Fragment offers you 3 options:
 ### Quotes user flow example
 ![userflow_quotes](https://github.com/drAgon-235/SpiritualGuide01/assets/81158877/a5c9082e-a3dc-49b7-a1dc-bafbc37ec5d8)
 
-
-<p align="center">
-<img src=>
-</p>
-
 ------------------------------------------------------------------
 
 # Technical Features
@@ -128,11 +123,7 @@ Very slow & badly performing API with poor database: [tarot-api-3hv5](https://ta
 Very good free "Rider-Waite" Tarot Deck Database - Texts & Pictures on:  [kaggle.com](https://www.kaggle.com/datasets/lsind18/tarot-json?resource=)
 
 ## Copyrights
-(c) 2023 Slawomir Z. Dragon
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+(c) 2023 Slawomir Z. Dragon. All rights reserved.
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
