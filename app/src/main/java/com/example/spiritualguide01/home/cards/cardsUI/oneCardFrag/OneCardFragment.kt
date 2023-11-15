@@ -38,7 +38,7 @@ class OneCardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Neccessary pre-declarations & inits (never used, just refilled later, but Kotlin requires an Initialization here):
+        // Necessary pre-declarations & inits (never used, just refilled later, but Kotlin requires an Initialization here):
         // Create & initialize "holder" for one Card (DefaultData neccessery!)
         var oneCard: Card = RawCardData.card21Judgement
         // Create & initialize "holder" for picture Drawable (always by Int !!!) (DefaultData neccessery!)
@@ -77,6 +77,7 @@ class OneCardFragment : Fragment() {
         viewmodel.loadCardListFromDBinViewModel()
         val listNoLD = viewmodel.cardListSimple
 
+
         // Try again, with simple List<Card> - NO LiveData !!:
         // Only the following helps working Button 1 work properly from the first click on:
         try {
@@ -104,10 +105,10 @@ class OneCardFragment : Fragment() {
 
 
         // Setting AND binding the (violet) Arcana Name as strings to according ArcanaType(suit) by ENUM(suit):
-        // BEFORE:
+        // BEFORE (just the Enum name + toString() method
         // binding.editArcanaTV.text = oneCard.suit.toString()
 
-        // AFTER (regarding multi-language-mode):
+        // AFTER (multi-language-mode compatible strings):
         when(oneCard.suit){
             MAJOR_ARCANA -> {binding.editArcanaTV.setText(R.string.major_arcana)}
             WANDS -> {binding.editArcanaTV.setText(R.string.minor_wands)}

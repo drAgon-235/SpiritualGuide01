@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.spiritualguide01.R
 import com.example.spiritualguide01.databinding.FragmentQuoteBinding
 import com.example.spiritualguide01.home.quotes.QuotesViewModel
@@ -44,6 +45,7 @@ class QuoteFragment : Fragment() {
 
         val likedLogo = binding.favoriteBorderIV.setImageResource(R.drawable.baseline_favorite_border_24)
         val notLikedLogo = binding.favoriteFullIV.setImageResource(R.drawable.baseline_favorite_24)
+        val shareLogo = binding.shareIV.setImageResource(R.drawable.baseline_share_24)
         //val favListLogo = binding.favoriteListIV.setImageResource(R.drawable.baseline_view_list_24)
 
         // The Day Quote live from API:
@@ -56,12 +58,12 @@ class QuoteFragment : Fragment() {
 
 
 /*
-        // Go to My Favorite Quotes List RV-Fragment:
+        //Go to My Favorite Quotes List RV-Fragment:
         binding.goToFavListCV.setOnClickListener {
             findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
         }
-
  */
+
 
         //var newIndex = viewModelFavQuotes.favQuotesListLD.value!!.lastIndex + 1
 
@@ -85,7 +87,7 @@ class QuoteFragment : Fragment() {
                 Log.e(TAG, "ERROR: INSERTING Quote of the Day into FavoriteQuotesDB!")
             }
 
-            //         findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
+                     findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
 
         }
 

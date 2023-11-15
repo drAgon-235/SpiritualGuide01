@@ -305,7 +305,9 @@
             android:id="@+id/action_quoteFragment_to_favoriteQrvFragment"
             app:destination="@id/favoriteQrvFragment"
             app:enterAnim="@anim/from_bottom"
-            app:exitAnim="@anim/to_top" />
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom" />
     </fragment>
 
 
