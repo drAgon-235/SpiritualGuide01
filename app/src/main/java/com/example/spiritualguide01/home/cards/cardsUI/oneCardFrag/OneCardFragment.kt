@@ -96,7 +96,7 @@ class OneCardFragment : Fragment() {
         // Binding picture and texts to (re-usable, scrollable & very flexible) OneCardFragment:
         binding.cardPictureIV.setImageResource(pic)
         binding.editNameTV.setText(oneCard.name)
-        binding.editValueTV.text = oneCard.value
+        binding.editValueTV.setText(oneCard.value)
         binding.editKeywordsTV.setText(oneCard.keywords)
         binding.editMeaningtTV.setText(oneCard.meaning_up)
         binding.editFortuneTellTV.setText(oneCard.fortuneTelling)
