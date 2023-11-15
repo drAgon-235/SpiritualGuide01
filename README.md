@@ -9,7 +9,7 @@ It can be not only a lot of fun, but also it can help you to heal or consolidate
 A lot of Tarot potential gets lost simply because you cannot always have your cards with you. 
 BUT, you most probably do have a smartphone with you. 
 This enables me to solve your Tarot deficit problem.
-## Solution
+## The Solution
 My Spiritual Tarot Guide App can really solve this problem by providing you not only several kinds of idividual readings, but also a litte Tarot school for those who want to learn more about Tarot. 
 This offer is rounded off by a very personal special service: 
 * "Express Card of the Day" 
@@ -123,6 +123,8 @@ Very good free "Rider-Waite" Tarot Deck Database - Texts & Pictures on:  [kaggle
 
 ## Copyrights
 (c) 2023 Slawomir Z. Dragon. All rights reserved.
+
+Code snippets that have been copied and adapted are marked accordingly, within the code as a comment. Same with boiler-plate-code, for educational purposes.
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
