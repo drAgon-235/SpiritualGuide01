@@ -554,7 +554,7 @@
     <string name="card63_wands_queen_qta">Wie achtsam bin ich? \nWie kann ich die Aufmerksamkeit der Menschen auf das lenken, was wir gemeinsam haben? \nInwieweit bin ich in der Lage, Menschen davon zu überzeugen, das zu tun, was ich von ihnen möchte?</string>
     <string name="card63_wands_queen_description">Die Stäbe in dieser Farbe sind immer in Blättern, da es sich um eine Farbe des Lebens und der Lebendigkeit handelt. Emotional und auch sonst entspricht die Persönlichkeit der Königin der des Königs, ist aber magnetischer.</string>
 
-    <string name="card64_wands_king_name">König of Stäbe</string>
+    <string name="card64_wands_king_name">König der Stäbe</string>
     <string name="card64_wands_king_keywords">Kreativität, Erfindungsreichtum, Leistung, Richtung</string>
     <string name="card64_wands_king_fortune_telling">Diese Karte steht für einen älteren Mann mit einer beherrschenden, charismatischen Persönlichkeit, der wahrscheinlich zwischen dem 13. November und dem 12. Dezember geboren ist und der es vorzieht, Anweisungen zu geben und sie zu befolgen</string>
     <string name="card64_wands_king_meaning">Alte Dinge auf neue und aufregende Weise zusammenfügen, unerwartete Lösungen finden, seine Erfahrung nutzen, um Rätsel und Probleme zu lösen, das tun, was man sich vorgenommen hat, die Bemühungen anderer anleiten</string>
@@ -663,10 +663,5 @@
 
     <string name="card_back_name">Rückseite</string>
     <string name="card_back_empty">.</string>
-
-
-
-
-
 
 </resources>

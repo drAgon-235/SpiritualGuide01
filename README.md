@@ -27,7 +27,7 @@ This offer is rounded off by a very personal special service:
 
 # The Architecture
 
-## TAROT Cards (Buttom Navigation Item)
+## 1. TAROT Cards (Buttom Navigation Item)
  *(Here we use a hardcoded DB of all 78 Tarot Cards)* 
  
 This Fragment offers you 3 options:
@@ -49,7 +49,7 @@ This Fragment offers you 3 options:
 ![userflow_cards](https://github.com/drAgon-235/SpiritualGuide01/assets/81158877/2c4f7e80-6479-4080-9afa-7e235cf85256)
 
 
-## Quotes (Buttom Navigation Item)
+## 2. Quotes (Buttom Navigation Item)
 This Fragment offers you 3 options:
 1. Express Quote of the Day
     - Getting a random quote from API
@@ -115,7 +115,7 @@ In order NOT to type the texts from one of my books, I copied & combined them fr
 
 * Source 1: API
 
-Very slow & badly performing API with poor database: [tarot-api-3hv5](https://tarot-api-3hv5.onrender.com/api/v1/cards) 
+Very slow & badly performing API with poor database (see: cards/cardModel/cards.JSON): [tarot-api-3hv5](https://tarot-api-3hv5.onrender.com/api/v1/cards) 
 
 * Source 2: DATABASE
 

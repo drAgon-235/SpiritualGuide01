@@ -8,7 +8,7 @@ import com.example.spiritualguide01.R
 // That means, all the attributes & images of each card are worldwide known & the same & free to use for anybody.
 // But in order NOT to type the texts from a common book, I copied & combined them from two online Datasets:
 // https://www.kaggle.com/datasets/lsind18/tarot-json?resource= (No API !!!)
-// https://tarot-api-3hv5.onrender.com/api/v1/cards (very unprofessional API,
+// https://tarot-api-3hv5.onrender.com/api/v1/cards (very unprofessional API, data saven in 'cards.JSON' )
 // too slow & too unreliable for usage in my App ( I tested it, only each fifth API-Call was working properly - so I just took the 'description' into my DB, which was missing in the kaggle-DB)
 
 object RawCardData {

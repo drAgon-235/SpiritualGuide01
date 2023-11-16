@@ -58,13 +58,6 @@ class QuoteFragment : Fragment() {
         }
 
 
-        /*
-                //Go to My Favorite Quotes List RV-Fragment:
-                binding.goToFavListCV.setOnClickListener {
-                    findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
-                }
-         */
-
 
         //var newIndex = viewModelFavQuotes.favQuotesListLD.value!!.lastIndex + 1
 
