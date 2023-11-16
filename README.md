@@ -30,7 +30,7 @@ This offer is rounded off by a very personal special service:
 ## 1. TAROT Cards (Buttom Navigation Item)
  *(Here we use a hardcoded DB of all 78 Tarot Cards)* 
  
-This Fragment offers you 3 options:
+This 'TAROT Home Fragment' offers you 3 options:
 1. Express Card of the Day
 
    - random card from the cards DB (resp. repository or viewmodel)
@@ -50,7 +50,7 @@ This Fragment offers you 3 options:
 
 
 ## 2. Quotes (Buttom Navigation Item)
-This Fragment offers you 3 options:
+This 'Quotes Home Fragment' offers you 3 options:
 1. Express Quote of the Day
     - Getting a random quote from API
  *(Here we use a quote API)* 
