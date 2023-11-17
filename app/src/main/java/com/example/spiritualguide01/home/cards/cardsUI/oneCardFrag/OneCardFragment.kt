@@ -105,6 +105,7 @@ class OneCardFragment : Fragment() {
 
 
         // Setting AND binding the (violet) Arcana Name as strings to according ArcanaType(suit) by ENUM(suit):
+
         // BEFORE (just the Enum name + toString() method
         // binding.editArcanaTV.text = oneCard.suit.toString()
 

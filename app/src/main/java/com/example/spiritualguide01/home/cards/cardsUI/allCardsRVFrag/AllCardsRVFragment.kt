@@ -17,7 +17,6 @@ class AllCardsRVFragment : Fragment() {
     private val viewmodel: CardsViewModel by activityViewModels()
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {

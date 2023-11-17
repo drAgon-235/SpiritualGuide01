@@ -74,7 +74,7 @@ class FavQuoteOptionsFragment : Fragment() {
 
 
         // Share Button:
-        // TODO :
+        // TODO
 
     }
 

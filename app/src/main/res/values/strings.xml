@@ -82,7 +82,7 @@
     <string name="path_of_wisdom_pic_unconscious">UNCONSCIOUS</string>
     <string name="path_of_wisdom_pic_reality">REALITY</string>
     <string name="path_of_wisdom_pic_past">PAST</string>
-    <string name="path_of_wisdom_pic_future">PRESENT</string>
+    <string name="path_of_wisdom_pic_future">FUTURE</string>
 
     <!-- Love Oracle Fragment -->
     <string name="love_oracle_card_1">Relation issue</string>

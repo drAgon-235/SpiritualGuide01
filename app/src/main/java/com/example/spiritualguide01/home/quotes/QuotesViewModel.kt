@@ -9,7 +9,9 @@ import com.example.spiritualguide01.home.quotes.api.QuotesApi
 import com.example.spiritualguide01.home.quotes.uiModels.quoteOfDayFrag.QuotesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.lang.Exception
 
+private val TAG = "ViewModel_TAG"
 class QuotesViewModel(application: Application) : AndroidViewModel(application){
 
     // Just the Quote from the API:
@@ -24,9 +26,14 @@ class QuotesViewModel(application: Application) : AndroidViewModel(application){
 
     // Just the fresh Daily Quote from the API:
     fun loadQuoteFromRepoToVM(){
-        viewModelScope.launch(Dispatchers.IO){
-            Log.d("ViewModel_TAG", "LOAD Quote FROM Repo TO ViewModel")
-            repository.loadQuoteListFromApiToRepo()
+
+        try {
+            viewModelScope.launch(Dispatchers.IO){
+                Log.d(TAG, "LOAD Quote FROM Repo TO ViewModel")
+                repository.loadQuoteListFromApiToRepo()
+        }
+        }catch (e: Exception){
+            Log.e(TAG, "LOAD Quote FROM Repo TO ViewModel NOT POSSIBLE")
         }
     }
 

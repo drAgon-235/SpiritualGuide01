@@ -25,6 +25,7 @@ class FavQuoteRepository(private val database: FavQuoteDatabase)  {
         }
     }
 
+
     // Banned. It shows the last added Quote at the bottom :-(
     fun loadFavQuotes(): LiveData<List<FavoriteQuote>>{
         return database.favQuoteDao.getAll()
@@ -35,21 +36,6 @@ class FavQuoteRepository(private val database: FavQuoteDatabase)  {
     //So you can see your last added Quote first on top !!! :-)
     fun loadInvertedList(): LiveData<List<FavoriteQuote>>{
         return database.favQuoteDao.getInvertedList()
-    }
-
-    fun getCount(): Int {
-        return database.favQuoteDao.count()
-    }
-
-
-    fun deleteFavQuoteByID(idText: String){
-        try {
-            Log.d(TAG, "START Deleting FAVQuote from Database...")
-            database.favQuoteDao.delete(idText)
-            Log.d(TAG, "...Deleting FAVQuote from Database: SUCCESSFUL!!")
-        }catch (e: Exception){
-            Log.e(TAG, "Error while deleting FAVQuote from Database: $e!!")
-        }
     }
 
 
@@ -63,14 +49,20 @@ class FavQuoteRepository(private val database: FavQuoteDatabase)  {
         }
 
     }
-/*
-    // For testing purposes only:
-    fun dummyData() {
-        database.favQuoteDao.insertFavDao(DummyQuotes.quote1)
-        database.favQuoteDao.insertFavDao(DummyQuotes.quote2)
+
+
+    fun getCount(): Int {
+        return database.favQuoteDao.count()
     }
 
- */
+    /*
+        // For testing purposes only:
+        fun dummyData() {
+            database.favQuoteDao.insertFavDao(DummyQuotes.quote1)
+            database.favQuoteDao.insertFavDao(DummyQuotes.quote2)
+        }
+
+     */
 
 
 }

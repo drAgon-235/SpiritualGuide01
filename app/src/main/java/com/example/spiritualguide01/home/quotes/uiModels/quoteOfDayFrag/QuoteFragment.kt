@@ -67,6 +67,8 @@ class QuoteFragment : Fragment() {
 
             try {
                 Log.d(TAG, "Start: INSERTING Quote of the Day into FavoriteQuotesDB!")
+                // TODO: fun checking if Quote already is in the DB - avoiding doublettes
+
                 viewModelFavQuotes.insertFavQuoteVM(
                     //Creating new FavoriteQuote Object for the DB to insert into:
                     FavoriteQuote(
@@ -75,13 +77,22 @@ class QuoteFragment : Fragment() {
                         // by omitting the variable "id" I enable the FavoriteQuote-RoomDB to generate it automatically - that was my "FAVORITE" BUG ;-)
                         // this only works, when we set id = 0 in the "FavoriteQuote" class
                     )
+                    // TODO: Timer in case of "offline" - otherwise nothing happens .....
                 )
                 Log.d(TAG, "Finish: INSERTING Quote of the Day into FavoriteQuotesDB Successful!")
             } catch (e: Exception) {
+                // In case the API doesn't work or you're simply offline:
                 Log.e(TAG, "ERROR: INSERTING Quote of the Day into FavoriteQuotesDB!")
+                // User-friendly Information Toast:
+                Toast.makeText(context, "API Error", Toast.LENGTH_LONG).show()
+                // Very user-friendly navigation to...:
+                findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())
+                // OR
+                //findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToNavigationDashboard())
+
             }
 
-            // The toast adapts it's language automatically through the strings.xml:
+            // Toast confirming the saving process the (The toast adapts it's language automatically through the strings.xml):
             Toast.makeText(context, R.string.quotes_saved_toast, Toast.LENGTH_LONG).show()
 
             findNavController().navigate(QuoteFragmentDirections.actionQuoteFragmentToFavoriteQrvFragment())

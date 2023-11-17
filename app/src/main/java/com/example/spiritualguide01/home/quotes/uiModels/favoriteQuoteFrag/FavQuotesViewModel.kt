@@ -38,20 +38,9 @@ class FavQuotesViewModel(application: Application) : AndroidViewModel(applicatio
     }
 
 
-    fun getCountFavsTable(): Int{
-        return repository.getCount()
-    }
-
-
     fun insertFavQuoteVM(favQuote: FavoriteQuote) : Job {
         return viewModelScope.launch {
             repository.insertFavQuote(favQuote)
-        }
-    }
-
-    fun deleteFavQuoteVM(idText: String) : Job {
-        return viewModelScope.launch {
-            repository.deleteFavQuoteByID(idText)
         }
     }
 
@@ -62,5 +51,9 @@ class FavQuotesViewModel(application: Application) : AndroidViewModel(applicatio
         }
     }
 
+
+    fun getCountFavsTable(): Int{
+        return repository.getCount()
+    }
 
 }
